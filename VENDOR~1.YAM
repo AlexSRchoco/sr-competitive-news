@@ -1,0 +1,137 @@
+# SR Monitor — vendor catalog
+# Edit this file to add/remove vendors that the daily scraper will check.
+# Each vendor has: name, type, country, urls (1+), social (optional).
+
+vendors:
+  # === Full-stack KZ competitors ===
+  - name: QRPay
+    type: full-stack
+    country: KZ
+    urls:
+      - https://qrpay.kz/
+    social:
+      instagram: https://www.instagram.com/qrpay.kz/
+
+  - name: Starter
+    type: delivery-app
+    country: KZ-юр./RU-команда
+    urls:
+      - https://starterapp.kz/
+      - https://starterapp.kz/pricing
+    social:
+      instagram: https://www.instagram.com/starterapp.ru/
+      telegram: https://t.me/starter_live
+
+  - name: Choice QR
+    type: qr-platform
+    country: CZ/EU
+    urls:
+      - https://choiceqr.com/us/
+      - https://choiceqr.com/us/pricing-choice/
+
+  # === POS systems ===
+  - name: iiko
+    type: pos
+    country: RU
+    urls:
+      - https://iiko.ru/
+      - https://pos-systems.kz/
+      - https://iiko.splus.kz/prices/
+
+  - name: r_keeper (UCS)
+    type: pos
+    country: RU
+    urls:
+      - https://r-keeper.kz/
+      - https://www.rkeeperpro.kz/products
+
+  - name: Poster POS
+    type: pos
+    country: UA
+    urls:
+      - https://posterpos.kz/
+      - https://posterpos.kz/tarify-avtomatizacii/
+
+  - name: Paloma365
+    type: pos
+    country: KZ
+    urls:
+      - https://paloma365.kz/
+
+  - name: Quick Resto
+    type: pos
+    country: RU
+    urls:
+      - https://quickresto.kz/
+
+  - name: Jowi
+    type: pos
+    country: UZ
+    urls:
+      - https://www.jowi.club/
+
+  # === Loyalty / CRM ===
+  - name: ProBonus (Carbis)
+    type: loyalty
+    country: RU
+    urls:
+      - https://probonus.pro/
+      - https://probonus.pro/tarif
+
+  - name: MAXMA
+    type: loyalty
+    country: RU
+    urls:
+      - https://maxma.com/
+
+  - name: re:Kassa
+    type: pos-loyalty
+    country: KZ
+    urls:
+      - https://rekassa.kz/ru/sistema-loyalnosti
+
+  # === Payment & guest-experience ===
+  - name: Kaspi Рестораны
+    type: qr-payment
+    country: KZ
+    urls:
+      - https://guide.kaspi.kz/partner/ru/restaurants
+      - https://guide.kaspi.kz/client/ru/qr/restaurants/q17435
+
+  # === Delivery aggregators ===
+  - name: Wolt KZ
+    type: delivery
+    country: FI/KZ
+    urls:
+      - https://explore.wolt.com/ru/kaz/merchant/business/restaurants
+
+  - name: Yandex Eats KZ
+    type: delivery
+    country: RU/KZ
+    urls:
+      - https://eda.yandex.kz/
+
+  - name: Glovo KZ
+    type: delivery
+    country: ES/KZ
+    urls:
+      - https://glovoapp.com/ru/
+    social:
+      instagram: https://www.instagram.com/glovo_kz/
+
+  # === Hardware / integrators ===
+  - name: ISOFT (KZ)
+    type: integrator
+    country: KZ
+    urls:
+      - https://isoft.kz/
+      - https://isoft-shop.kz/iiko-restaurant
+
+  # === Smart Restaurant — отслеживаем себя для отчётности ===
+  - name: Smart Restaurant by Choco
+    type: full-stack
+    country: KZ
+    urls:
+      - https://digitalbusiness.kz/tag/choco-smart-restaurant/
+    social:
+      instagram: https://www.instagram.com/choco.qr/
