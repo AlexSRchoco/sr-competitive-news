@@ -1,0 +1,1537 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Smart Restaurant — Конкурентный анализ Казахстан 2026</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif; }
+  .glow { box-shadow: 0 0 0 1px rgba(99,102,241,.25), 0 8px 24px -8px rgba(99,102,241,.35); }
+  .grad { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #4338ca 100%); }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; font-weight:600; }
+  .threat-h { background:#fee2e2; color:#991b1b; }
+  .threat-m { background:#fef3c7; color:#92400e; }
+  .threat-l { background:#dcfce7; color:#166534; }
+  .threat-p { background:#dbeafe; color:#1e40af; }
+  .tab.active { background:#4338ca; color:white; }
+  .tab { transition: all .15s; }
+  details > summary { cursor:pointer; list-style:none; }
+  details > summary::-webkit-details-marker { display:none; }
+  .matrix td, .matrix th { font-size: 12px; }
+  .check { color:#16a34a; font-weight:700; }
+  .cross { color:#dc2626; font-weight:700; }
+  .partial { color:#d97706; font-weight:700; }
+  @media print {
+    .no-print { display:none; }
+    .tab-content { display:block !important; }
+  }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+<!-- Hero -->
+<header class="grad text-white">
+  <div class="max-w-7xl mx-auto px-6 py-10">
+    <div class="flex items-center justify-between flex-wrap gap-4">
+      <div>
+        <div class="text-indigo-200 text-sm uppercase tracking-widest">Внутренний документ · Sales / BD</div>
+        <h1 class="text-3xl md:text-4xl font-bold mt-2">Smart Restaurant — первая AI-Native HoReCa OS Казахстана</h1>
+        <div class="text-indigo-100 mt-2">Конкурентный анализ · Апрель 2026 · 28/31 фич покрытия (vs iiko 17/31, R-Keeper 14/31)</div>
+      </div>
+      <div class="text-right">
+        <div class="text-xs text-indigo-200">Подготовлено для</div>
+        <div class="font-semibold">Smart Restaurants Team</div>
+        <div class="text-xs text-indigo-200">ten.a@choco.kz</div>
+      </div>
+    </div>
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-white/10 backdrop-blur rounded-xl p-4">
+        <div class="text-2xl font-bold">×30</div>
+        <div class="text-xs text-indigo-100">рост digital-оборота Bahandi за 9 мес (3,4M → 100M ₸/мес)</div>
+      </div>
+      <div class="bg-white/10 backdrop-blur rounded-xl p-4">
+        <div class="text-2xl font-bold">+5,2M ₸</div>
+        <div class="text-xs text-indigo-100">ML cross-sell на 14 киосках Bahandi (+18,4% AOV)</div>
+      </div>
+      <div class="bg-white/10 backdrop-blur rounded-xl p-4">
+        <div class="text-2xl font-bold">700K ₸ / 7 дней</div>
+        <div class="text-xs text-indigo-100">WhatsApp-кампания Mamma Mia · ROI 140×</div>
+      </div>
+      <div class="bg-white/10 backdrop-blur rounded-xl p-4">
+        <div class="text-2xl font-bold">100+ → 3K</div>
+        <div class="text-xs text-indigo-100">локаций сейчас → цель года · крупные сети на подключении</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Nav -->
+<nav class="sticky top-0 z-30 bg-white border-b shadow-sm no-print">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex flex-wrap gap-2">
+    <button data-tab="overview"    class="tab active px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Обзор рынка</button>
+    <button data-tab="livenews"    class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">📰 Live News</button>
+    <button data-tab="liveprices"  class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">💰 Live Prices</button>
+    <button data-tab="changes"     class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">🔔 Changes</button>
+    <button data-tab="whitespace"  class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">⭐ White Space</button>
+    <button data-tab="players"    class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Конкуренты</button>
+    <button data-tab="matrix"     class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Матрица фич</button>
+    <button data-tab="pricing"    class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Цены</button>
+    <button data-tab="cases"      class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Кейсы &amp; цифры</button>
+    <button data-tab="swot"       class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">SWOT</button>
+    <button data-tab="battle"     class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Battlecards</button>
+    <button data-tab="sources"    class="tab px-4 py-2 rounded-lg text-sm font-medium bg-slate-100">Источники</button>
+  </div>
+</nav>
+
+<main class="max-w-7xl mx-auto px-6 py-8 space-y-12">
+
+<!-- ===== OVERVIEW ===== -->
+<section data-content="overview" class="tab-content space-y-8">
+
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h2 class="text-2xl font-bold mb-4">Картина рынка Казахстана</h2>
+    <p class="text-slate-700 leading-relaxed">
+      Рынок ресторанного tech-стека в Казахстане сегментирован на 6 уровней. <b>Smart Restaurant</b> играет на 4-х из них одновременно
+      (QR-заказ, киоски, доставка, лояльность/Guest 360, white-label app), оставаясь POS-agnostic — мы интегрируемся
+      с iiko, r_keeper, Poster, 1С и Paloma. Это означает, что прямыми конкурентами являются не POS-системы,
+      а специализированные QR-сервисы, киоск-вендоры и платежные QR-решения банков (в первую очередь — <b>Kaspi Рестораны</b>).
+    </p>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="font-semibold text-lg mb-3">6 слоёв рынка</h3>
+        <ol class="space-y-2 text-sm">
+          <li class="flex gap-3"><span class="pill threat-p">Партнёр</span><span><b>POS / RMS</b> — iiko, r_keeper, Poster, Jowi, 1C, Paloma</span></li>
+          <li class="flex gap-3"><span class="pill threat-h">Прямой</span><span><b>QR-меню &amp; заказ</b> — Choice QR, QRPay (full-stack), Kami QR, QBiX, Kaspi Рестораны</span></li>
+          <li class="flex gap-3"><span class="pill threat-h">Прямой</span><span><b>Киоски самообслуживания</b> — TOUCHPLAT, Get Kiosk, Lemma (iiko), UCS (r_keeper)</span></li>
+          <li class="flex gap-3"><span class="pill threat-m">Coopetition</span><span><b>Доставка-агрегаторы</b> — Yandex Eats, Wolt, Glovo (входят в стек SR Delivery)</span></li>
+          <li class="flex gap-3"><span class="pill threat-m">Частично</span><span><b>Лояльность / CRM</b> — Plazius, ReMarked, re:Kassa, встроенные модули iiko/r_keeper</span></li>
+          <li class="flex gap-3"><span class="pill threat-l">Слабый</span><span><b>White-label app</b> — Restik, AXLE CRM, локальные dev-студии</span></li>
+        </ol>
+      </div>
+      <div>
+        <canvas id="threatChart" height="240"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white rounded-2xl shadow p-6">
+      <div class="text-rose-600 font-semibold text-sm uppercase tracking-wider">Главная угроза</div>
+      <div class="text-2xl font-bold mt-2">Kaspi Рестораны</div>
+      <p class="text-sm text-slate-600 mt-3">
+        ~800 заведений, бесплатно для ресторана, дистрибуция через 13+ млн пользователей суперапа.
+        Покрывает <i>часть</i> функций SR (оплата, чаевые, split bill), но без киосков, лояльности, доставки и Guest 360.
+      </p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6">
+      <div class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Сильный нишевый</div>
+      <div class="text-2xl font-bold mt-2">Choice QR</div>
+      <p class="text-sm text-slate-600 mt-3">
+        30 000+ зарегистрированных, 7 000+ платящих в 9 странах EU. <b>Series A $7.1M в марте 2026</b> — фокус на Западной Европе (Бухарест, Португалия, Италия), KZ становится периферийным рынком.
+        Слабее в киосках, без локальной экосистемы Choco/Rakhmet и без Freedom-payment-rails.
+      </p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6">
+      <div class="text-indigo-600 font-semibold text-sm uppercase tracking-wider">Уникальность SR</div>
+      <div class="text-2xl font-bold mt-2">Full-stack + Choco</div>
+      <p class="text-sm text-slate-600 mt-3">
+        Никто на рынке KZ не объединяет QR-заказ, киоски, собственную доставку, лояльность, Guest 360 и white-label app
+        в одном продукте — да ещё и поверх трафика Rakhmet/Choco и эквайринга Freedom/Kaspi/Halyk/Jusan.
+      </p>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="text-xl font-bold mb-4">Тренды 2025-2026, которыми надо вооружить sales</h3>
+    <ul class="space-y-3 text-sm text-slate-700">
+      <li>🚀 <b>Бум HoReCa в KZ:</b> +50% новых ресторанов в Q1 2026, +53% посадочных мест в 2025, 21 новое кафе только за Q1 2026 — рекорд за 10 лет. Огромный TAM прямо сейчас.</li>
+      <li>☁️ <b>iiko закрыл LifeTime-лицензии (1 июля 2025)</b> и прекратил поддержку локальной версии. Все iiko-клиенты вынуждены мигрировать на iikoCloud (подписка). <b>Окно для апсейла</b>: «при миграции возьмите SR-стек поверх — это ваш шанс перепроектировать гостевой опыт».</li>
+      <li>🇪🇺 <b>Choice QR ушёл в Западную Европу</b> (Series A $7.1M в марте 2026, hub в Бухаресте). На KZ их внимание ослабло — наша возможность забрать клиентов и не дать им вырасти на нашем рынке.</li>
+      <li>🇺🇿 <b>Wolt ушёл из Узбекистана</b> (5 марта 2026). В KZ остаётся, но прецедент важен — иностранные агрегаторы не вечны, своя инфра (SR Delivery) надёжнее.</li>
+      <li>📈 <b>«Уйти с агрегаторов»</b> — рестораторы массово ищут способ сократить 30% комиссию Yandex/Wolt/Glovo. SR Delivery даёт +240 000 ₸ к прибыли с 200 заказов/мес.</li>
+      <li>🪪 <b>Kaspi-первая привычка</b> у 13+ млн пользователей. В апреле 2026 запустили split bill, а ещё новый сервис «для тех, кто любит считать деньги». Kaspi захватывает payment-слой — мы продаём <i>сверху</i>.</li>
+      <li>📱 <b>Социальная видимость SR — слабая</b> (@choco.qr Instagram: 97 фолловеров, 18 постов). У Mamma Mia, Bahandi и других клиентов в Insta аудитории по 16K+. Sales может использовать соцсети партнёров для контент-сторителлинга.</li>
+      <li>👨‍🍳 <b>Дефицит линейного персонала</b> в HoReCa Алматы и Астаны — двигатель спроса на киоски и «Заказ без официанта».</li>
+      <li>🤖 <b>AI-апсейл</b> — наш «умный» рекомендатель даёт +63% к допродажам (кейс Bahandi). Choice QR теперь тоже позиционируется как AI-driven, но в KZ-сегменте у них пока только базовый рекомендатель.</li>
+      <li>🇰🇿 <b>Локализация и юрисдикция</b> — Plazius закрылся, ReMarked под ФЗ-152, Wolt ушёл из UZ. Локальный SR — самый стабильный выбор для долгосрочных контрактов.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== LIVE NEWS ===== -->
+<section data-content="livenews" class="tab-content hidden space-y-6">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <div class="flex justify-between items-start flex-wrap gap-3">
+      <div>
+        <h2 class="text-2xl font-bold">📰 Live News — упоминания конкурентов</h2>
+        <p class="text-sm text-slate-600 mt-1">Автоматически обновляется ежедневно через GitHub Actions. Источник: Google News RSS.</p>
+      </div>
+      <div id="newsUpdated" class="text-xs text-slate-500 italic"></div>
+    </div>
+    <div id="newsContainer" class="mt-6">
+      <div class="text-center text-slate-400 py-12">Загрузка...</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIVE PRICES ===== -->
+<section data-content="liveprices" class="tab-content hidden space-y-6">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <div class="flex justify-between items-start flex-wrap gap-3">
+      <div>
+        <h2 class="text-2xl font-bold">💰 Live Prices — актуальные цены и фичи</h2>
+        <p class="text-sm text-slate-600 mt-1">Скрейпер обходит сайты вендоров каждый день, Claude извлекает структуру: цены, тарифы, фичи, клиенты, последние новости с их же страниц.</p>
+      </div>
+      <div id="pricesUpdated" class="text-xs text-slate-500 italic"></div>
+    </div>
+    <div id="pricesContainer" class="mt-6">
+      <div class="text-center text-slate-400 py-12">Загрузка...</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHANGES LOG ===== -->
+<section data-content="changes" class="tab-content hidden space-y-6">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <div class="flex justify-between items-start flex-wrap gap-3">
+      <div>
+        <h2 class="text-2xl font-bold">🔔 Changes — что изменилось у конкурентов</h2>
+        <p class="text-sm text-slate-600 mt-1">Лог изменений на сайтах вендоров: новые тарифы, движение цен, новые фичи, изменения слогана. Алерты приходят в Telegram-канал команды.</p>
+      </div>
+      <div id="changesUpdated" class="text-xs text-slate-500 italic"></div>
+    </div>
+    <div id="changesContainer" class="mt-6">
+      <div class="text-center text-slate-400 py-12">Загрузка...</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHITE SPACE ===== -->
+<section data-content="whitespace" class="tab-content hidden space-y-6">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h2 class="text-2xl font-bold mb-2">4 зоны отстройки Smart Restaurant</h2>
+    <p class="text-sm text-slate-600 mb-4">Никто на рынке HoReCa SaaS Казахстана не сочетает <b>AI-Native архитектуру + локальную KZ-родину + единую платформу</b>. Каждая зона — отдельный говорящий маркер для sales и маркетинга.</p>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-5">
+
+    <div class="bg-gradient-to-br from-indigo-600 to-purple-700 text-white rounded-2xl shadow-lg p-6">
+      <div class="text-xs uppercase tracking-widest opacity-80">White Space #1</div>
+      <h3 class="text-2xl font-bold mt-1 mb-3">🤖 AI-Native vs Digitized Accounting</h3>
+      <p class="text-sm leading-relaxed opacity-95 mb-3">Все конкуренты — это «POS из 2000-х с веб-интерфейсом сверху». SR — первая HoReCa-операционная система, в которой каждый процесс автоматизируется AI на уровне ядра.</p>
+      <ul class="text-sm space-y-1 opacity-95 list-disc pl-5">
+        <li><b>ML cross-sell на киоске:</b> +18,4% AOV у Bahandi → +5,2M ₸ доп. оборота</li>
+        <li><b>Sendigo на Meta API:</b> 700K ₸ за неделю у Mamma Mia, ROI 140×</li>
+        <li><b>AG Sales Agent на Claude:</b> 100 лидов за вечер</li>
+        <li><b>Voice AI Agent</b> (запускаем): автоматическая квалификация по телефону</li>
+      </ul>
+      <div class="mt-4 pt-3 border-t border-white/20 text-xs opacity-80">Маркер: «AI-Native операционная система ресторана»</div>
+    </div>
+
+    <div class="bg-gradient-to-br from-emerald-600 to-teal-700 text-white rounded-2xl shadow-lg p-6">
+      <div class="text-xs uppercase tracking-widest opacity-80">White Space #2</div>
+      <h3 class="text-2xl font-bold mt-1 mb-3">🇰🇿 Локальный продукт Казахстана</h3>
+      <p class="text-sm leading-relaxed opacity-95 mb-3">На 2026 тренд на локализацию tech-стека усилился. Из 5 топ-POS только Paloma365 локальный — и тот учётный. SR — единственная локальная AI-Native HoReCa-платформа.</p>
+      <ul class="text-sm space-y-1 opacity-95 list-disc pl-5">
+        <li>iiko, R-Keeper, Quick Resto, Poster — все из РФ/УА</li>
+        <li>Master Partner ≠ юрисдикция и команда в KZ</li>
+        <li>Поддержка казахского языка на уровне продукта</li>
+        <li>Глубокая Kaspi-интеграция (не только платёжный терминал)</li>
+      </ul>
+      <div class="mt-4 pt-3 border-t border-white/20 text-xs opacity-80">Маркер: «Сделано в Казахстане для Казахстана»</div>
+    </div>
+
+    <div class="bg-gradient-to-br from-amber-500 to-orange-700 text-white rounded-2xl shadow-lg p-6">
+      <div class="text-xs uppercase tracking-widest opacity-80">White Space #3</div>
+      <h3 class="text-2xl font-bold mt-1 mb-3">🧩 Один продукт вместо пяти</h3>
+      <p class="text-sm leading-relaxed opacity-95 mb-3">Конкуренты — набор модулей с прайс-листом. Заказчик платит iiko + iiko Card + iiko Delivery + сторонний QR + сторонний агрегатор-коннектор. У SR — один продукт.</p>
+      <table class="w-full text-xs mt-2 bg-white/10 rounded-lg overflow-hidden">
+        <thead><tr class="bg-black/20"><th class="p-2 text-left">Функция</th><th class="p-2 text-right">iiko stack</th><th class="p-2 text-right">SR</th></tr></thead>
+        <tbody class="divide-y divide-white/10">
+          <tr><td class="p-2">Касса + меню</td><td class="p-2 text-right">31K ₸</td><td class="p-2 text-right">60K ₸</td></tr>
+          <tr><td class="p-2">Cross-sell ML</td><td class="p-2 text-right">доплата</td><td class="p-2 text-right font-bold">✓ included</td></tr>
+          <tr><td class="p-2">Киоск (SaaS)</td><td class="p-2 text-right">НЕТ</td><td class="p-2 text-right">60K ₸</td></tr>
+          <tr><td class="p-2">QR-меню</td><td class="p-2 text-right">сторонний</td><td class="p-2 text-right font-bold">✓ included</td></tr>
+          <tr><td class="p-2">Своя доставка</td><td class="p-2 text-right">НЕТ</td><td class="p-2 text-right">60K ₸</td></tr>
+          <tr><td class="p-2">WhatsApp-кампании</td><td class="p-2 text-right">НЕТ</td><td class="p-2 text-right font-bold">✓ included</td></tr>
+        </tbody>
+      </table>
+      <div class="mt-4 pt-3 border-t border-white/20 text-xs opacity-80">Маркер: «Не 5 инструментов. Одна операционная система»</div>
+    </div>
+
+    <div class="bg-gradient-to-br from-rose-600 to-pink-700 text-white rounded-2xl shadow-lg p-6">
+      <div class="text-xs uppercase tracking-widest opacity-80">White Space #4</div>
+      <h3 class="text-2xl font-bold mt-1 mb-3">📊 Числа vs обещания</h3>
+      <p class="text-sm leading-relaxed opacity-95 mb-3">Конкуренты в маркетинге — общие фразы («увеличьте выручку», «сэкономьте ФОТ»). SR имеет публикуемую метрику-математику.</p>
+      <ul class="text-sm space-y-2 opacity-95 list-disc pl-5">
+        <li><b>Bahandi:</b> ×30 за 9 мес, конверсия 76%, cross-sell +18,4%, +5,2M ₸</li>
+        <li><b>Mamma Mia:</b> 700K ₸ за неделю · 1 WhatsApp-кампания · ROI 140×</li>
+        <li><b>I'M Атакент:</b> cross-sell +39,5%, up-sell +37,5% к чеку</li>
+        <li><b>Базилик:</b> 1,86M ₸ доп. GMV за 3 мес через QR-цепочки</li>
+      </ul>
+      <div class="mt-4 pt-3 border-t border-white/20 text-xs opacity-80">Маркер: «Не про обещания. Про числа»</div>
+    </div>
+
+  </div>
+
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="text-xl font-bold mb-4">SR-only функции — никто из конкурентов не предлагает</h3>
+    <div class="grid md:grid-cols-2 gap-3 text-sm">
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>ML cross-sell на киоске</b> с измеримой метрикой</div></div>
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>Voice AI Agent</b> (телефонный агент квалификации)</div></div>
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>Telegram-bot для собственных продаж</b> (AG Sales Agent)</div></div>
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>AI-аудит меню</b> (Claude / LLM-интеграция)</div></div>
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>Автоматические WhatsApp-кампании</b> по сегментам с реальными кейсами</div></div>
+      <div class="flex gap-3 items-start"><span class="text-emerald-600 text-xl">✓</span><div><b>Своя доставка через Wolt Drive / Yandex / Choco</b> без комиссии маркетплейса</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CASES ===== -->
+<section data-content="cases" class="tab-content hidden space-y-6">
+  <h2 class="text-2xl font-bold">Кейсы партнёров — публикуемая математика</h2>
+  <p class="text-sm text-slate-600">Никто другой в KZ HoReCa-сегменте такие цифры публично не показывает. Это главный аргумент в пользу sales-нарратива «не про обещания, про числа».</p>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-indigo-600">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-xl">Bahandi Burger</h3>
+        <span class="pill threat-h">Flagship кейс</span>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-4">
+        <div class="bg-indigo-50 rounded-lg p-3"><div class="text-xs text-slate-600">Рост digital-оборота</div><div class="text-2xl font-bold text-indigo-700">×30</div><div class="text-xs">3,4M → 100M ₸/мес за 9 мес</div></div>
+        <div class="bg-emerald-50 rounded-lg p-3"><div class="text-xs text-slate-600">Конверсия сессии в оплату</div><div class="text-2xl font-bold text-emerald-700">76%</div><div class="text-xs">на 14 киосках самообслуживания</div></div>
+        <div class="bg-amber-50 rounded-lg p-3"><div class="text-xs text-slate-600">ML cross-sell прирост AOV</div><div class="text-2xl font-bold text-amber-700">+18,4%</div><div class="text-xs">на одной корзине</div></div>
+        <div class="bg-rose-50 rounded-lg p-3"><div class="text-xs text-slate-600">Доп. оборот за период</div><div class="text-2xl font-bold text-rose-700">+5,2M ₸</div><div class="text-xs">только от cross-sell ML</div></div>
+      </div>
+      <p class="text-xs text-slate-600">14 киосков самообслуживания + интегрированный AI-апсейл. Главный публичный кейс отрасли в KZ.</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-emerald-600">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-xl">Mamma Mia</h3>
+        <span class="pill threat-l">CRM/WhatsApp</span>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-4">
+        <div class="bg-emerald-50 rounded-lg p-3"><div class="text-xs text-slate-600">Возврат с одной кампании</div><div class="text-2xl font-bold text-emerald-700">700K ₸</div><div class="text-xs">за 7 дней</div></div>
+        <div class="bg-indigo-50 rounded-lg p-3"><div class="text-xs text-slate-600">ROI кампании</div><div class="text-2xl font-bold text-indigo-700">140×</div><div class="text-xs">база 1 000 гостей · 5 000 ₸ затрат</div></div>
+      </div>
+      <p class="text-xs text-slate-600">Sendigo на Meta API + Guest 360 RFM-сегменты. 12 локаций в Алматы и Астане, 16K Insta-фолловеров — у клиента сильная база, мы её активируем.</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-amber-600">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-xl">I'M Атакент</h3>
+        <span class="pill threat-m">QSR / Cross-sell</span>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-4">
+        <div class="bg-amber-50 rounded-lg p-3"><div class="text-xs text-slate-600">Cross-sell прирост</div><div class="text-2xl font-bold text-amber-700">+39,5%</div></div>
+        <div class="bg-indigo-50 rounded-lg p-3"><div class="text-xs text-slate-600">Up-sell прирост чека</div><div class="text-2xl font-bold text-indigo-700">+37,5%</div></div>
+      </div>
+      <p class="text-xs text-slate-600">Глубокая ML-настройка корзины: рекомендации показываются именно в момент оплаты, а не на этапе выбора.</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-rose-600">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-xl">Базилик</h3>
+        <span class="pill threat-l">QR-цепочки</span>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-4">
+        <div class="bg-rose-50 rounded-lg p-3"><div class="text-xs text-slate-600">Доп. GMV за период</div><div class="text-2xl font-bold text-rose-700">+1,86M ₸</div><div class="text-xs">за 3 месяца</div></div>
+        <div class="bg-emerald-50 rounded-lg p-3"><div class="text-xs text-slate-600">Канал прироста</div><div class="text-2xl font-bold text-emerald-700">QR-цепочки</div></div>
+      </div>
+      <p class="text-xs text-slate-600">Интегрированные триггеры через QR-меню → push в собственное приложение → лояльность.</p>
+    </div>
+  </div>
+
+  <div class="bg-indigo-50 rounded-2xl p-6">
+    <h3 class="font-bold text-lg mb-3">Эталонный sales-pitch на основе кейсов</h3>
+    <p class="text-sm text-slate-700">«Bahandi за 9 месяцев вырос в digital-канале в 30 раз. Mamma Mia за 7 дней вернула 700 тысяч с одной WhatsApp-кампании. Базилик за квартал заработал 1,86 миллиона дополнительного оборота через QR. <b>Это не маркетинговые слайды — это математика, которую мы показываем по запросу.</b> Хотите получить вашу персональную модель ROI на ваших данных?»</p>
+  </div>
+</section>
+
+<!-- ===== PLAYERS ===== -->
+<section data-content="players" class="tab-content hidden space-y-6">
+  <div class="flex items-center justify-between flex-wrap gap-4">
+    <h2 class="text-2xl font-bold">Карта конкурентов</h2>
+    <div class="flex gap-2 flex-wrap">
+      <button class="filter-btn active px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-sm" data-cat="all">Все</button>
+      <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-200 text-sm" data-cat="qr">QR-заказ</button>
+      <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-200 text-sm" data-cat="kiosk">Киоски</button>
+      <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-200 text-sm" data-cat="delivery">Доставка</button>
+      <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-200 text-sm" data-cat="loyalty">Лояльность/CRM</button>
+      <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-200 text-sm" data-cat="pos">POS (партнёры)</button>
+    </div>
+  </div>
+
+  <div id="playersGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+</section>
+
+<!-- ===== MATRIX ===== -->
+<section data-content="matrix" class="tab-content hidden">
+  <h2 class="text-2xl font-bold mb-4">Сравнительная матрица функций</h2>
+  <p class="text-sm text-slate-600 mb-4">
+    Зелёное — есть «из коробки» · Жёлтое — есть частично/через интеграцию · Красное — нет.
+    Для POS-систем (iiko, r_keeper, Poster) функции учтены вместе с их собственными модулями
+    или маркетплейсом — но эти возможности обычно <b>докупаются</b> отдельными SKU и не образуют единый CDP.
+  </p>
+
+  <div class="overflow-x-auto bg-white rounded-2xl shadow">
+    <table class="matrix w-full">
+      <thead class="bg-slate-100 text-slate-700">
+        <tr>
+          <th class="text-left p-3 sticky left-0 bg-slate-100 z-10">Функция</th>
+          <th class="p-3 bg-indigo-600 text-white">Smart Restaurant</th>
+          <th class="p-3">Kaspi Рестораны</th>
+          <th class="p-3">Choice QR</th>
+          <th class="p-3">Kami / QBiX / Foodeon</th>
+          <th class="p-3">iiko (модули)</th>
+          <th class="p-3">r_keeper (UCS)</th>
+          <th class="p-3">Poster</th>
+          <th class="p-3">Jowi</th>
+          <th class="p-3">Plazius / ReMarked</th>
+        </tr>
+      </thead>
+      <tbody id="matrixBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section data-content="pricing" class="tab-content hidden space-y-8">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h2 class="text-2xl font-bold">Цены на рынке HoReCa SaaS Казахстана</h2>
+    <p class="text-sm text-slate-600 mt-2">Цены сгруппированы по классу решения — нельзя напрямую сравнивать <b>POS-only</b> (узкая касса) с <b>full-stack</b> платформой. Все цены в ₸/мес за одну локацию, источники — публичные тарифы вендоров на апрель 2026. RU-вендоры пересчитаны по курсу.</p>
+    <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+      <div class="bg-slate-100 rounded-lg p-3"><div class="text-slate-500">⚙️ POS-only</div><div class="font-bold text-base mt-1">4 590 — 29 000 ₸</div><div class="text-slate-600">только касса/учёт</div></div>
+      <div class="bg-amber-50 rounded-lg p-3"><div class="text-amber-700">📱 QR-меню (узкие)</div><div class="font-bold text-base mt-1">0 — 5 500 ₸</div><div class="text-slate-600">Choice, Kami, QBiX</div></div>
+      <div class="bg-rose-50 rounded-lg p-3"><div class="text-rose-700">🎁 Loyalty-only</div><div class="font-bold text-base mt-1">8 500 — 50 000 ₸</div><div class="text-slate-600">ProBonus, MAXMA, ReMarked</div></div>
+      <div class="bg-indigo-50 rounded-lg p-3"><div class="text-indigo-700">🚀 Full-stack</div><div class="font-bold text-base mt-1">8 000 — 304 000 ₸</div><div class="text-slate-600">QRPay, Starter, SR</div></div>
+    </div>
+  </div>
+
+  <!-- 1. Compact bar chart -->
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-bold text-lg mb-1">📊 Цены вендоров — одна строка на компанию</h3>
+    <p class="text-xs text-slate-500 mb-3">У вендоров с несколькими тарифами показан диапазон min–max. Цифра справа — цена в ₸/мес за локацию.</p>
+    <div style="height:360px"><canvas id="priceChart"></canvas></div>
+    <div class="mt-3 flex flex-wrap gap-3 text-xs">
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#4338ca;border-radius:3px"></span> Smart Restaurant</span>
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#a78bfa;border-radius:3px"></span> Full-stack-конкурент</span>
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#fb923c;border-radius:3px"></span> Delivery+App</span>
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#fbbf24;border-radius:3px"></span> QR узкие</span>
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#64748b;border-radius:3px"></span> POS</span>
+      <span class="flex items-center gap-1"><span style="display:inline-block;width:14px;height:14px;background:#f87171;border-radius:3px"></span> Loyalty</span>
+    </div>
+  </div>
+
+  <!-- 2. Direct competitors detailed pricing -->
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-bold text-lg mb-1">🥊 Тарифные сетки прямых конкурентов</h3>
+    <p class="text-xs text-slate-500 mb-4">Только те, кто реально покрывает нашу полку (full-stack или близко к ней). Один и тот же бренд может иметь 3 тарифа — внимание, сравнивайте сопоставимые уровни.</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      <!-- SR -->
+      <div class="border-2 border-indigo-600 rounded-xl p-4 bg-indigo-50">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold text-indigo-900">⭐ Smart Restaurant</div>
+          <span class="pill threat-p">Мы</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-indigo-400 pl-2"><div class="font-semibold">AI Order base</div><div class="text-base font-bold">60 000 ₸/мес</div><div class="text-slate-600">QR-заказ + базовая аналитика</div></div>
+          <div class="border-l-4 border-indigo-500 pl-2"><div class="font-semibold">+ ML cross-sell</div><div class="text-base font-bold">120 000 ₸/мес</div><div class="text-slate-600">+ AI-апсейл (+18,4% AOV)</div></div>
+          <div class="border-l-4 border-indigo-700 pl-2"><div class="font-semibold">Полный пакет</div><div class="text-base font-bold">304 000 ₸/мес</div><div class="text-slate-600">+ киоск + Guest 360 + WhatsApp + SR Delivery + white-label app</div></div>
+        </div>
+      </div>
+
+      <!-- QRPay -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">QRPay (KZ)</div>
+          <span class="pill threat-h">Прямой</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Стартовый</div><div class="text-base font-bold">8 000 ₸/мес</div><div class="text-slate-600">QR-меню + бронь</div></div>
+          <div class="border-l-4 border-slate-400 pl-2"><div class="font-semibold">Бизнес</div><div class="text-base font-bold">50 000 ₸/мес</div><div class="text-slate-600">+ оплата + баннеры</div></div>
+          <div class="border-l-4 border-slate-600 pl-2"><div class="font-semibold">Премиум</div><div class="text-base font-bold">80 000 ₸/мес</div><div class="text-slate-600">+ приложение + лояльность</div></div>
+        </div>
+      </div>
+
+      <!-- Starter -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">Starter (KZ-юр.)</div>
+          <span class="pill threat-h">Прямой</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Запуск</div><div class="text-base font-bold">690K ₸ + 3%</div><div class="text-slate-600">Старт-up до 20M ₸ оборота</div></div>
+          <div class="border-l-4 border-slate-400 pl-2"><div class="font-semibold">Рост</div><div class="text-base font-bold">2,5% (min 500K/мес)</div><div class="text-slate-600">Сети 20-50M ₸ оборота</div></div>
+          <div class="border-l-4 border-slate-600 pl-2"><div class="font-semibold">Фудтех</div><div class="text-base font-bold">1-2% (min 1,2M/мес)</div><div class="text-slate-600">От 50M ₸ оборота</div></div>
+        </div>
+      </div>
+
+      <!-- Choice QR -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">Choice QR (EU)</div>
+          <span class="pill threat-h">Прямой</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Базовый</div><div class="text-base font-bold">~5 500 ₸ ($12)</div><div class="text-slate-600">QR-меню + оплата</div></div>
+          <div class="border-l-4 border-slate-500 pl-2"><div class="font-semibold">Pro</div><div class="text-base font-bold">$25-40+</div><div class="text-slate-600">+ доставка + CRM</div></div>
+          <div class="text-xs text-slate-500 italic">Курс к ₸ через USD; цены не публикуют полностью</div>
+        </div>
+      </div>
+
+      <!-- iiko -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">iiko (POS + модули)</div>
+          <span class="pill threat-p">Партнёр</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Cloud Start</div><div class="text-base font-bold">27 300 ₸/мес</div><div class="text-slate-600">только POS</div></div>
+          <div class="border-l-4 border-slate-500 pl-2"><div class="font-semibold">+ iiko Card</div><div class="text-base font-bold">+15-30K ₸</div><div class="text-slate-600">лояльность доплатой</div></div>
+          <div class="border-l-4 border-slate-600 pl-2"><div class="font-semibold">+ модули</div><div class="text-base font-bold">+30-50K ₸</div><div class="text-slate-600">QR/доставка отдельно</div></div>
+          <div class="text-xs text-slate-500 italic">LifeTime закрыт с 1 июля 2025</div>
+        </div>
+      </div>
+
+      <!-- r_keeper -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">r_keeper (UCS)</div>
+          <span class="pill threat-p">Партнёр</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Cloud</div><div class="text-base font-bold">29 000 ₸/мес</div><div class="text-slate-600">только POS</div></div>
+          <div class="border-l-4 border-slate-500 pl-2"><div class="font-semibold">+ Self-order</div><div class="text-base font-bold">отдельный SKU</div><div class="text-slate-600">киоск только UCS-стэка</div></div>
+          <div class="text-xs text-slate-500 italic">«Космические счета» по отзывам</div>
+        </div>
+      </div>
+
+      <!-- Paloma365 -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">Paloma365 (KZ)</div>
+          <span class="pill threat-m">Учётный</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-emerald-500 pl-2"><div class="font-semibold">Базовый</div><div class="text-base font-bold">4 590 ₸/мес</div><div class="text-slate-600">самый дешёвый POS в KZ</div></div>
+          <div class="text-xs text-slate-500 italic">Учётный, не гостевой опыт. Не пересекается с SR — можно работать в паре</div>
+        </div>
+      </div>
+
+      <!-- Poster -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">Poster POS</div>
+          <span class="pill threat-p">Партнёр</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Базовый</div><div class="text-base font-bold">7 200 ₸/мес</div><div class="text-slate-600">POS + базовое QR</div></div>
+          <div class="border-l-4 border-slate-500 pl-2"><div class="font-semibold">+ доп. терминал</div><div class="text-base font-bold">+11 400 ₸</div></div>
+          <div class="text-xs text-slate-500 italic">15 дней бесплатно</div>
+        </div>
+      </div>
+
+      <!-- ProBonus -->
+      <div class="border rounded-xl p-4 bg-white">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-bold">ProBonus (Carbis)</div>
+          <span class="pill threat-l">Только loyalty</span>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div class="border-l-4 border-slate-300 pl-2"><div class="font-semibold">Первый ресторан</div><div class="text-base font-bold">~17 000 ₸/мес</div><div class="text-slate-600">3 000 ₽ при оплате за год</div></div>
+          <div class="border-l-4 border-slate-500 pl-2"><div class="font-semibold">Каждый следующий</div><div class="text-base font-bold">~8 500 ₸/мес</div></div>
+          <div class="text-xs text-slate-500 italic">Только для r_keeper-клиентов</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3. Stack equivalency -->
+  <div class="bg-gradient-to-br from-slate-50 to-indigo-50 rounded-2xl shadow p-6">
+    <h3 class="font-bold text-lg mb-1">🧮 Stack-в-эквиваленте: сколько стоит «собрать SR» из нескольких вендоров</h3>
+    <p class="text-xs text-slate-500 mb-4">Главный аргумент для sales: чтобы получить функционал нашего полного пакета — клиенту нужно купить 5+ подписок. Считаем минимальный стек, сопоставимый с SR.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-5 border">
+        <div class="text-rose-700 font-semibold text-sm mb-3">Соберите SR из конкурентов:</div>
+        <table class="w-full text-xs">
+          <tr class="border-b"><td class="py-2">iiko Cloud Start (POS)</td><td class="text-right font-semibold">27 300 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">iiko Card (лояльность)</td><td class="text-right font-semibold">~20 000 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">Choice QR Pro (QR-меню)</td><td class="text-right font-semibold">~15 000 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">Sendigo / WhatsApp BSP</td><td class="text-right font-semibold">~15 000 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">Свой кошик / интегратор доставки</td><td class="text-right font-semibold">~25 000 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">Hardware киоск (амортизация 36 мес)</td><td class="text-right font-semibold">~30 000 ₸</td></tr>
+          <tr class="border-b"><td class="py-2">Кастом-приложение (амортизация)</td><td class="text-right font-semibold">~50 000 ₸</td></tr>
+          <tr class="bg-rose-50"><td class="py-2 font-bold">Итого «франкенштейн»</td><td class="text-right font-bold text-base">~182 000 ₸/мес</td></tr>
+        </table>
+        <div class="mt-3 text-xs text-slate-600">+ 5 интерфейсов, 5 контрактов, 5 команд поддержки, ручная сшивка данных, нет AI-апсейла</div>
+      </div>
+      <div class="bg-indigo-600 text-white rounded-xl p-5">
+        <div class="text-indigo-100 font-semibold text-sm mb-3">Smart Restaurant полный пакет:</div>
+        <div class="text-5xl font-bold">304 000 ₸<span class="text-lg font-normal text-indigo-200">/мес</span></div>
+        <div class="text-sm mt-2 text-indigo-100">Дороже на ~67% — но включает то, чего у конкурентов нет совсем:</div>
+        <ul class="mt-3 text-sm space-y-1 list-disc pl-5 text-indigo-50">
+          <li><b>ML cross-sell</b> с измеримой метрикой (+18,4% AOV → у Bahandi +5,2M ₸ доп. оборота)</li>
+          <li><b>Voice AI Agent</b> для квалификации лидов</li>
+          <li><b>AG Sales Agent</b> на Claude в Telegram</li>
+          <li><b>AI-аудит меню</b></li>
+          <li><b>Единая Guest 360</b> с RFM-сегментацией</li>
+          <li><b>4-банковский эквайринг</b> на одном киоске (Kaspi/Freedom/Halyk/Jusan)</li>
+          <li><b>1 контракт, 1 интерфейс, 1 команда поддержки</b></li>
+        </ul>
+        <div class="mt-4 pt-3 border-t border-white/20 text-xs">Окупаемость разницы (~120K ₸): один кейс типа Mamma Mia (700K ₸/неделя WhatsApp) или Bahandi (+5,2M ₸ ML cross-sell) её перекрывает за дни.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Delivery economics -->
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-bold text-lg mb-1">🚚 Своя доставка vs агрегатор</h3>
+    <p class="text-xs text-slate-500 mb-3">Сценарий: 200 заказов в месяц, средний чек 5 000 ₸, общий оборот 1 000 000 ₸.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="border rounded-xl p-5 bg-rose-50">
+        <div class="text-rose-700 font-semibold text-sm">Через Yandex / Wolt / Glovo</div>
+        <div class="text-3xl font-bold mt-2">700 000 ₸</div>
+        <div class="text-sm text-slate-600">остаётся ресторану</div>
+        <ul class="mt-3 text-xs text-slate-700 space-y-1">
+          <li>• Комиссия 30% = 1 500 ₸ с каждого чека</li>
+          <li>• Остаток: 3 500 ₸ × 200 = 700 000 ₸</li>
+          <li>• ⚠️ Данные клиента остаются у агрегатора</li>
+          <li>• ⚠️ Жалобы рестораторов: штрафы могут забрать ещё половину</li>
+        </ul>
+      </div>
+      <div class="border-2 border-emerald-500 rounded-xl p-5 bg-emerald-50">
+        <div class="text-emerald-700 font-semibold text-sm">Через SR Delivery</div>
+        <div class="text-3xl font-bold mt-2">940 000 ₸ <span class="text-base text-emerald-600">+240K ₸</span></div>
+        <div class="text-sm text-slate-600">остаётся ресторану</div>
+        <ul class="mt-3 text-xs text-slate-700 space-y-1">
+          <li>• Абонплата SR Delivery 60 000 ₸/мес (фикс)</li>
+          <li>• Алгоритм автоматически выбирает курьерскую службу (Wolt Drive / Yandex Delivery / Choco)</li>
+          <li>• ✓ Данные гостей остаются у вас — для повторных продаж</li>
+          <li>• ✓ Окупаемость SR Delivery: <b>50 заказов/мес</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. ROI guidance -->
+  <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+    <h3 class="font-bold text-lg mb-2">⚖️ Ориентир по выбору пакета SR</h3>
+    <table class="w-full text-sm">
+      <thead class="text-xs text-slate-500 uppercase">
+        <tr class="border-b border-amber-200">
+          <th class="text-left py-2">Профиль клиента</th>
+          <th class="text-left py-2">Рекомендуемый пакет</th>
+          <th class="text-right py-2">Цена</th>
+          <th class="text-right py-2">Окупаемость</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-700">
+        <tr class="border-b border-amber-100">
+          <td class="py-2">Кофейня / 1 точка / средний чек 1-3K ₸</td>
+          <td class="py-2">AI Order base</td>
+          <td class="py-2 text-right font-semibold">60 000 ₸</td>
+          <td class="py-2 text-right text-xs">~30 заказов в день при +16% AOV</td>
+        </tr>
+        <tr class="border-b border-amber-100">
+          <td class="py-2">Quick-service / фастфуд / поток &gt; 100/день</td>
+          <td class="py-2">+ ML cross-sell + киоск</td>
+          <td class="py-2 text-right font-semibold">120-180 000 ₸</td>
+          <td class="py-2 text-right text-xs">2-3 недели на одной локации</td>
+        </tr>
+        <tr class="border-b border-amber-100">
+          <td class="py-2">Сеть 3+ ресторанов с доставкой</td>
+          <td class="py-2">Полный пакет + SR Delivery</td>
+          <td class="py-2 text-right font-semibold">304 000 ₸</td>
+          <td class="py-2 text-right text-xs">1 кейс типа Mamma Mia (700K ₸ за неделю)</td>
+        </tr>
+        <tr>
+          <td class="py-2">Премиум-ресторан / гастрономия с лояльностью</td>
+          <td class="py-2">Полный пакет с акцентом на Guest 360</td>
+          <td class="py-2 text-right font-semibold">304 000 ₸</td>
+          <td class="py-2 text-right text-xs">Возврат 1 спящего VIP-гостя</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== SWOT ===== -->
+<section data-content="swot" class="tab-content hidden space-y-6">
+  <h2 class="text-2xl font-bold">SWOT и стратегическое позиционирование</h2>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-5">
+      <h3 class="font-bold text-emerald-900 mb-2">💪 Strengths</h3>
+      <ul class="text-sm text-slate-700 space-y-2 list-disc pl-5">
+        <li><b>AI-Native архитектура</b> — единственная HoReCa OS в KZ с ML-cross-sell, Voice AI, Telegram-bot AG, AI-аудитом меню (Claude/LLM).</li>
+        <li><b>28/31 фич покрытия</b> — vs iiko 17/31, R-Keeper 14/31, Poster 10/31, Paloma 9/31, Quick Resto 9/31.</li>
+        <li><b>Full-stack под одним вендором</b> — QR + киоск + SR Delivery + Guest 360 + WhatsApp-кампании + white-label app.</li>
+        <li><b>POS-agnostic</b> — интеграции с iiko, r_keeper, Poster, 1С, Paloma за &lt;40 минут.</li>
+        <li><b>Дистрибуция Choco / Rakhmet</b> — миллионы готовых пользователей и трафика.</li>
+        <li><b>Эквайринг 4-х банков на киосках</b> — Kaspi QR, Freedom, Halyk, Jusan.</li>
+        <li><b>Публикуемые кейсы с математикой</b> — Bahandi ×30, Mamma Mia 700K ₸/неделя ROI 140×, I'M Атакент +39,5% cross-sell, Базилик +1,86M ₸ за квартал.</li>
+        <li><b>KZ-юрисдикция</b> — единственный AI-Native + KZ-local игрок (Paloma — KZ, но учётный, без AI).</li>
+      </ul>
+    </div>
+    <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5">
+      <h3 class="font-bold text-amber-900 mb-2">⚠️ Weaknesses</h3>
+      <ul class="text-sm text-slate-700 space-y-2 list-disc pl-5">
+        <li>Цена пакета «всё включено» (200 000 ₸/мес) выше точечных QR-сервисов (~5 500 ₸ Choice).</li>
+        <li>Нет собственной POS — зависимость от стабильности интеграций iiko/r_keeper.</li>
+        <li>Бренд «Choco» в HoReCa у части рынка ассоциируется с агрегатором, а не с tech-вендором — нужен ребрендинг говорящих штук под «SR».</li>
+        <li>Текущая база — 100+ работающих локаций (vs Kaspi ~800 и Choice 6500 региональных), но активно идут подключения крупных сетей — рост базы во 2 половине 2026.</li>
+        <li>Нет публичного marketplace интеграций третьих сторон (плагины, BI).</li>
+      </ul>
+    </div>
+    <div class="bg-sky-50 border border-sky-200 rounded-2xl p-5">
+      <h3 class="font-bold text-sky-900 mb-2">🚀 Opportunities (2025-2026)</h3>
+      <ul class="text-sm text-slate-700 space-y-2 list-disc pl-5">
+        <li><b>Бум HoReCa в KZ:</b> +50% новых заведений в Q1 2026, +53% посадочных мест в 2025 — рекорд за 10 лет.</li>
+        <li><b>iiko закрыл LifeTime (1 июля 2025):</b> сотни клиентов вынуждены мигрировать на Cloud — окно для апсейла SR.</li>
+        <li><b>Plazius закрылся, Choice ушёл в EU:</b> локальный full-stack вакуум, который мы можем заполнить.</li>
+        <li><b>Wolt ушёл из UZ:</b> рестораторы видят, что иностранные агрегаторы — не вечны. Своя инфраструктура (SR Delivery) — страховка.</li>
+        <li>RU-вендоры (ReMarked, Plazius, частично iiko HQ) под санкционным/ФЗ-152 риском.</li>
+        <li>Региональная экспансия Алматы → Шымкент, Атырау, Караганда.</li>
+        <li>Рост Quick Service Restaurants — наш sweet spot для «Заказ без кассира» + киоск.</li>
+        <li>Интеграция Freedom-эквайринга и BNPL — уникальный финтех-стек.</li>
+      </ul>
+    </div>
+    <div class="bg-rose-50 border border-rose-200 rounded-2xl p-5">
+      <h3 class="font-bold text-rose-900 mb-2">⚠️ Threats (2025-2026)</h3>
+      <ul class="text-sm text-slate-700 space-y-2 list-disc pl-5">
+        <li><b>Kaspi</b> агрессивно расширяет «Рестораны»: split bill (апр-2026), новый сервис «для тех, кто любит считать деньги» (апр-2026), выручка KSPI 3,1 трлн ₸ (+19% YoY).</li>
+        <li><b>Choice QR закрыл Series A $7.1M (мар 2026)</b> — могут вернуться в KZ с агрессивным демпингом.</li>
+        <li><b>iiko/r_keeper усиливают cloud-стек</b> — тренд 2026 «единая экосистема, объединяющая кухню/гостей/доставку/финансы».</li>
+        <li>Yandex Eats / Wolt могут запустить собственный POS-stack для удержания ресторанов.</li>
+        <li>Снижение чеков рестораторов в кризис → давление на цену подписки.</li>
+        <li><b>Слабая социальная видимость SR</b> (@choco.qr — 97 фолловеров) при том, что у клиентов аудитории по 16K+ — конкуренты могут «перебить» нас в каналах PR.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-bold text-lg mb-3">Стратегические треки на 2026</h3>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="border-l-4 border-indigo-500 pl-4">
+        <div class="font-semibold">1. «Killer bundle»</div>
+        <p class="text-sm text-slate-600 mt-1">Продавать модули не по отдельности, а как пакет с гарантированным ROI: «+16% AOV или возврат денег».</p>
+      </div>
+      <div class="border-l-4 border-emerald-500 pl-4">
+        <div class="font-semibold">2. Anti-Kaspi позиционирование</div>
+        <p class="text-sm text-slate-600 mt-1">Признать Kaspi как payment-rail, продавать <i>поверх</i>: киоск + лояльность + Guest 360 + AI-апсейл = то, чего у Kaspi нет.</p>
+      </div>
+      <div class="border-l-4 border-rose-500 pl-4">
+        <div class="font-semibold">3. SR Delivery как самостоятельный SKU</div>
+        <p class="text-sm text-slate-600 mt-1">Ловить рестораторов на боли «30% комиссии Yandex/Wolt». Можно продавать без остального стека и апсейлить дальше.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BATTLECARDS ===== -->
+<section data-content="battle" class="tab-content hidden space-y-5">
+  <h2 class="text-2xl font-bold">Battlecards для Sales</h2>
+  <p class="text-sm text-slate-600">Раскрывайте карточку — внутри типовые возражения клиента и готовые ответы.</p>
+  <div id="battleCards" class="space-y-4"></div>
+</section>
+
+<!-- ===== SOURCES ===== -->
+<section data-content="sources" class="tab-content hidden">
+  <h2 class="text-2xl font-bold mb-4">Источники</h2>
+  <div class="bg-white rounded-2xl shadow p-6 text-sm">
+    <ol class="space-y-2 list-decimal pl-5 text-slate-700">
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2023-09-21/umniy-restoran-ot-choco-mozhet-pomoch-biznesu-zarabativat-v-2-raza-bolshe-rasskazivaem-blagodarya-chemu-eto-udaetsya/" target="_blank">Digital Business KZ — «Умный ресторан» от Choco (2023)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2024-07-30/rasskazivaem-kak-restorani-i-kofeyni-avtomatiziruyut-protsessi/" target="_blank">Digital Business KZ — Как рестораны и кофейни автоматизируют процессы (2024)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2024-11-19/restoran-2-0-eksperti-rasskazali-kak-pravilno-avtomatizirovat-rabotu-gastrobiznesa/" target="_blank">Digital Business KZ — Ресторан 2.0: эксперты об автоматизации</a></li>
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2025-12-11/kaspi-restorani-bistraya-oplata-scheta-i-chaevie-ofitsiantu/" target="_blank">Digital Business KZ — Kaspi Рестораны (2025)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2026-04-22/pokazivaem-kak-v-kaspi-kz-razdelit-schet-v-restorane-s-druzyami-bez-kalkulyatora/" target="_blank">Digital Business KZ — Kaspi split bill (апрель 2026)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://guide.kaspi.kz/client/ru/qr/restaurants/q17435" target="_blank">Kaspi Гид — Сервис «Kaspi Рестораны»</a></li>
+      <li><a class="text-indigo-600 underline" href="https://pos-systems.kz/" target="_blank">POS-Systems.kz — iiko в Казахстане (мастер-партнёр)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://r-keeper.kz/" target="_blank">r-keeper.kz — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://posterpos.kz/tarify-avtomatizacii/" target="_blank">Poster POS — тарифы для Казахстана</a></li>
+      <li><a class="text-indigo-600 underline" href="https://app.jowi.club/" target="_blank">JOWI Restaurant Management System</a></li>
+      <li><a class="text-indigo-600 underline" href="https://choice-qr.com/" target="_blank">Choice QR — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://choiceqr.com/us/pricing-choice/" target="_blank">Choice QR — Pricing</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.kamiqr.kz" target="_blank">Kami QR — KZ</a></li>
+      <li><a class="text-indigo-600 underline" href="https://qbix.kz/qr-menu-kazakhstan/" target="_blank">QBiX — QR-меню Казахстан</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.ucs.ru/products/r_keeper/self-order-kiosk/" target="_blank">UCS / r_keeper — Киоск самообслуживания</a></li>
+      <li><a class="text-indigo-600 underline" href="https://open-s.info/catalog/resheniya/kioski-samoobsluzhivaniya/" target="_blank">Open Service — Get Kiosk (KZ)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://restik.com/automation/crm-dlya-kafe-restoranov/" target="_blank">Restik — CRM для кафе и ресторанов</a></li>
+      <li><a class="text-indigo-600 underline" href="https://rekassa.kz/ru/sistema-loyalnosti" target="_blank">re:Kassa — система лояльности (KZ)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://astanahub.com/en/blog/avtomatizatsiia-dostavki-kak-restorannomu-biznesu-v-kazakhstane-ostavatsia-pribylnym-v-2025-godu" target="_blank">Astana Hub — Автоматизация доставки в KZ (2025)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://kz.kursiv.media/2020-07-22/kak-sobstvennaya-sluzhba-dostavki-vliyaet-na-dokhody-restoratorov/" target="_blank">Kursiv KZ — Собственная доставка vs агрегаторы</a></li>
+      <li><a class="text-indigo-600 underline" href="https://techcrunch.com/2018/10/11/how-this-kazakhstan-internet-giant-built-success-on-ideas-from-russia-and-china/" target="_blank">TechCrunch — Chocofamily / Rakhmet</a></li>
+      <li><a class="text-indigo-600 underline" href="https://tech.eu/2026/03/16/choice-secures-71m-series-a-to-expand-its-restaurant-operating-system-across-europe/" target="_blank">Tech.eu — Choice $7.1M Series A (март 2026)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://techukraine.org/2026/03/17/choice-secures-7-1m-to-scale-its-ai-driven-restaurant-ecosystem-across-southern-europe/" target="_blank">TechUkraine — Choice AI-driven scale-up</a></li>
+      <li><a class="text-indigo-600 underline" href="https://thenextweb.com/news/restaurant-tech-startup-choice-closes-7-1m-series-a" target="_blank">The Next Web — Choice $7.1M Series A</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.spot.uz/ru/2026/02/25/wold-exit/" target="_blank">Spot.uz — Уход Wolt из Узбекистана (фев 2026)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://kapital.uz/wolt-prekrashhaet-rabotu/" target="_blank">Kapital.uz — Wolt прекращает работу в UZ с 5 марта 2026</a></li>
+      <li><a class="text-indigo-600 underline" href="https://azh.kz/ru/news/view/125138" target="_blank">Ак Жайык — Почему Wolt остался в KZ, ушёл из UZ</a></li>
+      <li><a class="text-indigo-600 underline" href="https://lemma-group.ru/about/news/s-1-iyulya-iiko-zakryvaet-prodazhu-novykh-litsenziy-lifetime/" target="_blank">Lemma Group — iiko закрывает LifeTime лицензии с 1 июля 2025</a></li>
+      <li><a class="text-indigo-600 underline" href="https://iiko.ru/about/news/lifetime-support.html" target="_blank">iiko.ru — Прекращение поддержки локальной версии</a></li>
+      <li><a class="text-indigo-600 underline" href="https://toppress.kz/article/restorannii-bum-v-kazahstane-chislo-novih-zavedenii-viroslo-na-50" target="_blank">Toppress.kz — Ресторанный бум в KZ: +50% Q1 2026</a></li>
+      <li><a class="text-indigo-600 underline" href="https://nationalbusiness.kz/news/restorannyiy-biznes-kazahstana-v-2026-godu-kak-menyayutsya-formati-menyu-i-spros/" target="_blank">National Business KZ — Ресторанный бизнес 2026</a></li>
+      <li><a class="text-indigo-600 underline" href="https://digitalbusiness.kz/2026-04-27/kaspi-kz-zapustil-noviy-servis/" target="_blank">Digital Business KZ — Kaspi.kz запустил новый сервис (апр 2026)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.globenewswire.com/news-release/2025/05/12/3078996/0/en/Kaspi-kz-1Q-2025-Financial-Results.html" target="_blank">Kaspi.kz Q1 2025 Financial Results</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.instagram.com/choco.qr/" target="_blank">Instagram @choco.qr (Smart Restaurant by Choco)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.instagram.com/chocofood.kz/" target="_blank">Instagram @chocofood.kz</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.instagram.com/glovo_kz/" target="_blank">Instagram @glovo_kz (58K фолловеров)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.instagram.com/mammamia_kz/" target="_blank">Instagram @mammamia_kz (16K фолловеров — кейс SR)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://labourmission.org/ru/novosti/" target="_blank">Labour Mission — Забастовка курьеров Glovo в Алматы (2026)</a></li>
+      <li><a class="text-indigo-600 underline" href="https://picktech.ru/blog/a-vs-b/iiko-vs-r-keeper-sistema-avtomatizatsii-dlya-restorana-2026/" target="_blank">PickTech — iiko vs r_keeper в 2026</a></li>
+      <li><a class="text-indigo-600 underline" href="https://qrpay.kz/" target="_blank">QRPay (KZ) — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://starterapp.kz/" target="_blank">Starter (starterapp.kz) — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://probonus.pro/" target="_blank">ProBonus (Carbis, Москва) — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://isoft.kz/" target="_blank">ISOFT (KZ-интегратор с 1998) — официальный сайт</a></li>
+      <li><a class="text-indigo-600 underline" href="https://splus.kz/" target="_blank">S-Plus (splus.kz) — KZ-партнёр iiko/1С</a></li>
+      <li><a class="text-indigo-600 underline" href="https://www.pioner.kz/uslugi/automation/restaurant/" target="_blank">Pioneer (pioner.kz) — KZ-партнёр R-Keeper</a></li>
+      <li>Внутренний источник: <i>Freedom Smart Restaurant.pdf</i> (загружен пользователем 29.04.2026)</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer class="border-t bg-white">
+  <div class="max-w-7xl mx-auto px-6 py-6 text-xs text-slate-500 flex justify-between flex-wrap gap-2">
+    <div>Smart Restaurants by Choco · Конкурентный анализ KZ · v1.0 · апрель 2026</div>
+    <div>Документ для внутреннего использования (Sales / BD)</div>
+  </div>
+</footer>
+
+<script>
+// ============== TABS — FIRST so they work even if other code errors ==============
+(function setupTabs() {
+  document.querySelectorAll(".tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      try {
+        document.querySelectorAll(".tab").forEach(b => {
+          b.classList.remove("active","bg-indigo-600","text-white");
+          b.classList.add("bg-slate-100");
+        });
+        btn.classList.add("active","bg-indigo-600","text-white");
+        btn.classList.remove("bg-slate-100");
+        document.querySelectorAll("[data-content]").forEach(s => s.classList.add("hidden"));
+        const target = document.querySelector('[data-content="' + btn.dataset.tab + '"]');
+        if (target) target.classList.remove("hidden");
+        window.scrollTo({top:0,behavior:"smooth"});
+      } catch (e) { console.error("Tab click error:", e); }
+    });
+  });
+  console.log("Tabs initialized:", document.querySelectorAll(".tab").length);
+})();
+
+// ============== DATA ==============
+const players = [
+  {
+    name: "Kaspi Рестораны",
+    cat: "qr",
+    threat: "high",
+    where: "KZ, тестируется в Алматы; Q1 2026 — выручка Kaspi.kz 3.1 трлн ₸ (+19% YoY)",
+    price: "Бесплатно для ресторана (стандартный эквайринг Kaspi Pay)",
+    strengths: "13M+ пользователей суперапа; запустили split bill (apr 2026) и сервис «для тех, кто любит считать деньги» (apr 2026); FAQ для партнёров на Kaspi Гид",
+    weak: "Только payment-rail. Нет киосков, лояльности, Guest 360, доставки, CDP. Партнёры жалуются на непрозрачность по налогам с чаевых",
+    note: "Не противопоставлять — интегрировать как rail, продавать SR <i>сверху</i>",
+  },
+  {
+    name: "Choice QR",
+    cat: "qr",
+    threat: "high",
+    where: "9 стран EU; 30k+ зарегистрированных, 7k+ платящих (мар 2026)",
+    price: "от $12/мес (~5 500 ₸)",
+    strengths: "Series A $7.1M (мар 2026); AI-driven OS; интеграции iiko/Poster; быстрый рост в EU",
+    weak: "Фокус сместился на Зап. Европу (Бухарест, Португалия, Италия) — KZ периферия. Нет киосков, нет Freedom-эквайринга, нет Choco-трафика",
+    note: "Главный нишевый конкурент. Их EU-экспансия — наш шанс забрать KZ-клиентов",
+  },
+  {
+    name: "QRPay (KZ) ⚠️",
+    cat: "qr",
+    threat: "high",
+    where: "Казахстан · qrpay.kz · клиенты Sandyq, Mixue, Chayla, Doner na Abaya, Tary, Salam Bro",
+    price: "Стартовый 8 000 ₸ · Бизнес 50 000 ₸ · Премиум 80 000 ₸/мес",
+    strengths: "KZ-резидент. Full-stack: QR-меню + оплата + киоск + сайт + приложение + CRM + лояльность. Подключение <недели. Заявленный +50% к прибыли, ×2,3 выручка с приложением, +58% к скорости обработки заказов",
+    weak: "Нет AI-апсейла / ML cross-sell, нет AG Sales Agent / Voice AI, нет AI-аудита меню, нет Choco-трафика, нет Guest 360 с RFM-кампаниями уровня SR",
+    note: "ПРЯМОЙ конкурент на full-stack-полке. Бьём AI-Native + кейсами с цифрами. Похожие: Choice QR, MY QR, Kami QR, Foodeon",
+  },
+  {
+    name: "Starter (starterapp.kz) ⚠️",
+    cat: "delivery",
+    threat: "high",
+    where: "ТОО GOOD SPACE · Алматы · клиенты: Manga, #FARШ, ALL OF BURGER, Pizza 22 cm, Mizam, Wall Street, Joly Woo, Pizzateca",
+    price: "Запуск 690K ₸ + 3% с заказа · Рост 2,5% + min 500K/мес · Фудтех 1-2% + min 1,2M/мес",
+    strengths: "RU-команда с KZ-юрлицом, 13+ лет опыта (делали для Yami Yami, Якитория). Глубокая интеграция iiko/r-keeper/Poster + Яндекс.Доставка/Достависта. Кейс Manga: 1,5 мес до запуска, +20% еженедельный рост, 70% заказов через app. Win-win модель — растёт вместе с клиентом",
+    weak: "RU-родина команды (риск ФЗ-152). Нет киосков самообслуживания. Нет AI-апсейла / ML / Voice AI. Нет интеграции Kaspi/Freedom на одном QR. Высокий минимум для крупных сетей",
+    note: "ПРЯМОЙ конкурент SR в Delivery+App-сегменте. Бьём AI + 4 банка + Choco-трафиком. Похожие: Restik, AXLE CRM, Frontpad, ANANAS, LocalApp",
+  },
+  {
+    name: "Kami QR",
+    cat: "qr",
+    threat: "low",
+    where: "KZ",
+    price: "По запросу",
+    strengths: "Дешёвый KZ-сервис QR-меню",
+    weak: "Только меню, нет заказа/оплаты/CRM",
+    note: "Дешёвая альтернатива для бюджетных клиентов — не конкурент по полному стеку",
+  },
+  {
+    name: "QBiX",
+    cat: "qr",
+    threat: "low",
+    where: "KZ (Алматы, Астана, Шымкент)",
+    price: "По запросу",
+    strengths: "Поддержка казахского языка, локализация",
+    weak: "Простое QR-меню без сильной аналитики",
+    note: "Нишевой локальный игрок, не угроза full-stack клиентам",
+  },
+  {
+    name: "RostaQR / YAEMQR / Foodeon",
+    cat: "qr",
+    threat: "low",
+    where: "KZ + RU",
+    price: "Free / freemium",
+    strengths: "Бесплатно, простой запуск",
+    weak: "Минимум фичей, нет интеграций POS",
+    note: "Используются микро-форматами; SR не пересекается на этой полке",
+  },
+  {
+    name: "TOUCHPLAT / Get Kiosk / Lemma",
+    cat: "kiosk",
+    threat: "high",
+    where: "KZ + RU",
+    price: "Hardware: 800k–2M ₸ + ПО",
+    strengths: "Надёжное железо, проверенные кейсы (фастфуд)",
+    weak: "Только киоск-слой, нет полноценной CRM, лояльности, white-label app",
+    note: "Часто продают только железо — мы продаём решение «киоск + интеграция Kaspi/Freedom + апсейл AI»",
+  },
+  {
+    name: "UCS / r_keeper Self-order",
+    cat: "kiosk",
+    threat: "med",
+    where: "KZ + RU",
+    price: "В составе подписки r_keeper",
+    strengths: "Нативная интеграция с r_keeper",
+    weak: "Не работает с iiko/Poster/1С — лочит клиента в r_keeper-стек; UI устарел",
+    note: "Если клиент уже на r_keeper — продавать вместе с лояльностью и Guest 360",
+  },
+  {
+    name: "Yandex Eats / Yandex Delivery",
+    cat: "delivery",
+    threat: "med",
+    where: "KZ (Алматы, Астана, Атырау, Караганда, Павлодар, Актау, Актобе, Костанай)",
+    price: "30–35% комиссия от заказа",
+    strengths: "Маркетинг, охват, бренд",
+    weak: "Высокая комиссия, агрегатор владеет данными гостя, риск ухода клиента",
+    note: "В SR Delivery <b>интегрирован</b> как один из курьерских каналов",
+  },
+  {
+    name: "Wolt",
+    cat: "delivery",
+    threat: "med",
+    where: "KZ (крупные города); ушёл из UZ 5 марта 2026",
+    price: "25–35% комиссия",
+    strengths: "Премиум-аудитория, сильный UX, остаётся в KZ из-за высокого ВВП ($14,7K vs $3,6K UZ)",
+    weak: "Комиссия + потеря данных гостя; прецедент с UZ — иностранные агрегаторы могут уйти",
+    note: "Wolt Drive интегрирован в SR Delivery как back-end курьер",
+  },
+  {
+    name: "Glovo",
+    cat: "delivery",
+    threat: "med",
+    where: "KZ — 16 городов, 3000 сотрудников, 58K Insta-фолловеров (apr 2026)",
+    price: "30% комиссия",
+    strengths: "Активное присутствие в KZ, большая курьерская сеть, узнаваемость",
+    weak: "Забастовки курьеров в Алматы в начале 2026 (требования страховки), репутационные риски",
+    note: "Активный игрок — продаём SR Delivery как способ снизить зависимость от 30% комиссии",
+  },
+  {
+    name: "Plazius / ReMarked / MAXMA",
+    cat: "loyalty",
+    threat: "med",
+    where: "Plazius закрылся 15 сен · ReMarked, MAXMA — RU origin, заходят в KZ",
+    price: "От 5 000–30 000 ₸/мес (MAXMA, ReMarked)",
+    strengths: "Зрелая RFM-сегментация, push, email; MAXMA — альтернатива iiko Card",
+    weak: "RU-юрисдикция (риск ФЗ-152), нет AI-кампаний, нет киоск-слоя, нет интеграции Kaspi/Freedom",
+    note: "Plazius закрылся → активная охота на бывших. ReMarked/MAXMA — добивать KZ-юрисдикцией",
+  },
+  {
+    name: "iiko Card",
+    cat: "loyalty",
+    threat: "low",
+    where: "Россия (UCS) · модуль внутри iiko-стека",
+    price: "Премиум-доплата к iiko",
+    strengths: "Нативная интеграция с iiko-кассой; история заказов в одном профиле",
+    weak: "Только для iiko-клиентов; нет WhatsApp-кампаний, нет AI-сегментации, узкий стек",
+    note: "Аргумент рестораторам с iiko: «не докупайте iiko Card — возьмите Guest 360 с WhatsApp»",
+  },
+  {
+    name: "ProBonus (Carbis)",
+    cat: "loyalty",
+    threat: "low",
+    where: "Россия · Москва · ИП Максимов · только для r_keeper-клиентов",
+    price: "3 000 ₽/мес первый ресторан, 1 500 ₽/мес каждый следующий (при оплате за год)",
+    strengths: "Виртуальная карта в Telegram/MAX-боте без отдельного app; красочные бесплатные рассылки в Telegram; механики «штампики», подарочные сертификаты, реферальная программа; глубокая экспертиза r_keeper",
+    weak: "Только для r_keeper (не работает с iiko, Poster, Paloma, Jowi). RU-юрисдикция. Нет AI/ML, нет киосков, нет своей доставки, нет WhatsApp Business. Узкая loyalty-полка",
+    note: "Низкая угроза — узкая ниша. У r_keeper-клиентов может быть установлен. Похожие: iiko Card, MAXMA, Plazius (закрыт), Premium Bonus, Cardberry, ReMarked",
+  },
+  {
+    name: "re:Kassa Loyalty",
+    cat: "loyalty",
+    threat: "low",
+    where: "KZ",
+    price: "В составе кассового решения",
+    strengths: "KZ-вендор, банк-интеграции",
+    weak: "Базовый функционал лояльности, нет Guest 360",
+    note: "Малый бизнес; SR заходит на средний и крупный сегмент",
+  },
+  {
+    name: "Loona.ai / Restik / AXLE CRM",
+    cat: "loyalty",
+    threat: "low",
+    where: "RU + регионы",
+    price: "От 9 000 ₸/мес",
+    strengths: "Простая CRM, push-кампании",
+    weak: "Нет полного guest-experience-стека (киоски, доставка, app)",
+    note: "Проигрывают на full-stack комбинированных сделках",
+  },
+  {
+    name: "iiko",
+    cat: "pos",
+    threat: "partner",
+    where: "KZ — мастер-партнёр POS-Systems.kz; LifeTime закрыты с 1 июля 2025",
+    price: "iikoCloud Start от 27 300 ₸/мес (только облако)",
+    strengths: "Доминирующий POS, сильные модули учёта/склада/Front",
+    weak: "Прекратили продажу LifeTime лицензий (1 июля 2025) — все вынуждены идти в Cloud. QR/киоск/лояльность — отдельные SKU",
+    note: "<b>Партнёр</b>. Миграция iiko-клиентов в Cloud — наш шанс продать SR при апгрейде",
+  },
+  {
+    name: "r_keeper (UCS)",
+    cat: "pos",
+    threat: "partner",
+    where: "KZ — 2000+ заведений; pos-systems.kz, rkeeperpro.kz, r-keeper7.kz",
+    price: "от 29 000 ₸/мес",
+    strengths: "Сильный в крупных сетях, ресторанах премиум, банкетных, караоке, отелях. Покрытие в KZ — 2000+ заведений",
+    weak: "Тяжёлая внедряемость, устаревший UI ряда модулей, поддержка медленная (до 4 дней)",
+    note: "<b>Партнёр</b>. Ставим SR поверх для AI-апсейла и Guest 360. ICP — сети, банкеты, отели",
+  },
+  {
+    name: "Paloma365 (KZ-local!)",
+    cat: "pos",
+    threat: "med",
+    where: "Казахстан · paloma365.kz · 20 000+ бизнесов · 3 языка (RU/KZ/EN)",
+    price: "От 4 590 ₸/мес — самый дешёвый в KZ",
+    strengths: "Единственный массовый KZ-local POS. Дешёвый. Покрывает магазины, кафе, столовые",
+    weak: "Учётно-ориентированный (не гостевой UX). Нет AI, нет киосков, нет Guest 360, нет SR Delivery",
+    note: "Опасный для нашего нарратива «локальный продукт KZ» — единственный, кто тоже KZ-resident. Бьём AI и full-stack",
+  },
+  {
+    name: "Quick Resto",
+    cat: "pos",
+    threat: "low",
+    where: "Россия → KZ (quickresto.kz)",
+    price: "По запросу",
+    strengths: "Cloud POS, простая интеграция для кафе/баров/кофеен",
+    weak: "RU-юрисдикция, нет AI-апсейла, узкий functional scope",
+    note: "Менее массовый чем iiko/r_keeper в KZ, но появляется в кофейном сегменте",
+  },
+  {
+    name: "Poster POS",
+    cat: "pos",
+    threat: "partner",
+    where: "KZ через joinposter.kz",
+    price: "от 7 200 ₸/мес",
+    strengths: "Самый дешёвый облачный POS в KZ, любим кофейнями",
+    weak: "Слабый CDP/loyalty, нет киосков/Guest 360",
+    note: "<b>Партнёр</b>. Идеальный target для апсейла SR-стека",
+  },
+  {
+    name: "Jowi",
+    cat: "pos",
+    threat: "partner",
+    where: "Узбекистан HQ, расширение в KZ",
+    price: "По запросу",
+    strengths: "All-in-one для CIS, фокус на ресторанах",
+    weak: "Слабее в KZ-payment-rails, ограниченная экосистема",
+    note: "Возможный партнёр для интеграции",
+  },
+  {
+    name: "1С: Ресторан / Paloma",
+    cat: "pos",
+    threat: "partner",
+    where: "KZ — корпоративные сети",
+    price: "Лицензия + сопровождение",
+    strengths: "Учёт и интеграция с финансами",
+    weak: "Front-end слабый, не для гостевого опыта",
+    note: "<b>Партнёр</b>. SR закрывает гостевой контур, который 1С/Paloma не покрывают",
+  },
+  {
+    name: "ISOFT (KZ-интегратор)",
+    cat: "pos",
+    threat: "partner",
+    where: "KZ · isoft.kz · с 1998 г. · Алматы (Жарокова 128) · крупнейшая региональная сеть",
+    price: "Hardware + лицензии 1С + iiko (партнёр)",
+    strengths: "20+ лет на рынке KZ, широкий ассортимент: кассы, POS-системы, штрихкоды, весы, киоски, IP-телефония, ПО HoReCa на 1С",
+    weak: "Не SaaS-вендор, а железный реселлер + системный интегратор. Нет своей AI-платформы, нет CRM Guest 360, нет ML-апсейла",
+    note: "<b>Потенциальный партнёр</b>: они продают железо/iiko/1С — мы можем стать гостевым слоем. Похожие KZ-интеграторы: POS-Systems.kz, S-Plus, Pioneer, Techline, Open Service, Lemma, Cabus, ARBUS, IDsoft",
+  },
+];
+
+const matrix = [
+  ["Заказ через QR (стол)",                  ["full","full","full","full","plug","plug","plug","plug","none"]],
+  ["Заказ без кассира (фронт-зона)",         ["full","none","part","part","plug","plug","plug","plug","none"]],
+  ["Киоск самообслуживания",                 ["full","none","none","none","plug","full","none","none","none"]],
+  ["Оплата Kaspi QR",                        ["full","full","part","part","part","part","part","part","none"]],
+  ["Оплата Freedom / Halyk / Jusan",         ["full","none","part","part","part","part","part","part","none"]],
+  ["Чаевые официанту",                       ["full","full","full","full","plug","plug","plug","plug","none"]],
+  ["AI-рекомендации / апсейл",               ["full","none","part","none","none","none","none","none","none"]],
+  ["Своя доставка (агрегация курьеров)",     ["full","none","part","none","plug","plug","none","none","none"]],
+  ["Программа лояльности с RFM-сегментами",  ["full","none","part","none","part","part","part","part","full"]],
+  ["Guest 360 (CDP с историей и триггерами)",["full","none","part","none","part","part","none","none","part"]],
+  ["AI-обработка отзывов",                   ["full","none","none","none","none","none","none","none","none"]],
+  ["White-label app (AppStore/GP)",          ["full","none","part","none","plug","plug","none","none","none"]],
+  ["App Click (QR-пейджер)",                 ["full","none","none","none","none","none","none","none","none"]],
+  ["Стандартная аналитика",                  ["full","part","full","part","full","full","full","full","full"]],
+  ["Интеграция с iiko/r_keeper/Poster/1С",   ["full","part","full","part","native","native","native","none","part"]],
+  ["KZ-юрисдикция вендора",                  ["full","full","none","full","none","none","none","none","none"]],
+];
+
+const battlecards = [
+  {
+    title: "vs Kaspi Рестораны",
+    when: "Клиент говорит «у нас уже есть Kaspi на столах, зачем платить ещё?»",
+    answers: [
+      "Kaspi — это <b>payment-rail</b>. Мы интегрируем его на наших киосках и в QR-заказе. Вопрос не «или», а «что сверху».",
+      "Kaspi даёт оплату — но не даёт <b>Guest 360</b>: историю заказов, RFM-сегменты, триггерные рассылки, контроль повторных покупок.",
+      "Kaspi не даёт <b>киосков</b> с допродажей (+63% корзины на кейсе Bahandi).",
+      "Kaspi не даёт <b>собственной доставки</b> — а ресторан теряет 30% на агрегаторах.",
+      "Kaspi не даёт <b>white-label app</b> и брендированной программы лояльности.",
+    ],
+  },
+  {
+    title: "vs Choice QR",
+    when: "«Choice уже стоит, дёшево, нас всё устраивает»",
+    answers: [
+      "Choice силён в QR-меню, но <b>киоски</b>, <b>SR Delivery</b> и <b>Guest 360 с AI</b> у них либо отсутствуют, либо только в роадмэпе.",
+      "У нас есть <b>AI-апсейл</b> (+16% AOV) — у Choice рекомендатель отсутствует.",
+      "Мы сидим на трафике <b>Rakhmet/Choco</b> — у нас 100+ работающих ресторанов и крупные сети на подключении, плюс доступ к аудитории суперапа.",
+      "Юрисдикция: Choice HQ в Украине/EU, мы — KZ-резидент с KZ-договорами и поддержкой 24/7 на двух языках.",
+      "ROI-кейсы: Bahandi (86,4% conversion), Mamma Mia, Shaurma Food (4-часовая интеграция).",
+    ],
+  },
+  {
+    title: "vs iiko / r_keeper / Poster (POS)",
+    when: "«У iiko есть и QR-меню, и лояльность, зачем мне ваш слой?»",
+    answers: [
+      "Каждый модуль iiko/r_keeper — <b>отдельный SKU</b> (QR-меню + Loyalty + Delivery + CRM = 4 подписки). У нас всё в одной.",
+      "Нативные QR/lояльности у POS-систем работают, но <b>UI и UX устарели</b>; у нас современный гостевой интерфейс.",
+      "Мы <b>не отбираем</b> POS — мы поверх. Клиент сохраняет iiko/r_keeper и получает Guest 360 + AI + киоск-слой.",
+      "Мы — <b>официальный партнёр</b> iiko и r_keeper. Никаких рисков «сломается интеграция».",
+    ],
+  },
+  {
+    title: "vs Yandex Eats / Wolt (агрегаторы)",
+    when: "«Я и так на Yandex/Wolt, мне новых каналов не надо»",
+    answers: [
+      "Yandex/Wolt = <b>30% комиссия</b> + они забирают данные гостей.",
+      "На 200 заказах/мес ваш ресторан теряет <b>240 000 ₸</b> чистой прибыли против SR Delivery (60 000 ₸ фикс).",
+      "SR Delivery <b>не отключает</b> Yandex/Wolt — он <i>добавляет</i> ваш канал и автоматически выбирает оптимального курьера в реал-тайме.",
+      "Данные гостя остаются у вас — для повторных продаж и рассылок.",
+    ],
+  },
+  {
+    title: "vs Plazius / ReMarked / Loona (лояльность)",
+    when: "«У меня уже есть CRM/лояльность от Plazius»",
+    answers: [
+      "Plazius — RU-вендор. Риски ФЗ-152 и валютной оплаты при ужесточении.",
+      "Plazius даёт лояльность, но не <b>киоск-слой</b>, не <b>SR Delivery</b>, не <b>QR-заказ без официанта</b>.",
+      "Наша лояльность <b>интегрирована</b> с QR-заказом, киоском и app — единый guest journey.",
+      "Меняем не «лояльность на лояльность», а «5 несвязанных вендоров на 1 платформу».",
+    ],
+  },
+  {
+    title: "Возражение «дорого»",
+    when: "«200 000 ₸/мес — это слишком много»",
+    answers: [
+      "Базовый модуль — от <b>30 000 ₸/мес</b>. 200 000 — это full-stack с лояльностью, RFM и Guest 360.",
+      "ROI на одной локации: средний чек +16% × 5 000 ₸ × 100 заказов/день × 30 дней = <b>+2,4 млн ₸/мес</b> выручки.",
+      "Только SR Delivery экономит <b>240 000 ₸/мес</b> на агрегаторских комиссиях с 200 заказов.",
+      "Гарантия: за 3 месяца проверим метрики на одной локации — не сработало, возвращаем подписку.",
+    ],
+  },
+];
+
+// ============== RENDER ==============
+function pillFor(t) {
+  if (t==="high")    return '<span class="pill threat-h">Высокая угроза</span>';
+  if (t==="med")     return '<span class="pill threat-m">Средняя</span>';
+  if (t==="low")     return '<span class="pill threat-l">Низкая</span>';
+  if (t==="partner") return '<span class="pill threat-p">Партнёр</span>';
+  return "";
+}
+
+function renderPlayers(filter="all") {
+  const grid = document.getElementById("playersGrid");
+  grid.innerHTML = players
+    .filter(p => filter==="all" || p.cat===filter)
+    .map(p => `
+      <div class="bg-white rounded-2xl shadow p-5 hover:shadow-lg transition">
+        <div class="flex justify-between items-start gap-2 mb-2">
+          <div class="font-bold text-lg">${p.name}</div>
+          ${pillFor(p.threat)}
+        </div>
+        <div class="text-xs text-slate-500 mb-3">${p.where} · ${p.price}</div>
+        <div class="text-sm space-y-2">
+          <div><span class="text-emerald-700 font-semibold">+ </span>${p.strengths}</div>
+          <div><span class="text-rose-700 font-semibold">− </span>${p.weak}</div>
+          <div class="bg-indigo-50 text-indigo-900 rounded-lg p-2 text-xs mt-2">💡 ${p.note}</div>
+        </div>
+      </div>
+    `).join("");
+}
+
+function renderMatrix() {
+  const symMap = {
+    full:   '<td class="p-2 text-center bg-emerald-50 check">✓ Да</td>',
+    part:   '<td class="p-2 text-center bg-amber-50 partial">~ Частично</td>',
+    none:   '<td class="p-2 text-center bg-rose-50 cross">✗ Нет</td>',
+    plug:   '<td class="p-2 text-center bg-amber-50 partial">⊕ Плагин</td>',
+    native: '<td class="p-2 text-center bg-emerald-50 check">★ Нативно</td>',
+  };
+  const body = document.getElementById("matrixBody");
+  body.innerHTML = matrix.map(([feat, vals]) => {
+    const srCell = `<td class="p-2 text-center bg-indigo-100 font-bold check">✓ Да</td>`;
+    const cells = vals.map(v => symMap[v] || symMap.none).join("");
+    return `<tr class="border-t hover:bg-slate-50">
+      <td class="p-3 sticky left-0 bg-white font-medium">${feat}</td>
+      ${srCell}${cells}
+    </tr>`;
+  }).join("");
+}
+
+function renderBattle() {
+  const c = document.getElementById("battleCards");
+  c.innerHTML = battlecards.map((b,i) => `
+    <details class="bg-white rounded-2xl shadow p-5 ${i===0?"open":""}" ${i===0?"open":""}>
+      <summary class="flex justify-between items-center">
+        <div>
+          <div class="font-bold text-lg">${b.title}</div>
+          <div class="text-sm text-slate-500 mt-1">${b.when}</div>
+        </div>
+        <div class="text-indigo-600 text-xs bg-indigo-50 px-2 py-1 rounded">Раскрыть ↓</div>
+      </summary>
+      <ul class="mt-4 space-y-2 text-sm border-t pt-4">
+        ${b.answers.map(a => `<li class="flex gap-2"><span class="text-indigo-500">▸</span><span>${a}</span></li>`).join("")}
+      </ul>
+    </details>
+  `).join("");
+}
+
+// ============== FILTER ==============
+document.querySelectorAll(".filter-btn").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(x => {
+      x.classList.remove("active","bg-indigo-600","text-white");
+      x.classList.add("bg-slate-200");
+    });
+    b.classList.add("active","bg-indigo-600","text-white");
+    b.classList.remove("bg-slate-200");
+    renderPlayers(b.dataset.cat);
+  });
+});
+
+// ============== LIVE NEWS LOADER ==============
+async function loadLiveNews() {
+  const container = document.getElementById("newsContainer");
+  const updatedEl = document.getElementById("newsUpdated");
+  if (!container) return;
+  try {
+    const resp = await fetch("data/news.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+
+    if (data.updated_at) {
+      const d = new Date(data.updated_at);
+      updatedEl.textContent = "Обновлено: " + d.toLocaleString("ru-RU") + " · отслеживаем " + data.lookback_days + " дней";
+    } else {
+      updatedEl.textContent = "Ещё не обновлялось — запустите GitHub Action вручную для первого запуска";
+    }
+
+    if (!data.total || data.total === 0) {
+      container.innerHTML = '<div class="bg-slate-50 rounded-xl p-8 text-center text-slate-500">Новостей за выбранный период не найдено. Это нормально — в спокойные недели KZ-рынок молчит.</div>';
+      return;
+    }
+
+    let html = '<div class="mb-4 text-sm text-slate-600">Найдено <b>' + data.total + '</b> упоминаний по ' + Object.keys(data.by_competitor).length + ' конкурентам.</div>';
+    html += '<div class="space-y-5">';
+    for (const [comp, items] of Object.entries(data.by_competitor)) {
+      if (!items || items.length === 0) continue;
+      html += '<div class="border-l-4 border-indigo-500 pl-4">';
+      html += '<h3 class="font-bold text-lg mb-2">' + comp + ' <span class="text-sm text-slate-500 font-normal">(' + items.length + ')</span></h3>';
+      html += '<div class="space-y-2">';
+      for (const item of items) {
+        const dt = new Date(item.published);
+        const dateStr = dt.toLocaleDateString("ru-RU", { day: "numeric", month: "short" });
+        html += '<div class="bg-white border rounded-lg p-3 hover:shadow-sm">';
+        html += '<a href="' + item.url + '" target="_blank" rel="noopener" class="font-medium text-indigo-700 hover:underline">' + escapeHtml(item.title) + '</a>';
+        html += '<div class="text-xs text-slate-500 mt-1">' + escapeHtml(item.source || "") + ' · ' + dateStr + '</div>';
+        if (item.summary && item.summary.toLowerCase() !== "не критично") {
+          html += '<div class="text-sm text-slate-700 mt-2 bg-amber-50 rounded px-2 py-1">💡 ' + escapeHtml(item.summary) + '</div>';
+        }
+        html += '</div>';
+      }
+      html += '</div></div>';
+    }
+    html += '</div>';
+    container.innerHTML = html;
+  } catch (e) {
+    container.innerHTML = '<div class="bg-rose-50 border border-rose-200 rounded-xl p-6 text-rose-900"><b>Не удалось загрузить новости.</b><br><span class="text-sm">' + escapeHtml(e.message) + '</span><br><span class="text-xs text-slate-600">Скорее всего, GitHub Action ещё не запускался. Откройте Actions в репозитории и нажмите Run workflow.</span></div>';
+  }
+}
+
+function escapeHtml(s) {
+  return String(s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+}
+
+// Lazy-load на первое открытие вкладки
+function lazyLoad(tabName, loaderFn) {
+  const btn = document.querySelector(`[data-tab="${tabName}"]`);
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    if (!btn.dataset.loaded) {
+      loaderFn();
+      btn.dataset.loaded = "1";
+    }
+  });
+}
+lazyLoad("livenews", loadLiveNews);
+
+// ============== LIVE PRICES LOADER ==============
+async function loadLivePrices() {
+  const container = document.getElementById("pricesContainer");
+  const updatedEl = document.getElementById("pricesUpdated");
+  if (!container) return;
+  try {
+    const resp = await fetch("data/vendors.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+    if (data.updated_at) {
+      const modeLabel = data.mode === "ai-enriched" ? "AI-enriched" : "heuristic-парсинг";
+      updatedEl.textContent = "Обновлено: " + new Date(data.updated_at).toLocaleString("ru-RU") + " · " + data.vendor_count + " вендоров · " + modeLabel;
+    } else {
+      updatedEl.textContent = "Скрейпер ещё не запускался — нажмите Run workflow в Actions";
+    }
+    if (!data.vendors || data.vendors.length === 0) {
+      container.innerHTML = '<div class="bg-slate-50 rounded-xl p-8 text-center text-slate-500">Данные ещё не собраны. Запустите GitHub Action вручную для первого прохода.</div>';
+      return;
+    }
+    let html = '<div class="grid md:grid-cols-2 gap-5">';
+    for (const v of data.vendors) {
+      const ex = v.extracted || {};
+      const tiers = ex.pricing_tiers || [];
+      const features = ex.features || [];
+      const clients = ex.notable_clients || [];
+      const integrations = ex.integrations || [];
+      const checked = v.last_checked ? new Date(v.last_checked).toLocaleDateString("ru-RU") : "?";
+      html += `<div class="bg-white border rounded-xl p-5 hover:shadow-md transition">`;
+      html += `<div class="flex justify-between items-start mb-3">`;
+      html += `<div><h3 class="font-bold text-lg">${escapeHtml(v.name)}</h3>`;
+      html += `<div class="text-xs text-slate-500">${escapeHtml(v.type || "")} · ${escapeHtml(v.country || "")}</div></div>`;
+      html += `<div class="text-xs text-slate-400">${checked}</div></div>`;
+      if (ex.tagline) html += `<div class="text-sm italic text-slate-600 mb-3">«${escapeHtml(ex.tagline)}»</div>`;
+      if (tiers.length) {
+        html += '<div class="mb-3"><div class="text-xs uppercase tracking-wider text-slate-500 mb-1">Найденные цены (' + tiers.length + ')</div>';
+        for (const t of tiers.slice(0, 6)) {
+          const label = t.name || (t.context ? t.context.substring(0, 80) + "…" : "");
+          html += `<div class="text-sm flex justify-between gap-2 border-l-2 border-indigo-300 pl-2 mb-1"><span class="text-xs text-slate-600">${escapeHtml(label)}</span><span class="font-semibold whitespace-nowrap">${escapeHtml(t.price_text || "—")}</span></div>`;
+        }
+        html += '</div>';
+      }
+      if (features.length) {
+        html += '<div class="mb-3"><div class="text-xs uppercase tracking-wider text-slate-500 mb-1">Функции (' + features.length + ')</div>';
+        html += '<div class="flex flex-wrap gap-1">' + features.slice(0, 10).map(f => `<span class="pill threat-l">${escapeHtml(f)}</span>`).join("") + '</div></div>';
+      }
+      if (integrations.length) {
+        html += '<div class="mb-3"><div class="text-xs uppercase tracking-wider text-slate-500 mb-1">Интеграции</div>';
+        html += '<div class="text-sm text-slate-700">' + integrations.slice(0,8).map(escapeHtml).join(" · ") + '</div></div>';
+      }
+      if (clients.length) {
+        html += '<div class="mb-3"><div class="text-xs uppercase tracking-wider text-slate-500 mb-1">Клиенты</div>';
+        html += '<div class="text-xs text-slate-700">' + clients.slice(0, 5).map(escapeHtml).join(" · ") + '</div></div>';
+      }
+      if (ex.recent_news_or_changes) {
+        html += `<div class="mt-3 bg-amber-50 rounded p-2 text-xs"><b>📣 На сайте:</b> ${escapeHtml(ex.recent_news_or_changes)}</div>`;
+      }
+      if (v.fetched_urls && v.fetched_urls.length) {
+        html += '<div class="mt-3 text-xs"><a href="' + v.fetched_urls[0] + '" target="_blank" rel="noopener" class="text-indigo-600 underline">Открыть сайт →</a></div>';
+      }
+      html += `</div>`;
+    }
+    html += '</div>';
+    container.innerHTML = html;
+  } catch (e) {
+    container.innerHTML = '<div class="bg-rose-50 border border-rose-200 rounded-xl p-6 text-rose-900"><b>Не удалось загрузить.</b><br><span class="text-sm">' + escapeHtml(e.message) + '</span></div>';
+  }
+}
+lazyLoad("liveprices", loadLivePrices);
+
+// ============== CHANGES LOG LOADER ==============
+async function loadChanges() {
+  const container = document.getElementById("changesContainer");
+  const updatedEl = document.getElementById("changesUpdated");
+  if (!container) return;
+  try {
+    const resp = await fetch("data/changes.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+    const days = data.days || [];
+    updatedEl.textContent = days.length ? "За последние " + days.length + " дней изменений" : "Пока изменений не зафиксировано";
+    if (!days.length) {
+      container.innerHTML = '<div class="bg-slate-50 rounded-xl p-8 text-center text-slate-500">Скрейпер ещё не запускался достаточно раз чтобы детектить изменения. Нужно минимум 2 запуска.</div>';
+      return;
+    }
+    let html = '<div class="space-y-5">';
+    for (const day of days.slice(0, 30)) {
+      html += `<div class="border-l-4 border-indigo-500 pl-4">`;
+      html += `<div class="font-bold text-base mb-2">${escapeHtml(day.date)}</div>`;
+      html += '<ul class="space-y-1">';
+      for (const c of (day.changes || [])) {
+        html += `<li class="text-sm">${escapeHtml(c)}</li>`;
+      }
+      html += '</ul></div>';
+    }
+    html += '</div>';
+    container.innerHTML = html;
+  } catch (e) {
+    container.innerHTML = '<div class="bg-rose-50 border border-rose-200 rounded-xl p-6 text-rose-900"><b>Не удалось загрузить.</b><br><span class="text-sm">' + escapeHtml(e.message) + '</span></div>';
+  }
+}
+lazyLoad("changes", loadChanges);
+
+// ============== INIT ==============
+renderPlayers("all");
+renderMatrix();
+renderBattle();
+
+// Threat distribution chart
+try {
+const ctx = document.getElementById("threatChart").getContext("2d");
+new Chart(ctx, {
+  type: "doughnut",
+  data: {
+    labels: ["Высокая угроза","Средняя","Низкая","Партнёры"],
+    datasets: [{
+      data: [
+        players.filter(p=>p.threat==="high").length,
+        players.filter(p=>p.threat==="med").length,
+        players.filter(p=>p.threat==="low").length,
+        players.filter(p=>p.threat==="partner").length,
+      ],
+      backgroundColor: ["#ef4444","#f59e0b","#10b981","#6366f1"],
+    }]
+  },
+  options: { plugins: { legend: { position: "bottom" }, title: { display: true, text: "Распределение конкурентов на рынке KZ" } } }
+});
+} catch(e) { console.error("threatChart failed:", e); }
+
+// ===== Compact Pricing Chart — one row per vendor, with min-max range =====
+try {
+// data: [min, max] — для floating bar; min===max — обычный столбик
+const vendors = [
+  { name: "⭐ Smart Restaurant", range: [60000, 304000], color: "#4338ca", note: "60K → 304K (3 тарифа)" },
+  { name: "Starter (Запуск)",    range: [690000, 690000], color: "#fb923c", note: "690K + 3% оборота · депозит" },
+  { name: "QRPay (KZ)",          range: [8000, 80000],   color: "#a78bfa", note: "8K → 80K (3 тарифа)" },
+  { name: "MAXMA / ReMarked",    range: [30000, 30000],  color: "#f87171", note: "только лояльность" },
+  { name: "r_keeper Cloud",      range: [29000, 29000],  color: "#64748b", note: "только POS" },
+  { name: "iiko Cloud Start",    range: [27300, 27300],  color: "#64748b", note: "только POS" },
+  { name: "ProBonus",            range: [8500, 17000],   color: "#fca5a5", note: "только для r_keeper" },
+  { name: "Poster POS",          range: [7200, 7200],    color: "#94a3b8", note: "POS + базовый QR" },
+  { name: "Choice QR",           range: [5500, 5500],    color: "#fbbf24", note: "узкий QR + оплата" },
+  { name: "Paloma365 (KZ)",      range: [4590, 4590],    color: "#94a3b8", note: "учётный POS" },
+  { name: "Kami QR / RostaQR",   range: [0, 0],          color: "#fde68a", note: "freemium QR-меню" },
+];
+// Сортируем: SR сверху, остальные по min-цене (по убыванию — самые дорогие сверху)
+vendors.sort((a,b) => {
+  if (a.name.startsWith("⭐") && !b.name.startsWith("⭐")) return -1;
+  if (!a.name.startsWith("⭐") && b.name.startsWith("⭐")) return 1;
+  return b.range[1] - a.range[1];
+});
+
+// Custom plugin: показывает цену/диапазон справа от каждого бара + подпись тарифа
+const labelPlugin = {
+  id: "priceRangeLabels",
+  afterDatasetsDraw(chart) {
+    const { ctx, scales: { x, y } } = chart;
+    ctx.save();
+    ctx.textBaseline = "middle";
+    vendors.forEach((v, i) => {
+      const [min, max] = v.range;
+      const yPos = y.getPixelForValue(i);
+      const xPos = x.getPixelForValue(max);
+      const priceText = (min === max)
+        ? (max === 0 ? "Free" : max.toLocaleString("ru-RU") + " ₸")
+        : min.toLocaleString("ru-RU") + " – " + max.toLocaleString("ru-RU") + " ₸";
+      ctx.font = "bold 13px -apple-system, 'Segoe UI', sans-serif";
+      ctx.fillStyle = "#0f172a";
+      ctx.textAlign = "left";
+      ctx.fillText(priceText, xPos + 8, yPos - 6);
+      ctx.font = "11px -apple-system, 'Segoe UI', sans-serif";
+      ctx.fillStyle = "#94a3b8";
+      ctx.fillText(v.note, xPos + 8, yPos + 8);
+    });
+    ctx.restore();
+  }
+};
+
+const pCtx = document.getElementById("priceChart").getContext("2d");
+new Chart(pCtx, {
+  type: "bar",
+  data: {
+    labels: vendors.map(v => v.name),
+    datasets: [{
+      data: vendors.map(v => v.range), // floating bars [min,max]
+      backgroundColor: vendors.map(v => v.color),
+      borderRadius: 6,
+      barThickness: 18,
+    }]
+  },
+  options: {
+    indexAxis: "y",
+    maintainAspectRatio: false,
+    layout: { padding: { right: 240 } },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: (ctx) => {
+            const [min, max] = ctx.raw;
+            if (max === 0) return "Freemium";
+            if (min === max) return max.toLocaleString("ru-RU") + " ₸/мес";
+            return min.toLocaleString("ru-RU") + " – " + max.toLocaleString("ru-RU") + " ₸/мес";
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { callback: v => v.toLocaleString("ru-RU") + " ₸", font: { size: 11 } },
+        grid: { color: "#f1f5f9" }
+      },
+      y: {
+        ticks: { font: { size: 12, weight: "500" }, color: "#1e293b" },
+        grid: { display: false }
+      }
+    }
+  },
+  plugins: [labelPlugin]
+});
+} catch(e) { console.error("priceChart failed:", e); }
+</script>
+
+</body>
+</html>
