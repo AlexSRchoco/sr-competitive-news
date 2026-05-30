@@ -1,15 +1,6 @@
 {
-  "updated_at": "2026-05-29T08:02:53.940590+00:00",
+  "updated_at": "2026-05-30T06:51:26.836140+00:00",
   "lookback_days": 7,
-  "total": 1,
-  "by_competitor": {
-    "Glovo": [
-      {
-        "title": "Сервис курьерской доставки Glovo запускается в Казахстане - mmr.ua",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUjVON3M4aVRWcDFaZUlBOXRyYWdFalpfd0tqSEYzNnhvZmdZTF9SN2hSSnhCeERBR0lZcW5WbVFXSGc2azNmeG5hYWdqaDVLLUM0X21LSnBCT3NCMHl2bnpGbThOYkdVWWFiSk13cmg1V3l5YVhzQ1lvYWExVDFpWTZwTQ?oc=5",
-        "source": "mmr.ua",
-        "published": "2026-05-22T10:43:34+00:00"
-      }
-    ]
-  }
+  "total": 0,
+  "by_competitor": {}
 }
