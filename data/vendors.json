@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T08:43:29.567898+00:00",
+  "updated_at": "2026-06-03T09:00:05.014512+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-06-02T08:41:19.413559+00:00",
+      "last_checked": "2026-06-03T08:59:16.391314+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-06-02T08:41:24.148291+00:00",
+      "last_checked": "2026-06-03T08:59:21.654783+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,26 +70,15 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:41:26.494826+00:00",
-      "fetched_urls": [
-        "https://choiceqr.com/us/"
-      ],
-      "snapshot_hash": "1566d0e03f52399e",
-      "text_excerpt": "Smart solutions for modern restaurants\nWe are a Czech company that has been helping restaurants with digitization, increasing profits and reducing costs for four years using tools such as digital menu, QR orders and QR payments from the table, self-delivery of food, loyalty program, table reservations, hotel room orders and feedback collection.\nMORE THAN 6000+ BUSINESSES ALREADY USE CHOICE AROUND THE WORLD\nAbout Choice\nChoice provides effective and modern tools for all type of restaurants worldwide\n20 000+\nvenues are\nalready using Choice\n25+\ncountries of the world\n$ 10M+\nin sales\nper year\n20M+",
+      "last_checked": "2026-06-03T08:59:22.518714+00:00",
+      "fetched_urls": [],
+      "snapshot_hash": null,
+      "text_excerpt": null,
       "extracted": {
-        "tagline": "Smart solutions for modern restaurants",
+        "tagline": null,
         "pricing_tiers": [],
-        "features": [
-          "QR-оплата",
-          "Лояльность / CRM",
-          "Аналитика / Dashboard",
-          "Бронирование",
-          "AI / ML"
-        ],
-        "integrations": [
-          "Apple Pay",
-          "Google Pay"
-        ],
+        "features": [],
+        "integrations": [],
         "notable_clients": [],
         "recent_news_or_changes": null
       }
@@ -104,12 +93,12 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:41:50.006676+00:00",
+      "last_checked": "2026-06-03T08:59:27.142445+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://iiko.splus.kz/prices/"
       ],
-      "snapshot_hash": "09f0aeaeb92cbf6f",
+      "snapshot_hash": "2d0a461af39624a0",
       "text_excerpt": "Для обеспечения оптимальной работы и улучшения пользовательского опыта на сайте используются технологии cookie, в том числе сервиса Яндекс.Метрика. Продолжая пользоваться сайтом, Вы соглашаетесь с размещением cookie-файлов на Вашем устройстве на условиях, изложенных в Политике обработки персональных данных\nДоставка готовых блюд\niiko помогает обеспечить четкое выполнение стандартов на всех участках бизнеса и организовать эффективную работу всех подразделений, экономя каждую секунду и не допуская ошибок.\nСтоловая на предприятии или в бизнес-центре\niiko поможет наладить эффективную работу столово",
       "extracted": {
         "tagline": "Доставка готовых блюд",
@@ -140,7 +129,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:42:11.621505+00:00",
+      "last_checked": "2026-06-03T08:59:29.653376+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -162,7 +151,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:42:52.205898+00:00",
+      "last_checked": "2026-06-03T08:59:32.150626+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -183,7 +172,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:42:53.511091+00:00",
+      "last_checked": "2026-06-03T08:59:33.488436+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -218,7 +207,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:42:56.565923+00:00",
+      "last_checked": "2026-06-03T08:59:36.519743+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -243,7 +232,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:42:56.608179+00:00",
+      "last_checked": "2026-06-03T08:59:36.590374+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -265,7 +254,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:00.194032+00:00",
+      "last_checked": "2026-06-03T08:59:40.160648+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -334,7 +323,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:01.777472+00:00",
+      "last_checked": "2026-06-03T08:59:41.754111+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -366,12 +355,12 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:04.344647+00:00",
+      "last_checked": "2026-06-03T08:59:44.581855+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
-      "snapshot_hash": "29446d0dda5fef92",
-      "text_excerpt": "RU\nВход в личный кабинет\nВход\nHalyk-Pos + Касса\nПлатформенная занятость\nЗарегистрироваться\nДля бухгалтеров\nКорпоративным клиентам\nАкции\nПродукты re:Kassa\n8 (777) 777 9449\nhelp@rekassa.kz\nУчетная система\nКабинет бухгалтера\nre:Kassa для бизнеса\nРозыгрыш для бухгалтеров\nРозыгрыш призов\nОФД для бизнеса\nПрограмма лояльности\nОФД + касса\nУчетная система\nПрограмма лояльности\nОФД + касса\nКабинет бухгалтера\nКабинет бухгалтера\nРозыгрыш для бухгалтеров\nre:Kassa для бизнеса\nОФД для бизнеса\nKZ\nKZ\nRU\nВход в личный кабинет\nВход\nЗарегистрироваться\nАкции\nКорпоративным клиентам\nПлатформенная занятость\nДля бухгал",
+      "snapshot_hash": "0be7b4ad9150765a",
+      "text_excerpt": "RU\nВход в личный кабинет\nВход\nHalyk-Pos + Касса\nПлатформенная занятость\nЗарегистрироваться\nДля бухгалтеров\nКорпоративным клиентам\nАкции\nПродукты re:Kassa\n8 (777) 777 9449\nhelp@rekassa.kz\nУчетная система\nКабинет бухгалтера\nre:Kassa для бизнеса\nРозыгрыш для бухгалтеров\nРозыгрыш призов\nОФД для бизнеса\nПрограмма лояльности\nОФД + касса\nУчетная система\nПрограмма лояльности\nОФД + касса\nre:Kassa для бизнеса\nКабинет бухгалтера\nРозыгрыш для бухгалтеров\nРозыгрыш призов\nОФД для бизнеса\nKZ\nKZ\nRU\nВход в личный кабинет\nВход\nЗарегистрироваться\nАкции\nКорпоративным клиентам\nПлатформенная занятость\nДля бухгалтер",
       "extracted": {
         "tagline": "Вход в личный кабинет",
         "pricing_tiers": [
@@ -415,12 +404,12 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:17.892455+00:00",
+      "last_checked": "2026-06-03T08:59:54.201092+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
-      "snapshot_hash": "fc8a907f142b9a71",
+      "snapshot_hash": "4f9774f8d084c784",
       "text_excerpt": "Клиентам\nПродукты Kaspi.kz\nKaspi Gold\nKaspi Gold для ребенка\nKaspi Red\nKaspi Депозит\nНакопительный Депозит\nКредит на Покупки\nРассрочка\nКредит для ИП\nКредит Наличными\nСервисы Kaspi.kz\nМагазин\nTravel\nПлатежи\nМой Банк\nПереводы\nАкции\nГосуслуги\nОбъявления\nKaspi Гид\nБизнесу\nKaspi Pay\nБизнес Кредит\nКредит для ИП\nПродавать в Интернет-магазине на Kaspi.kz\nПринимать платежи с Kaspi.kz\nKaspi Гид\nKaspi Гид\nКлиентам\nБизнесу\nҚаз\nРус\nИскать\nВсе продукты Kaspi Pay\nKaspi Рестораны\nТоп 10 вопросов\nВидео\nУсловия\nПодключение\nПрием оплаты\nЧаевые\nВозврат\nИстория\nОтзывы\nДокументы\nKaspi Pay\n/\nKaspi Гид для Партнеров\n",
       "extracted": {
         "tagline": "Kaspi Gold для ребенка",
@@ -446,7 +435,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:20.352275+00:00",
+      "last_checked": "2026-06-03T08:59:56.267848+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -471,11 +460,11 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:22.476529+00:00",
+      "last_checked": "2026-06-03T08:59:58.092866+00:00",
       "fetched_urls": [
         "https://eda.yandex.kz/"
       ],
-      "snapshot_hash": "fb7d93f75e7ce21d",
+      "snapshot_hash": "17bebf7dc2376488",
       "text_excerpt": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ\nÐÐ°Ð¼ Ð¾ÑÐµÐ½Ñ Ð¶Ð°Ð»Ñ, Ð½Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ñ Ð²Ð°ÑÐµÐ³Ð¾ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ð° Ð¿Ð¾Ñ Ð¾Ð¶Ð¸ Ð½Ð° Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ðµ.Â Â\nÐÐ¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾Ð¹ÑÐ¸?\nÐ£ Ð²Ð°Ñ Ð¾ÑÐºÐ»ÑÑÐµÐ½Ð¾ Ð¸ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ JavaScript. ÐÐ¾ Ð½Ð°Ð¶Ð°ÑÐ¸Ñ Ð²Ñ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð° Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ.Â\nÐÐ°Ðº Ð²ÐºÐ»ÑÑÐ¸ÑÑ JavaScript?\nÐ¯ Ð½Ðµ ÑÐ¾Ð±Ð¾ÑÂ\nÐÐ°Ð¶Ð¼Ð¸ÑÐµ, ÑÑÐ¾Ð±Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð¸ÑÑ\nYandex SmartCaptcha\nÐÑÐ»Ð¸ Ñ Ð²Ð°Ñ Ð²Ð¾Ð·Ð½Ð¸ÐºÐ»Ð¸ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ, Ð¿Ð¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²Ð¾ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµÑÑÂ\nÑÐ¾ÑÐ¼Ð¾",
       "extracted": {
         "tagline": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ",
@@ -498,7 +487,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-06-02T08:43:23.854732+00:00",
+      "last_checked": "2026-06-03T08:59:59.188755+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -526,7 +515,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-06-02T08:43:27.798437+00:00",
+      "last_checked": "2026-06-03T09:00:03.318367+00:00",
       "fetched_urls": [
         "https://isoft-shop.kz/iiko-restaurant"
       ],
@@ -553,7 +542,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-06-02T08:43:29.567778+00:00",
+      "last_checked": "2026-06-03T09:00:05.014384+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
