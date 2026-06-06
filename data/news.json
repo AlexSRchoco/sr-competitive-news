@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-06-05T08:11:41.834150+00:00",
+  "updated_at": "2026-06-06T06:56:52.258375+00:00",
   "lookback_days": 7,
-  "total": 0,
-  "by_competitor": {}
+  "total": 2,
+  "by_competitor": {
+    "Wolt": [
+      {
+        "title": "Glovo, Wolt и «Яндекс Еда» выкачали из казахстанцев почти 170 млрд тенге - Finratings",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEhOTGxHVW50RGIxckpiNl9ueWUtMEVkaGs3ejNqY25KM3pxTkE1T3Q5LXpERnhkZUxBRjdpQlR6OUJLamxHNE13VmEtYjhGeUVseGRyS053T3dsSTlNN1pZNUFUNXpiV0dXWW5mTUVsSE03dk9sUWJIY3JZVGE1bVpyWWxRM0c4RUdBXzUwZ2YxU0RFMkV6dXlIbnZHMFRyR18ySmRhY1JGVHp6SVBiatIBsAFBVV95cUxQWEhOTGxHVW50RGIxckpiNl9ueWUtMEVkaGs3ejNqY25KM3pxTkE1T3Q5LXpERnhkZUxBRjdpQlR6OUJLamxHNE13VmEtYjhGeUVseGRyS053T3dsSTlNN1pZNUFUNXpiV0dXWW5mTUVsSE03dk9sUWJIY3JZVGE1bVpyWWxRM0c4RUdBXzUwZ2YxU0RFMkV6dXlIbnZHMFRyR18ySmRhY1JGVHp6SVBiag?oc=5",
+        "source": "Finratings",
+        "published": "2026-06-05T17:50:00+00:00"
+      }
+    ],
+    "Yandex Eats": [
+      {
+        "title": "Glovo, Wolt и «Яндекс Еда» выкачали из казахстанцев почти 170 млрд тенге - Finratings",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEhOTGxHVW50RGIxckpiNl9ueWUtMEVkaGs3ejNqY25KM3pxTkE1T3Q5LXpERnhkZUxBRjdpQlR6OUJLamxHNE13VmEtYjhGeUVseGRyS053T3dsSTlNN1pZNUFUNXpiV0dXWW5mTUVsSE03dk9sUWJIY3JZVGE1bVpyWWxRM0c4RUdBXzUwZ2YxU0RFMkV6dXlIbnZHMFRyR18ySmRhY1JGVHp6SVBiatIBsAFBVV95cUxQWEhOTGxHVW50RGIxckpiNl9ueWUtMEVkaGs3ejNqY25KM3pxTkE1T3Q5LXpERnhkZUxBRjdpQlR6OUJLamxHNE13VmEtYjhGeUVseGRyS053T3dsSTlNN1pZNUFUNXpiV0dXWW5mTUVsSE03dk9sUWJIY3JZVGE1bVpyWWxRM0c4RUdBXzUwZ2YxU0RFMkV6dXlIbnZHMFRyR18ySmRhY1JGVHp6SVBiag?oc=5",
+        "source": "Finratings",
+        "published": "2026-06-05T17:50:00+00:00"
+      }
+    ]
+  }
 }
