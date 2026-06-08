@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T07:59:07.060833+00:00",
+  "updated_at": "2026-06-08T08:59:16.455400+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-06-07T07:57:51.787931+00:00",
+      "last_checked": "2026-06-08T08:58:21.905080+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-06-07T07:57:56.617175+00:00",
+      "last_checked": "2026-06-08T08:58:28.198421+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,12 +70,12 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:57:59.139231+00:00",
+      "last_checked": "2026-06-08T08:58:30.437171+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
-      "snapshot_hash": "6993defc9fd9e4a1",
-      "text_excerpt": "Smart solution for modern restaurants to grow\nWe are a Czech company that has been helping restaurants with digitization, increasing profits and reducing costs for four years using tools such as digital menu, QR orders and QR payments from the table, self-delivery of food, loyalty program, table reservations, hotel room orders and feedback collection.\nMORE THAN 6000+ BUSINESSES ALREADY USE CHOICE AROUND THE WORLD\nAbout Choice\nChoice provides effective and modern tools for all type of restaurants worldwide\n20 000+\nvenues are\nalready using Choice\n25+\ncountries of the world\n$ 10M+\nin sales\nper ye",
+      "snapshot_hash": "a5583c62993b2781",
+      "text_excerpt": "Smart solution for modern restaurants to grow\nWe are a Czech company that has been helping restaurants with digitization, increasing profits and reducing costs for four years using tools such as digital menu, QR orders and QR payments from the table, self-delivery of food, loyalty program, table reservations, hotel room orders and feedback collection.\nMORE THAN 6000+ BUSINESSES ALREADY USE CHOICE AROUND THE WORLD\nAbout Choice\nChoice provides effective and modern tools for all type of restaurants worldwide\n20 000+\n          venues are \nalready using Choice          \n        \n25+\ncountries of th",
       "extracted": {
         "tagline": "Smart solution for modern restaurants to grow",
         "pricing_tiers": [],
@@ -104,12 +104,12 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:04.101271+00:00",
+      "last_checked": "2026-06-08T08:58:35.232007+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://iiko.splus.kz/prices/"
       ],
-      "snapshot_hash": "2d0a461af39624a0",
+      "snapshot_hash": "bba7eff7775baa48",
       "text_excerpt": "Для обеспечения оптимальной работы и улучшения пользовательского опыта на сайте используются технологии cookie, в том числе сервиса Яндекс.Метрика. Продолжая пользоваться сайтом, Вы соглашаетесь с размещением cookie-файлов на Вашем устройстве на условиях, изложенных в Политике обработки персональных данных\nДоставка готовых блюд\niiko помогает обеспечить четкое выполнение стандартов на всех участках бизнеса и организовать эффективную работу всех подразделений, экономя каждую секунду и не допуская ошибок.\nСтоловая на предприятии или в бизнес-центре\niiko поможет наладить эффективную работу столово",
       "extracted": {
         "tagline": "Доставка готовых блюд",
@@ -140,7 +140,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:07.711704+00:00",
+      "last_checked": "2026-06-08T08:58:37.775436+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -162,7 +162,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:12.990461+00:00",
+      "last_checked": "2026-06-08T08:58:40.562227+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -183,11 +183,11 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:14.743500+00:00",
+      "last_checked": "2026-06-08T08:58:42.744999+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
-      "snapshot_hash": "23359b3e86967a9a",
+      "snapshot_hash": "a175ffe1551760d3",
       "text_excerpt": "Прозрачная цена без повышений\nРаботает по модели подписки. Никогда не поднимаем цены для действующих клиентов\n20 000+ бизнесов, похожих на ваш, выбирают Paloma365\nЕдиная POS-система для комплексной автоматизации от закупа до повторных продаж от 4 590 тг/мес\nС 2013 года внедряем инновации, совершенствуем продукт вместе с клиентами и мировыми практиками\nРаботает по модели подписки. Никогда не поднимаем цены для действующих клиентов\nНастоящие люди с реальными решениями в любое время и в любой ситуации\nСамое большое количество интеграций со сторонними сервисами и программами\nОбеспечивает бесперебо",
       "extracted": {
         "tagline": "Прозрачная цена без повышений",
@@ -218,14 +218,14 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:17.721579+00:00",
+      "last_checked": "2026-06-08T08:58:46.051742+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
-      "snapshot_hash": "83905256015cc3ce",
-      "text_excerpt": "ÐÑÐ±Ð¾Ñ Ð¿Ð¾ Ð¼ÐµÐ½Ñ, Ð¾Ð¿Ð»Ð°ÑÐ°, Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°, ÑÐ°Ð¼Ð¾Ð²ÑÐ²Ð¾Ð·\nÐÐ±ÑÐ»ÑÐ¶Ð¸Ð²Ð°Ð½Ð¸Ðµ ÐºÐ»Ð¸ÐµÐ½ÑÐ¾Ð² Ð² Ð¿Ð¸ÐºÐ¾Ð²ÑÐµ ÑÐ°ÑÑ\nÐÐ»Ñ ÑÐ»ÑÑÐ°ÐµÐ², ÐºÐ¾Ð³Ð´Ðµ Ð½Ðµ Ð½ÑÐ¶Ð½Ð¾ Ð±ÑÐ¼Ð°Ð¶Ð½Ð¾Ðµ Ð¼ÐµÐ½Ñ\nÐÐ¾Ð½ÑÑÐ½ÑÐµ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ñ, Ð°ÐºÑÐ¸Ð¾Ð½Ð½ÑÐµ Ð¿ÑÐµÐ´Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ, ÐºÐ¾Ð¼Ð±Ð¾\nÐÐ±ÑÐ»ÑÐ¶Ð¸Ð²Ð°Ð½Ð¸Ðµ ÐºÐ»Ð¸ÐµÐ½ÑÐ¾Ð² Ð² Ð¿Ð¸ÐºÐ¾Ð²ÑÐµ ÑÐ°ÑÑ\nÐÐ°Ð³Ð»ÑÐ´Ð½Ð°Ñ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾Â Ð·Ð°ÐºÐ°Ð·Ðµ Ð´Ð»ÑÂ Ð³Ð¾ÑÑÑ\nÐ¡Ñ ÐµÐ¼Ð° Ð·Ð°Ð»Ð°, Ð·Ð°ÐºÐ°Ð·Ñ, Ð±Ð¾Ð½ÑÑÑ Ð² CRM, ÑÐµÐºÐ¸, 3 ÑÐ¸Ð¿Ð° Ð¾Ð¿Ð»Ð°Ñ\nÐ Ð°Ð±Ð¾ÑÐ° Ñ ÑÐ¾Ð±ÑÑÐ²ÐµÐ½Ð½ÑÐ¼Ð¸ ÐºÑÑÑÐµÑÐ°Ð¼Ð¸ Ð¸ Ð¸Ð½ÑÐµÐ³ÑÐ°ÑÐ¸Ñ\nÐÐ°ÐºÐ°Ð· Ð¾Ñ ÑÑÐ¾Ð»Ð¸ÐºÐ° Ð² ÐºÑÑ Ð½Ñ. ÐÑÐµÑÐ",
+      "snapshot_hash": "8dbae7d68c8067c7",
+      "text_excerpt": "- ÐÑÐ±Ð¾Ñ Ð¿Ð¾ Ð¼ÐµÐ½Ñ, Ð¾Ð¿Ð»Ð°ÑÐ°, Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°, ÑÐ°Ð¼Ð¾Ð²ÑÐ²Ð¾Ð· \n- ÐÐ±ÑÐ»ÑÐ¶Ð¸Ð²Ð°Ð½Ð¸Ðµ ÐºÐ»Ð¸ÐµÐ½ÑÐ¾Ð² Ð² Ð¿Ð¸ÐºÐ¾Ð²ÑÐµ ÑÐ°ÑÑ \n- ÐÐ»Ñ ÑÐ»ÑÑÐ°ÐµÐ², ÐºÐ¾Ð³Ð´Ðµ Ð½Ðµ Ð½ÑÐ¶Ð½Ð¾ Ð±ÑÐ¼Ð°Ð¶Ð½Ð¾Ðµ Ð¼ÐµÐ½Ñ \n- ÐÐ¾Ð½ÑÑÐ½ÑÐµ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ñ, Ð°ÐºÑÐ¸Ð¾Ð½Ð½ÑÐµ Ð¿ÑÐµÐ´Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ, ÐºÐ¾Ð¼Ð±Ð¾ \n- ÐÐ±ÑÐ»ÑÐ¶Ð¸Ð²Ð°Ð½Ð¸Ðµ ÐºÐ»Ð¸ÐµÐ½ÑÐ¾Ð² Ð² Ð¿Ð¸ÐºÐ¾Ð²ÑÐµ ÑÐ°ÑÑ \n- ÐÐ°Ð³Ð»ÑÐ´Ð½Ð°Ñ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾Â Ð·Ð°ÐºÐ°Ð·Ðµ Ð´Ð»ÑÂ Ð³Ð¾ÑÑÑ \n- Ð¡Ñ ÐµÐ¼Ð° Ð·Ð°Ð»Ð°, Ð·Ð°ÐºÐ°Ð·Ñ, Ð±Ð¾Ð½ÑÑÑ Ð² CRM, ÑÐµÐºÐ¸, 3 ÑÐ¸Ð¿Ð° Ð¾Ð¿Ð»Ð°Ñ \n- Ð Ð°Ð±Ð¾ÑÐ° Ñ ÑÐ¾Ð±ÑÑÐ²ÐµÐ½Ð½ÑÐ¼Ð¸ ÐºÑÑÑÐµÑÐ°Ð¼Ð¸ Ð¸ Ð¸Ð½ÑÐµÐ³ÑÐ°ÑÐ¸Ñ \n- ÐÐ°ÐºÐ°Ð· Ð¾Ñ ÑÑÐ¾Ð»",
       "extracted": {
-        "tagline": "ÐÑÐ±Ð¾Ñ Ð¿Ð¾ Ð¼ÐµÐ½Ñ, Ð¾Ð¿Ð»Ð°ÑÐ°, Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°, ÑÐ°Ð¼Ð¾Ð²ÑÐ²Ð¾Ð·",
+        "tagline": "- ÐÑÐ±Ð¾Ñ Ð¿Ð¾ Ð¼ÐµÐ½Ñ, Ð¾Ð¿Ð»Ð°ÑÐ°, Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°, ÑÐ°Ð¼Ð¾Ð²ÑÐ²Ð¾Ð·",
         "pricing_tiers": [],
         "features": [
           "Лояльность / CRM"
@@ -243,7 +243,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:17.789152+00:00",
+      "last_checked": "2026-06-08T08:58:46.089261+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -265,13 +265,13 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:21.541497+00:00",
+      "last_checked": "2026-06-08T08:58:50.351563+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
       ],
-      "snapshot_hash": "152c2fa5037d067a",
-      "text_excerpt": "Акция \"штампики\", каждый десятый ланч в подарок. Гости возвращаются раз за разом\nСеть столовых в бизнес-центрах с жесткой конкуренцией за клиента. Нужно привлечь клиентов для постоянного посещения именно своих объектов\nУстановлен ProBonus, общая стоимость - в разы ниже, вся функциональность - такая же, как была ранее\nСеть быстрого питания с сотнями небольших объектов. Система лояльности уже есть, но стоит очень дорого — маржинальность микробизнеса не позволяет такое содержать\nУстановлен ProBonus, при внедрении сразу сделаны все необходимые настройки, чтобы система работала полностью сама и не ",
+      "snapshot_hash": "b7e27120609894ed",
+      "text_excerpt": "Акция \"штампики\", каждый десятый ланч в подарок. Гости возвращаются раз за разом\n     \nСеть столовых в бизнес-центрах с жесткой конкуренцией за клиента. Нужно привлечь клиентов для постоянного посещения именно своих объектов\n     \nУстановлен ProBonus, общая стоимость - в разы ниже, вся функциональность - такая же, как была ранее\n     \nСеть быстрого питания с сотнями небольших объектов. Система лояльности уже есть, но стоит очень дорого — маржинальность микробизнеса не позволяет такое содержать\n     \nУстановлен ProBonus, при внедрении сразу сделаны все необходимые настройки, чтобы система работ",
       "extracted": {
         "tagline": "Акция \"штампики\", каждый десятый ланч в подарок. Гости возвращаются раз за разом",
         "pricing_tiers": [
@@ -285,7 +285,7 @@
             "price_text": "3600 руб.",
             "value_numeric": 3600,
             "currency": "RUB",
-            "context": "0 руб. Лицензия на квартал - 10 320руб. Лицензия на месяц - 3600 руб. *Стоимость лицензии для подключения каждого дополнительного"
+            "context": "руб. Лицензия на квартал - 10 320руб.  Лицензия на месяц - 3600 руб.  *Стоимость лицензии для подключения каждого дополнительного"
           },
           {
             "price_text": "10 000 рублей",
@@ -297,13 +297,13 @@
             "price_text": "10 320руб.",
             "value_numeric": 10320,
             "currency": "RUB",
-            "context": ". Лицензия на 6 месяцев - 20 400 руб. Лицензия на квартал - 10 320руб. Лицензия на месяц - 3600 руб. *Стоимость лицензии для подклю"
+            "context": ". Лицензия на 6 месяцев - 20 400 руб. Лицензия на квартал - 10 320руб.  Лицензия на месяц - 3600 руб.  *Стоимость лицензии для подкл"
           },
           {
             "price_text": "20 400 руб.",
             "value_numeric": 20400,
             "currency": "RUB",
-            "context": "ента) Лицензия на год - 36 000 руб. Лицензия на 6 месяцев - 20 400 руб. Лицензия на квартал - 10 320руб. Лицензия на месяц - 3600 ру"
+            "context": "ента) Лицензия на год - 36 000 руб. Лицензия на 6 месяцев - 20 400 руб. Лицензия на квартал - 10 320руб.  Лицензия на месяц - 3600 р"
           },
           {
             "price_text": "36 000 руб.",
@@ -334,7 +334,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:23.123474+00:00",
+      "last_checked": "2026-06-08T08:58:52.047640+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -366,7 +366,7 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:25.562891+00:00",
+      "last_checked": "2026-06-08T08:58:55.104926+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
@@ -415,12 +415,12 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:37.633616+00:00",
+      "last_checked": "2026-06-08T08:59:04.396530+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
-      "snapshot_hash": "7376206a0f7047c8",
+      "snapshot_hash": "809b9265905cb525",
       "text_excerpt": "Клиентам\nПродукты Kaspi.kz\nKaspi Gold\nKaspi Gold для ребенка\nKaspi Red\nKaspi Депозит\nНакопительный Депозит\nКредит на Покупки\nРассрочка\nКредит для ИП\nКредит Наличными\nСервисы Kaspi.kz\nМагазин\nTravel\nПлатежи\nМой Банк\nПереводы\nАкции\nГосуслуги\nОбъявления\nKaspi Гид\nБизнесу\nKaspi Pay\nБизнес Кредит\nКредит для ИП\nПродавать в Интернет-магазине на Kaspi.kz\nПринимать платежи с Kaspi.kz\nKaspi Гид\nKaspi Гид\nКлиентам\nБизнесу\nҚаз\nРус\nИскать\nВсе продукты Kaspi Pay\nKaspi Рестораны\nТоп 10 вопросов\nВидео\nУсловия\nПодключение\nПрием оплаты\nЧаевые\nВозврат\nИстория\nОтзывы\nДокументы\nKaspi Pay\n/\nKaspi Гид для Партнеров\n",
       "extracted": {
         "tagline": "Kaspi Gold для ребенка",
@@ -431,7 +431,6 @@
         ],
         "integrations": [
           "iiko",
-          "Paloma",
           "Kaspi"
         ],
         "notable_clients": [],
@@ -446,11 +445,11 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:38.917162+00:00",
+      "last_checked": "2026-06-08T08:59:06.454222+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
-      "snapshot_hash": "4d3014905b3cd266",
+      "snapshot_hash": "e2b7b9c3a8263fed",
       "text_excerpt": "Привлекайте голодных клиентов и развивайте свой бизнес с помощью Wolt\nСтаньте партнером Wolt и обслуживайте больше голодных клиентов в вашем городе.\nПочему с нами выгодно сотрудничать?\nБольше бизнеса без дополнительных затрат\nПовысьте прибыль своего ресторана с Wolt. Дополнительные повара, персонал или места для клиентов не требуются. Мы помогаем вам максимально раскрыть свой потенциал.\nДоставка мирового класса и местная поддержка\nWolt свяжет вас с курьерами-партнерами, которые доставят ваши заказы за 30 минут. Кроме того, наша служба поддержки может помочь на любом доступном языке в любое вре",
       "extracted": {
         "tagline": "Привлекайте голодных клиентов и развивайте свой бизнес с помощью Wolt",
@@ -471,11 +470,11 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:40.684184+00:00",
+      "last_checked": "2026-06-08T08:59:08.427544+00:00",
       "fetched_urls": [
         "https://eda.yandex.kz/"
       ],
-      "snapshot_hash": "b84f9b027f31ba78",
+      "snapshot_hash": "932e9f3c1872387f",
       "text_excerpt": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ\nÐÐ°Ð¼ Ð¾ÑÐµÐ½Ñ Ð¶Ð°Ð»Ñ, Ð½Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ñ Ð²Ð°ÑÐµÐ³Ð¾ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ð° Ð¿Ð¾Ñ Ð¾Ð¶Ð¸ Ð½Ð° Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ðµ.Â Â\nÐÐ¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾Ð¹ÑÐ¸?\nÐ£ Ð²Ð°Ñ Ð¾ÑÐºÐ»ÑÑÐµÐ½Ð¾ Ð¸ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ JavaScript. ÐÐ¾ Ð½Ð°Ð¶Ð°ÑÐ¸Ñ Ð²Ñ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð° Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ.Â\nÐÐ°Ðº Ð²ÐºÐ»ÑÑÐ¸ÑÑ JavaScript?\nÐ¯ Ð½Ðµ ÑÐ¾Ð±Ð¾ÑÂ\nÐÐ°Ð¶Ð¼Ð¸ÑÐµ, ÑÑÐ¾Ð±Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð¸ÑÑ\nYandex SmartCaptcha\nÐÑÐ»Ð¸ Ñ Ð²Ð°Ñ Ð²Ð¾Ð·Ð½Ð¸ÐºÐ»Ð¸ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ, Ð¿Ð¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²Ð¾ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµÑÑÂ\nÑÐ¾ÑÐ¼Ð¾",
       "extracted": {
         "tagline": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ",
@@ -498,7 +497,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-06-07T07:58:41.992077+00:00",
+      "last_checked": "2026-06-08T08:59:10.107713+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -526,7 +525,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-06-07T07:58:47.168927+00:00",
+      "last_checked": "2026-06-08T08:59:14.715250+00:00",
       "fetched_urls": [
         "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
@@ -554,14 +553,18 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-06-07T07:59:07.060748+00:00",
-      "fetched_urls": [],
-      "snapshot_hash": null,
-      "text_excerpt": null,
+      "last_checked": "2026-06-08T08:59:16.455230+00:00",
+      "fetched_urls": [
+        "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
+      ],
+      "snapshot_hash": "d24b4bbf9f0dbe66",
+      "text_excerpt": "IT и стартапы\nФинансы\nНовое\nIT и стартапы\nФинансы\nКонвертер\nО проекте\nРеклама\nИскать в:\nСтатьях\nКурсах\nВакансиях\nНовое\nIT и стартапы\nФинансы\nО редакции\nРеклама\nГлавная страница\n/\nТеги\nChoco Smart Restaurant: последние новости в Казахстане и мире\n19 ноября 2024\nДелимся опытом\nРесторан 2.0: эксперты рассказали, как правильно автоматизировать работу гастробизнеса\nЭксперты говорили об ИТ-решениях, которые облегчают жизнь и ресторану, и гостю: начиная с меню и заканчивая доставкой заказа. Приводим основные тезисы их выступлений.\n30 июля 2024\nКейсы\nУлучшение клиентского сервиса и повышение доходност",
       "extracted": {
-        "tagline": null,
+        "tagline": "IT и стартапы",
         "pricing_tiers": [],
-        "features": [],
+        "features": [
+          "AI / ML"
+        ],
         "integrations": [],
         "notable_clients": [],
         "recent_news_or_changes": null
