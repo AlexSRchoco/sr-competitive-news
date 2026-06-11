@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T08:12:22.413062+00:00",
+  "updated_at": "2026-06-11T08:49:36.563267+00:00",
   "lookback_days": 7,
-  "total": 2,
+  "total": 3,
   "by_competitor": {
     "Wolt": [
       {
@@ -17,6 +17,14 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcUJiRFVDQVN3NnBUVVBIT294NnZZM1VFSXg2TEdSalRWMkRndGNFWGpNZlQ5R1RaSDViRWttR0tXVzZsTWo1cU1zdW1Uc1J5eVhTcW9qek5wNVlSeVVLMW5HSm5XYUlUMXF6TWNNbF9sOVdVLXpZWl94czVZcUtFOUlXUGxtRlR3VmdYRzBYaWpNQTQ5dndBNlJMby1ack1VS09BVXk3bGhmQmJW0gGwAUFVX3lxTFBYSE5MbEdVbnREYjFySmI2X255ZS0wRWRoazd6M2pjbkozenFOQTVPdDktekRGeGRlTEFGN2lCVHo5QktqbEc0TXdWYS1iOEZ5RWx4ZHJLTndPd2xJOU03Wlk1QVQ1emJXR1dZbmZNRWxITTd2T2xRYkhjcllUYTVtWnJZbFEzRzhFR0FfNTBnZjFTREUyRXp1eUhudkcwVHJHXzJKZGFjUkZUenpJUGJq?oc=5",
         "source": "Finratings",
         "published": "2026-06-05T17:50:00+00:00"
+      }
+    ],
+    "Glovo": [
+      {
+        "title": "Секс-шопы стали самым быстрорастущим направлением у Glovo в Казахстане - Kursiv Media",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNazBJTHl0U0ZtUG9ueldfdGNTX2Nsc1dJSzNuUnFVLUcyZTVpeDJGMjJSUnQ2Vm9OYjRXQ1puSFFjTlRsV1FaQVhOMUNJVWRVRkFVX0lMZHduWE91QnFObGo3alFpdk9oQTZsSk9RZVhUZ1JVRndEWXF3SzFTd1BHYjBkSDJBY2w3R0x4dm5zU3BNNVF3aEthbVdraFpIOFN1LTFiU0NHc29tUGNqWFk3U3BR0gG3AUFVX3lxTFBuTW1iNjBnaGxhR0RDNU91dHBESVdQMVhuM0FsR19xTVBGU2M0b0l6bl91YjZCbnlmZHJYSEhQUzB0dnhfakFuWlE5b2JwbzU3cWJscXhOOVdkR1ZodEsyY2VBX2tyV3lrUFBEX0otVDY3SXdaSGUyWUMzbXNKVjF2WXh3OUo1UDMwWVMtYWVaU3h3blI3M2FXUnh6ajdvZFRPSVNDQ0p2S1BUVzJNcEJqWXdBb1BoMA?oc=5",
+        "source": "Kursiv Media",
+        "published": "2026-06-11T08:03:45+00:00"
       }
     ]
   }
