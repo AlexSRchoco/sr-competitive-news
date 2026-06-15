@@ -30,9 +30,12 @@ import yaml
 import requests
 import trafilatura
 
+from telegram_subs import get_all_chat_ids, send_message
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "vendors.json"
 CHANGES_FILE = ROOT / "data" / "changes.json"
+SUBS_FILE = ROOT / "data" / "subscribers.json"
 VENDORS_CFG = Path(__file__).parent / "vendors.yaml"
 
 HTTP_HEADERS = {
@@ -325,19 +328,18 @@ def diff_vendors(old, new):
         if o_ex.get("tagline") and n_ex.get("tagline") and o_ex["tagline"][:100] != n_ex["tagline"][:100]:
             changes.append(f"📣 {name}: изменился заголовок страницы")
 
-        # Catch-all if hash differs but nothing else detected
-        if o_rec.get("snapshot_hash") != n_rec.get("snapshot_hash"):
-            recent_changes = [c for c in changes if name in c]
-            if not recent_changes:
-                changes.append(f"🔄 {name}: контент изменился (детали не извлечены heuristic-парсером)")
+        # Если hash изменился, но ничего конкретного не найдено — это обычно шум
+        # (трекинг-параметры, динамические даты, рекламные блоки). Молчим.
 
     return changes
 
 
 def send_telegram_changes(change_list, today_iso):
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_ids = os.environ.get("TELEGRAM_CHAT_IDS", "").strip()
-    if not token or not chat_ids or not change_list:
+    if not token or not change_list:
+        return
+    chat_ids = get_all_chat_ids(SUBS_FILE)
+    if not chat_ids:
         return
     msg = f"<b>🔔 SR Monitor — изменения у конкурентов · {today_iso}</b>\n\n"
     msg += "\n".join(f"• {c}" for c in change_list[:25])
@@ -345,15 +347,11 @@ def send_telegram_changes(change_list, today_iso):
         msg += f"\n\n…ещё {len(change_list)-25} изменений (см. сайт)"
     if len(msg) > 4000:
         msg = msg[:3950] + "\n\n…(обрезано)"
-    for chat_id in [c.strip() for c in chat_ids.split(",") if c.strip()]:
-        try:
-            requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={"chat_id": chat_id, "text": msg, "parse_mode": "HTML", "disable_web_page_preview": True},
-                timeout=30,
-            )
-        except Exception as e:
-            print(f"  Telegram error: {e}", flush=True)
+    sent = 0
+    for chat_id in chat_ids:
+        if send_message(token, chat_id, msg):
+            sent += 1
+    print(f"  Changes alert sent to {sent}/{len(chat_ids)} chat(s).", flush=True)
 
 
 def main():
