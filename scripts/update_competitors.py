@@ -18,8 +18,11 @@ from pathlib import Path
 import feedparser
 import requests
 
+from telegram_subs import process_commands, get_all_chat_ids, send_message
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.json"
+SUBS_FILE = ROOT / "data" / "subscribers.json"
 
 # ----------------------------- COMPETITORS -----------------------------
 # Tweak this list to track different vendors. Each entry: name + Russian/English search query
@@ -152,9 +155,12 @@ def summarize_with_claude(news_by_competitor):
 # ----------------------------- TELEGRAM -----------------------------
 def send_telegram_digest(news_by_competitor):
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_ids = os.environ.get("TELEGRAM_CHAT_IDS", "").strip()
-    if not token or not chat_ids:
-        print("Telegram secrets missing — skipping digest send.", flush=True)
+    if not token:
+        print("TELEGRAM_BOT_TOKEN missing — skipping digest send.", flush=True)
+        return
+    chat_ids = get_all_chat_ids(SUBS_FILE)
+    if not chat_ids:
+        print("No chat_ids configured (env or subscribers). Skipping.", flush=True)
         return
 
     total = sum(len(items) for items in news_by_competitor.values())
@@ -185,29 +191,20 @@ def send_telegram_digest(news_by_competitor):
     if len(msg) > 4000:
         msg = msg[:3950] + "\n\n…<i>(сводка обрезана)</i>"
 
-    for chat_id in [c.strip() for c in chat_ids.split(",") if c.strip()]:
-        try:
-            r = requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={
-                    "chat_id": chat_id,
-                    "text": msg,
-                    "parse_mode": "HTML",
-                    "disable_web_page_preview": True,
-                },
-                timeout=30,
-            )
-            if r.status_code != 200:
-                print(f"  Telegram {chat_id}: {r.status_code} {r.text[:200]}", flush=True)
-            else:
-                print(f"  Telegram {chat_id}: ok", flush=True)
-        except Exception as e:
-            print(f"  Telegram {chat_id} error: {e}", flush=True)
+    sent = 0
+    for chat_id in chat_ids:
+        if send_message(token, chat_id, msg):
+            sent += 1
+    print(f"  Digest sent to {sent}/{len(chat_ids)} chat(s).", flush=True)
 
 # ----------------------------- MAIN -----------------------------
 def main():
     print(f"Run started: {dt.datetime.now(dt.timezone.utc).isoformat()}", flush=True)
     print(f"Tracking {len(COMPETITORS)} competitors, lookback {LOOKBACK_DAYS} days.", flush=True)
+
+    # Process /start, /stop, /help commands from Telegram (auto-subscribe)
+    print("Processing Telegram commands...", flush=True)
+    process_commands(SUBS_FILE)
 
     news_by_competitor = {}
     for comp in COMPETITORS:
