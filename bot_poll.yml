@@ -1,0 +1,47 @@
+name: Telegram Bot Q&A Poller
+
+# Каждые 15 минут проверяет новые сообщения в боту, отвечает на вопросы.
+# Cron 15-минутный укладывается в бесплатные 2000 мин/мес GitHub Actions
+# (≈ 2880 запусков × 15 сек ≈ 720 минут/мес).
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install minimal deps
+        run: pip install requests
+
+      - name: Poll Telegram bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+        run: python scripts/poll_bot.py
+
+      - name: Commit subscribers state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status --porcelain data/subscribers.json) ]]; then
+            git add data/subscribers.json
+            git commit -m "🤖 Bot poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "No subscriber state changes."
+          fi
