@@ -1,4 +1,17 @@
 {
-  "last_update_id": 78992256,
-  "subscribers": {}
+  "last_update_id": 78992260,
+  "subscribers": {
+    "246378980": {
+      "name": "Artur",
+      "username": "araarab",
+      "type": "private",
+      "subscribed_at": "2026-06-16T07:51:21.640672+00:00"
+    },
+    "1763745925": {
+      "name": "Чингиз",
+      "username": "bsknvchingiz",
+      "type": "private",
+      "subscribed_at": "2026-06-16T07:51:22.178213+00:00"
+    }
+  }
 }

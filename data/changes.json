@@ -1,6 +1,18 @@
 {
   "days": [
     {
+      "date": "2026-06-16",
+      "changes": [
+        "✨ Choice QR: новая фича — Аналитика / Dashboard",
+        "✨ Choice QR: новая фича — AI / ML",
+        "✨ Choice QR: новая фича — Лояльность / CRM",
+        "✨ Choice QR: новая фича — QR-оплата",
+        "✨ Choice QR: новая фича — Бронирование",
+        "🔌 Choice QR: новая интеграция — Google Pay",
+        "🔌 Choice QR: новая интеграция — Apple Pay"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "changes": [
         "➖ Choice QR: убрали упоминание — Лояльность / CRM",
