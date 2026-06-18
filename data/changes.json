@@ -1,6 +1,12 @@
 {
   "days": [
     {
+      "date": "2026-06-18",
+      "changes": [
+        "🔌 Kaspi Рестораны: новая интеграция — Paloma"
+      ]
+    },
+    {
       "date": "2026-06-16",
       "changes": [
         "✨ Choice QR: новая фича — Аналитика / Dashboard",
