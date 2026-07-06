@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T07:33:22.093796+00:00",
+  "updated_at": "2026-07-06T08:27:26.488164+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-07-05T07:32:29.522505+00:00",
+      "last_checked": "2026-07-06T08:26:01.218512+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-07-05T07:32:33.959070+00:00",
+      "last_checked": "2026-07-06T08:26:05.708472+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:36.048678+00:00",
+      "last_checked": "2026-07-06T08:26:07.692166+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,13 +104,13 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:41.922046+00:00",
+      "last_checked": "2026-07-06T08:26:13.633968+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://pos-systems.kz/",
         "https://iiko.splus.kz/prices/"
       ],
-      "snapshot_hash": "821f0c1b3d5ab86f",
+      "snapshot_hash": "e3718432abd4f84f",
       "text_excerpt": "Для обеспечения оптимальной работы и улучшения пользовательского опыта на сайте используются технологии cookie, в том числе сервиса Яндекс.Метрика. Продолжая пользоваться сайтом, Вы соглашаетесь с размещением cookie-файлов на Вашем устройстве на условиях, изложенных в Политике обработки персональных данных\nДоставка готовых блюд\niiko помогает обеспечить четкое выполнение стандартов на всех участках бизнеса и организовать эффективную работу всех подразделений, экономя каждую секунду и не допуская ошибок.\nСтоловая на предприятии или в бизнес-центре\niiko поможет наладить эффективную работу столово",
       "extracted": {
         "tagline": "Доставка готовых блюд",
@@ -141,7 +141,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:46.129083+00:00",
+      "last_checked": "2026-07-06T08:26:16.981821+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -165,75 +165,15 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:50.582699+00:00",
-      "fetched_urls": [
-        "https://posterpos.kz/",
-        "https://posterpos.kz/tarify-avtomatizacii/"
-      ],
-      "snapshot_hash": "e85a89a274acb738",
-      "text_excerpt": "Программа автоматизации общепита: ресторана кафе кофейни кондитерской фастфуда доставки еды\n15 дней\nбесплатно\nот 8640 ₸\nв месяц\n15 000\nзаведений с нами\n20 минут\nна установку\nPoster — доступная программа автоматизации\nПрограмма проста в настройке и интуитивно понятна в использовании. Работает практически на любом оборудовании и операционных системах, что сильно снижает начальную стоимость внедрения и дальнейшую эксплуатацию.\nОбучаем и поддерживаем\nМы сделали максимально удобный и понятный интерфейс, что упростит работу в POSter. Система сама подскажет, что нужно сделать на начальном этапе — с о",
+      "last_checked": "2026-07-06T08:26:58.412567+00:00",
+      "fetched_urls": [],
+      "snapshot_hash": null,
+      "text_excerpt": null,
       "extracted": {
-        "tagline": "Программа автоматизации общепита: ресторана кафе кофейни кондитерской фастфуда доставки еды",
-        "pricing_tiers": [
-          {
-            "price_text": "от 8640 ₸\nв месяц",
-            "value_numeric": 8640,
-            "currency": "KZT",
-            "context": "офейни кондитерской фастфуда доставки еды 15 дней бесплатно от 8640 ₸ в месяц 15 000 заведений с нами 20 минут на установку Poster — дост"
-          },
-          {
-            "price_text": "9 600 ₸",
-            "value_numeric": 9600,
-            "currency": "KZT",
-            "context": "улярные обновления Старт 8 640 ₸ в месяц, при оплате за год 9 600 ₸ помесячная оплата - 50 товаров и техкарт -"
-          },
-          {
-            "price_text": "15 660 ₸\nв месяц",
-            "value_numeric": 15660,
-            "currency": "KZT",
-            "context": "рт - Бронирование столиков - Расширенные права доступа Мини 15 660 ₸ в месяц, при оплате за год 17 400 ₸ помесячная оплата - 100 товаров"
-          },
-          {
-            "price_text": "17 400 ₸",
-            "value_numeric": 17400,
-            "currency": "KZT",
-            "context": "нные права доступа Мини 15 660 ₸ в месяц, при оплате за год 17 400 ₸ помесячная оплата - 100 товаров и техкарт -"
-          },
-          {
-            "price_text": "21 060 ₸\nв месяц",
-            "value_numeric": 21060,
-            "currency": "KZT",
-            "context": "- Бронирование столиков - Расширенные права доступа Бизнес 21 060 ₸ в месяц, при оплате за год 23 400 ₸ помесячная оплата - 300 товаров"
-          },
-          {
-            "price_text": "23 400 ₸",
-            "value_numeric": 23400,
-            "currency": "KZT",
-            "context": "ые права доступа Бизнес 21 060 ₸ в месяц, при оплате за год 23 400 ₸ помесячная оплата - 300 товаров и техкарт -"
-          },
-          {
-            "price_text": "31 860 ₸\nв месяц",
-            "value_numeric": 31860,
-            "currency": "KZT",
-            "context": "арт - Бронирование столиков - Расширенные права доступа Про 31 860 ₸ в месяц, при оплате за год 35 400 ₸ помесячная оплата - 1 500 товар"
-          },
-          {
-            "price_text": "35 400 ₸",
-            "value_numeric": 35400,
-            "currency": "KZT",
-            "context": "енные права доступа Про 31 860 ₸ в месяц, при оплате за год 35 400 ₸ помесячная оплата - 1 500 товаров и техкарт -"
-          }
-        ],
-        "features": [
-          "POS / Касса",
-          "Учёт / ERP",
-          "Лояльность / CRM",
-          "Аналитика / Dashboard",
-          "Бронирование"
-        ],
-        "integrations": [
-          "Poster"
-        ],
+        "tagline": null,
+        "pricing_tiers": [],
+        "features": [],
+        "integrations": [],
         "notable_clients": [],
         "recent_news_or_changes": null
       }
@@ -246,7 +186,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:51.806733+00:00",
+      "last_checked": "2026-07-06T08:26:59.546300+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -282,7 +222,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:54.711232+00:00",
+      "last_checked": "2026-07-06T08:27:02.282386+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -307,7 +247,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:54.758278+00:00",
+      "last_checked": "2026-07-06T08:27:02.576670+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -329,7 +269,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:56.463172+00:00",
+      "last_checked": "2026-07-06T08:27:04.167179+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -350,7 +290,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:32:57.874990+00:00",
+      "last_checked": "2026-07-06T08:27:05.535627+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -382,7 +322,7 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:33:00.161632+00:00",
+      "last_checked": "2026-07-06T08:27:07.757399+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
@@ -431,12 +371,12 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:33:12.024424+00:00",
+      "last_checked": "2026-07-06T08:27:16.136992+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
-      "snapshot_hash": "92b94550dcac60c4",
+      "snapshot_hash": "cb61715d12576961",
       "text_excerpt": "Клиентам\nПродукты Kaspi.kz\nKaspi Gold\nKaspi Gold для ребенка\nKaspi Red\nKaspi Депозит\nНакопительный Депозит\nКредит на Покупки\nРассрочка\nКредит для ИП\nКредит Наличными\nСервисы Kaspi.kz\nМагазин\nTravel\nПлатежи\nМой Банк\nПереводы\nАкции\nГосуслуги\nОбъявления\nKaspi Гид\nБизнесу\nKaspi Pay\nБизнес Кредит\nКредит для ИП\nПродавать в Интернет-магазине на Kaspi.kz\nПринимать платежи с Kaspi.kz\nKaspi Гид\nKaspi Гид\nКлиентам\nБизнесу\nҚаз\nРус\nИскать\nВсе продукты Kaspi Pay\nKaspi Рестораны\nТоп 10 вопросов\nВидео\nУсловия\nПодключение\nПрием оплаты\nЧаевые\nВозврат\nИстория\nОтзывы\nДокументы\nKaspi Pay\n/\nKaspi Гид для Партнеров\n",
       "extracted": {
         "tagline": "Kaspi Gold для ребенка",
@@ -460,7 +400,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:33:13.402527+00:00",
+      "last_checked": "2026-07-06T08:27:17.906111+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -485,11 +425,11 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:33:14.959333+00:00",
+      "last_checked": "2026-07-06T08:27:19.611211+00:00",
       "fetched_urls": [
         "https://eda.yandex.kz/"
       ],
-      "snapshot_hash": "3b7d025d8ec7f4d3",
+      "snapshot_hash": "721675cb167b91ba",
       "text_excerpt": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ\nÐÐ°Ð¼ Ð¾ÑÐµÐ½Ñ Ð¶Ð°Ð»Ñ, Ð½Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ñ Ð²Ð°ÑÐµÐ³Ð¾ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ð° Ð¿Ð¾Ñ Ð¾Ð¶Ð¸ Ð½Ð° Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ðµ.Â Â\nÐÐ¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾Ð¹ÑÐ¸?\nÐ£ Ð²Ð°Ñ Ð¾ÑÐºÐ»ÑÑÐµÐ½Ð¾ Ð¸ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ JavaScript. ÐÐ¾ Ð½Ð°Ð¶Ð°ÑÐ¸Ñ Ð²Ñ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð° Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ.Â\nÐÐ°Ðº Ð²ÐºÐ»ÑÑÐ¸ÑÑ JavaScript?\nÐ¯ Ð½Ðµ ÑÐ¾Ð±Ð¾ÑÂ\nÐÐ°Ð¶Ð¼Ð¸ÑÐµ, ÑÑÐ¾Ð±Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð¸ÑÑ\nYandex SmartCaptcha\nÐÑÐ»Ð¸ Ñ Ð²Ð°Ñ Ð²Ð¾Ð·Ð½Ð¸ÐºÐ»Ð¸ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ, Ð¿Ð¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²Ð¾ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµÑÑÂ\nÑÐ¾ÑÐ¼Ð¾",
       "extracted": {
         "tagline": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ",
@@ -512,7 +452,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-07-05T07:33:16.294874+00:00",
+      "last_checked": "2026-07-06T08:27:20.807791+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -540,7 +480,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-07-05T07:33:20.603888+00:00",
+      "last_checked": "2026-07-06T08:27:24.926547+00:00",
       "fetched_urls": [
         "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
@@ -568,7 +508,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-07-05T07:33:22.093687+00:00",
+      "last_checked": "2026-07-06T08:27:26.487990+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
