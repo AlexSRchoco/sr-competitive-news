@@ -1,20 +1,12 @@
 {
-  "updated_at": "2026-07-10T07:41:00.807112+00:00",
+  "updated_at": "2026-07-11T06:18:26.066660+00:00",
   "lookback_days": 7,
-  "total": 2,
+  "total": 1,
   "by_competitor": {
     "Yandex Eats": [
       {
         "title": "Кому казахстанцы платят миллиарды за доставку еды? Кто владеет Glovo, Wolt, Яндекс Едой, Choco, Arbuz и MagnumGO - DigitalBusiness.kz",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeUR1WHJXemNCMjFfYW9CaFBCUjB4dVotd2hNVG5PRVNmdnZZVDUzRnBvazNhOW40UmpILUVVMnhaM0NVa3VfSzhuLTNBNEtpUmw0TTJhT1JjTVhXc1h1a3dwODh5SENvRF83RklRMDJIeEliYjVFcks0aWFVTHpQWFBlWHVwX24yT1A2WUJ3ZFo4NlNpYzRibXV5M0VEb1RSaEo5YTI0Uk5rWmJ0MWczRXozbk44aFVaLW50LWp4RXNBSHkzWkNPdEZyWGJnZkJFM1hwcWw4RjdBVGw3OFJ0Zkh0Y9IB6AFBVV95cUxOSjlWemh0S3VVdzNmWlRxb2k5T2hBUXdzVlVjSzVUWEFITFlyclIxUnFRbDU4NmRGSXNmdzRSLUd0RVZVYTJyZEVvbnhDMlMxdGgwR2Z1SkdldUZQMXNGdzE4TzlESXlLXzJaVmVQM2RYbTFwd2M3Z2gtdWRwb0cxRzFrTVhuTWRPNWpJRHJuS2NOeEFUVDlpZmYyei1pZ3JqOFIxSXVGTVd2a2FUMjB6d3M4YkVIUEc3STl2SDFONGlSeWxsT0ppTEVBRFNxSHhreGxDVGw1cFd5aFJ4ejBuUzZXSDVzeFJ3?oc=5",
-        "source": "DigitalBusiness.kz",
-        "published": "2026-07-09T06:38:11+00:00"
-      }
-    ],
-    "Glovo": [
-      {
-        "title": "Кому казахстанцы платят миллиарды за доставку еды? Кто владеет Glovo, Wolt, Яндекс Едой, Choco, Arbuz и MagnumGO - DigitalBusiness.kz",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSjlWemh0S3VVdzNmWlRxb2k5T2hBUXdzVlVjSzVUWEFITFlyclIxUnFRbDU4NmRGSXNmdzRSLUd0RVZVYTJyZEVvbnhDMlMxdGgwR2Z1SkdldUZQMXNGdzE4TzlESXlLXzJaVmVQM2RYbTFwd2M3Z2gtdWRwb0cxRzFrTVhuTWRPNWpJRHJuS2NOeEFUVDlpZmYyei1pZ3JqOFIxSXVGTVd2a2FUMjB6d3M4YkVIUEc3STl2SDFONGlSeWxsT0ppTEVBRFNxSHhreGxDVGw1cFd5aFJ4ejBuUzZXSDVzeFJ30gHoAUFVX3lxTE5KOVZ6aHRLdVV3M2ZaVHFvaTlPaEFRd3NWVWNLNVRYQUhMWXJyUjFScVFsNTg2ZEZJc2Z3NFItR3RFVlVhMnJkRW9ueEMyUzF0aDBHZnVKR2V1RlAxc0Z3MThPOURJeUtfMlpWZVAzZFhtMXB3YzdnaC11ZHBvRzFHMWtNWG5NZE81aklEcm5LY054QVRUOWlmZjJ6LWlncmo4UjFJdUZNV3ZrYVQyMHp3czhiRUhQRzdJOXZIMU40aVJ5bGxPSmlMRUFEU3FIeGt4bENUbDVwV3loUnh6MG5TNldINXN4Unc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPLW14T0xLNVdnWE02WUl5WkhONXhycnc3ZllfcjhWZ1U2OGtTOV9CcXNaeVZMS1FuR2xyUXFDVFVQU2J0SGlsOHU2bTZUNnZSeXplb2p0OTFLTm16bmRSQ2cxdTc5U3BRVXRYcXo1MU5jZjVFTjVDMHlyQ1lHYnAtUDhiMVJJaWhfLURNamVXRGo4bzRNZXlpNC0wTUNJOEQtdEVVOW14bTJpNnM4UHhsRGRNeU9mUkhNTzlmdEtQU3Z2bDBDeG1LUUl5N2ZYQ2JrWDY5dU1RUjktc0kzSWE5X0Zza9IB6AFBVV95cUxNaEdyQmFkVHJHVDl4ZG9uUEotZDZMUGp4MktKamxhSkFaR2IxN3NCVXNaUldIaThHZTNXbEp4OFo0ZXNSdHJEUWN5UzU5eDdCRnBlUDF4TjlaV0JzcFI2enowd0l4a09SRzg2NU5PRml2aFRTUGVUUlI5UW0tM2JJcXhlSlhOS2FjTzM5c2JvZEJ5bTU0dTZ0ZVFIYUU2d2UySV9RVk4wMC1LMGxENlJhd2FCazF3a2sxaWNmQlFKb052QzFhMWZMR3Zqc1NpTnVLQzNtdU54N05CRmFVbUxwQmFObVBEYloy?oc=5",
         "source": "DigitalBusiness.kz",
         "published": "2026-07-09T06:38:11+00:00"
       }
