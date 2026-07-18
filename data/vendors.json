@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T06:22:38.925177+00:00",
+  "updated_at": "2026-07-18T06:09:59.598483+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-07-17T06:21:19.990808+00:00",
+      "last_checked": "2026-07-18T06:08:53.318043+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-07-17T06:21:24.071519+00:00",
+      "last_checked": "2026-07-18T06:08:58.082838+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:26.038584+00:00",
+      "last_checked": "2026-07-18T06:09:00.693230+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,7 +104,7 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:31.506581+00:00",
+      "last_checked": "2026-07-18T06:09:08.483323+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://pos-systems.kz/",
@@ -141,7 +141,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:36.944004+00:00",
+      "last_checked": "2026-07-18T06:09:13.515195+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -165,7 +165,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:42.955600+00:00",
+      "last_checked": "2026-07-18T06:09:20.073603+00:00",
       "fetched_urls": [
         "https://posterpos.kz/",
         "https://posterpos.kz/tarify-avtomatizacii/"
@@ -246,7 +246,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:44.136577+00:00",
+      "last_checked": "2026-07-18T06:09:21.133505+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -290,7 +290,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:47.037565+00:00",
+      "last_checked": "2026-07-18T06:09:24.328942+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -315,7 +315,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:47.052227+00:00",
+      "last_checked": "2026-07-18T06:09:24.349669+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -337,7 +337,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:50.649075+00:00",
+      "last_checked": "2026-07-18T06:09:33.900123+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -406,7 +406,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:51.921004+00:00",
+      "last_checked": "2026-07-18T06:09:35.389712+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -438,7 +438,7 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:21:54.275201+00:00",
+      "last_checked": "2026-07-18T06:09:38.586322+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
@@ -487,12 +487,12 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:22:09.071464+00:00",
+      "last_checked": "2026-07-18T06:09:48.500705+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
-      "snapshot_hash": "8014a5a5cd4967c1",
+      "snapshot_hash": "cb61715d12576961",
       "text_excerpt": "Клиентам\nПродукты Kaspi.kz\nKaspi Gold\nKaspi Gold для ребенка\nKaspi Red\nKaspi Депозит\nНакопительный Депозит\nКредит на Покупки\nРассрочка\nКредит для ИП\nКредит Наличными\nСервисы Kaspi.kz\nМагазин\nTravel\nПлатежи\nМой Банк\nПереводы\nАкции\nГосуслуги\nОбъявления\nKaspi Гид\nБизнесу\nKaspi Pay\nБизнес Кредит\nКредит для ИП\nПродавать в Интернет-магазине на Kaspi.kz\nПринимать платежи с Kaspi.kz\nKaspi Гид\nKaspi Гид\nКлиентам\nБизнесу\nҚаз\nРус\nИскать\nВсе продукты Kaspi Pay\nKaspi Рестораны\nТоп 10 вопросов\nВидео\nУсловия\nПодключение\nПрием оплаты\nЧаевые\nВозврат\nИстория\nОтзывы\nДокументы\nKaspi Pay\n/\nKaspi Гид для Партнеров\n",
       "extracted": {
         "tagline": "Kaspi Gold для ребенка",
@@ -502,7 +502,6 @@
           "Чаевые"
         ],
         "integrations": [
-          "iiko",
           "Kaspi"
         ],
         "notable_clients": [],
@@ -517,7 +516,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:22:10.554716+00:00",
+      "last_checked": "2026-07-18T06:09:50.097772+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -542,11 +541,11 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:22:12.274218+00:00",
+      "last_checked": "2026-07-18T06:09:51.871493+00:00",
       "fetched_urls": [
         "https://eda.yandex.kz/"
       ],
-      "snapshot_hash": "0ba53f403bda9284",
+      "snapshot_hash": "8c2ae54925473f1a",
       "text_excerpt": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ\nÐÐ°Ð¼ Ð¾ÑÐµÐ½Ñ Ð¶Ð°Ð»Ñ, Ð½Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ñ Ð²Ð°ÑÐµÐ³Ð¾ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ð° Ð¿Ð¾Ñ Ð¾Ð¶Ð¸ Ð½Ð° Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ðµ.Â Â\nÐÐ¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾Ð¹ÑÐ¸?\nÐ£ Ð²Ð°Ñ Ð¾ÑÐºÐ»ÑÑÐµÐ½Ð¾ Ð¸ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ JavaScript. ÐÐ¾ Ð½Ð°Ð¶Ð°ÑÐ¸Ñ Ð²Ñ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð° Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ.Â\nÐÐ°Ðº Ð²ÐºÐ»ÑÑÐ¸ÑÑ JavaScript?\nÐ¯ Ð½Ðµ ÑÐ¾Ð±Ð¾ÑÂ\nÐÐ°Ð¶Ð¼Ð¸ÑÐµ, ÑÑÐ¾Ð±Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð¸ÑÑ\nYandex SmartCaptcha\nÐÑÐ»Ð¸ Ñ Ð²Ð°Ñ Ð²Ð¾Ð·Ð½Ð¸ÐºÐ»Ð¸ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ, Ð¿Ð¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²Ð¾ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµÑÑÂ\nÑÐ¾ÑÐ¼Ð¾",
       "extracted": {
         "tagline": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ",
@@ -569,7 +568,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-07-17T06:22:13.392775+00:00",
+      "last_checked": "2026-07-18T06:09:53.789996+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -597,14 +596,15 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-07-17T06:22:37.367814+00:00",
+      "last_checked": "2026-07-18T06:09:58.567843+00:00",
       "fetched_urls": [
+        "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
       ],
-      "snapshot_hash": "2861a963f34f612f",
-      "text_excerpt": "Современный ресторанный бизнес требует точности, оперативности и контроля на всех этапах работы. IIKO Restaurant – это передовая система автоматизации для ресторанов, кафе, баров и фастфуда, которая обеспечивает прозрачность бизнес-процессов, ускоряет обслуживание клиентов и увеличивает прибыльность бизнеса. ISOFT Казахстан предлагает профессиональное внедрение и поддержку IIKO, помогая рестораторам оптимизировать все аспекты управления заведением.",
+      "snapshot_hash": "28848ad66bbae30f",
+      "text_excerpt": "Ваша корзина\nВаша корзина пуста!\nДавай помогу тебе потратить деньги :)\nperson_addВойти / Зарегистрироваться\nКомпания ISOFT с 1998 года занимается разработкой, производством и дистрибуцией оборудования и программного обеспечения для автоматизации предприятий торговли,общественного питания и сферы услуг.\nЕСЛИ ВЫ ЕЩЕ НЕ ЯВЛЯЕТЕСЬ ПАРТНЕРОМ КОМПАНИИ ISOFT ТО СЕЙЧАС ЛУЧШЕЕ ВРЕМЯ, ЧТОБЫ НАЧАТЬ НАШУ ИСТОРИЮ УСПЕШНОГО СОТРУДНИЧЕСТВА!\nРазмер партнёрской скидки зависит от четко установленных и ясных показателей деятельности. Чем успешнее деятельность партнёра на рынке, тем выше размер скидки.\nВсем партн",
       "extracted": {
-        "tagline": "Современный ресторанный бизнес требует точности, оперативности и контроля на всех этапах работы. IIKO Restaurant – это передовая система автоматизации для ресторанов, кафе, баров и фастфуда, которая о",
+        "tagline": "Давай помогу тебе потратить деньги :)",
         "pricing_tiers": [],
         "features": [],
         "integrations": [
@@ -624,7 +624,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-07-17T06:22:38.925059+00:00",
+      "last_checked": "2026-07-18T06:09:59.598406+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
