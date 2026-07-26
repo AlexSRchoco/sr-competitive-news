@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-25T06:21:31.597678+00:00",
+  "updated_at": "2026-07-26T06:40:42.507295+00:00",
   "lookback_days": 7,
-  "total": 0,
-  "by_competitor": {}
+  "total": 1,
+  "by_competitor": {
+    "iiko": [
+      {
+        "title": "Kaspi.kz или Halyk Bank для ресторанов: разобрали где бизнес платит меньше комиссии - Finratings",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTdobk8zamRLRzR2LXV5MlFuWDZsWlV6UWp1RHpocUU1MUFiYzdHWGNMNURQZDdQWEJNRDdfWjdoSzBQTmtzVlJiR0RHZ25fRHF3Q3d2aFVnT3BxdEFnWXpXd2pVUGhsZEE5T0J5aTl2SHRDelhscUVvczQwMFRsOFgxTUVXZzV2WEdkMVQxYWs4TXYtd1NkY0MwUVVaNmhqYzRLb25maVVqeWhBWTg5MjdhZGFaaWJw0gG8AUFVX3lxTFA1aDNaakxhTkVGQ0FhTWk5QkdTbjBCejEyMzNRNVdFbkdBMURTQ0xfNWVLaEpQTFpZRHkwUy1JWWxuejJWdVlTSmp4SWh1X2Fua3R4N0pMcklnMkg0Q2h5Z0hLSG83ZEYzOXlqbWNieFdvOVpWdno5a1lfaDh4S3p3T1R4dE92RkUtUmt0NVp1b1gtNE1WMzZHZFhWRi0wWWtBNEVYYWFxWG5OT3hvdW1MWTg5MXVUT1ltdU5O?oc=5",
+        "source": "Finratings",
+        "published": "2026-07-24T06:41:45+00:00"
+      }
+    ]
+  }
 }
