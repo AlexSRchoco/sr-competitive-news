@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T06:40:42.507295+00:00",
+  "updated_at": "2026-07-27T07:37:42.260177+00:00",
   "lookback_days": 7,
-  "total": 1,
+  "total": 2,
   "by_competitor": {
     "iiko": [
       {
@@ -9,6 +9,14 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTdobk8zamRLRzR2LXV5MlFuWDZsWlV6UWp1RHpocUU1MUFiYzdHWGNMNURQZDdQWEJNRDdfWjdoSzBQTmtzVlJiR0RHZ25fRHF3Q3d2aFVnT3BxdEFnWXpXd2pVUGhsZEE5T0J5aTl2SHRDelhscUVvczQwMFRsOFgxTUVXZzV2WEdkMVQxYWs4TXYtd1NkY0MwUVVaNmhqYzRLb25maVVqeWhBWTg5MjdhZGFaaWJw0gG8AUFVX3lxTFA1aDNaakxhTkVGQ0FhTWk5QkdTbjBCejEyMzNRNVdFbkdBMURTQ0xfNWVLaEpQTFpZRHkwUy1JWWxuejJWdVlTSmp4SWh1X2Fua3R4N0pMcklnMkg0Q2h5Z0hLSG83ZEYzOXlqbWNieFdvOVpWdno5a1lfaDh4S3p3T1R4dE92RkUtUmt0NVp1b1gtNE1WMzZHZFhWRi0wWWtBNEVYYWFxWG5OT3hvdW1MWTg5MXVUT1ltdU5O?oc=5",
         "source": "Finratings",
         "published": "2026-07-24T06:41:45+00:00"
+      }
+    ],
+    "Yandex Eats": [
+      {
+        "title": "Кому казахстанцы платят миллиарды за доставку еды - DigitalBusiness.kz",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYkttY1dkNWg0TUxTRWVHeHFvY1cwNDFhT09mZHNKNC1jcHJwLWNmNnRDSS1MUlRqOUw0Nnh1U1pUWlAzbUlndzVnMjZVTVM2dTRTa2VSV2c5dkxxS3MtazUwS2VQbkdIc2JPcXlEc2dKbEdHemVVdWFkMTZvNUhaZVdqdVlwSGNaLVBoVUNfTFBJaHpFSW13c3NIZnlkS21fZDRaSXIzWEc5S1ZZSTE2RDRNc25GOU56NU5Va0pNRDZwajFXbXYzNGpISUNiZFkzQ05yLU04eUVEZHdKQmU5TlNFTdIB6AFBVV95cUxOVVl0eS1LdER6NUNBVzk1ZDVkRGdSTVowTzlmTi1lN2NJa0s3QjNFNFlDY0dFMG5ncE1OUzNsOEFNWURfcFJ1TEgzWGNCT2JVWUVXZGN1TUFUMDZnMFl5UEhEalRqM3RHYWtkb0FydWxSRFBlXzBVY0ZMVkxtNU9kUlp0aTdGS0t6Q2RlVWdpMVlwbWVkdWRHSkNqNmZmOHdCazl2T1NJMU9Ybk4xTUVYWDhZYjZtTG5PSGdmUWcwWDV3eUZ5VGk0T0NNUWswblpfV0lva0NHcnFId3hxMF84RlMxb0k0TmtY?oc=5",
+        "source": "DigitalBusiness.kz",
+        "published": "2026-07-26T07:36:11+00:00"
       }
     ]
   }
