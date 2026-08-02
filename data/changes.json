@@ -1,6 +1,18 @@
 {
   "days": [
     {
+      "date": "2026-08-02",
+      "changes": [
+        "✨ ISOFT (KZ): новая фича — Аналитика / Dashboard",
+        "✨ ISOFT (KZ): новая фича — Лояльность / CRM",
+        "✨ ISOFT (KZ): новая фича — Бронирование",
+        "🔌 ISOFT (KZ): новая интеграция — Glovo",
+        "🔌 ISOFT (KZ): новая интеграция — iiko",
+        "🔌 ISOFT (KZ): новая интеграция — Wolt",
+        "✨ Smart Restaurant by Choco: новая фича — AI / ML"
+      ]
+    },
+    {
       "date": "2026-08-01",
       "changes": [
         "📣 iiko: изменился заголовок страницы",
