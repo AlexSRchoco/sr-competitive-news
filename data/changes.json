@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-08-08",
+      "changes": [
+        "🔌 re:Kassa: новая интеграция — Apple Pay",
+        "🔌 re:Kassa: новая интеграция — Halyk",
+        "🔌 re:Kassa: новая интеграция — Google Pay",
+        "✨ ISOFT (KZ): новая фича — Аналитика / Dashboard",
+        "✨ ISOFT (KZ): новая фича — Лояльность / CRM",
+        "✨ ISOFT (KZ): новая фича — Бронирование",
+        "🔌 ISOFT (KZ): новая интеграция — iiko",
+        "🔌 ISOFT (KZ): новая интеграция — Wolt",
+        "🔌 ISOFT (KZ): новая интеграция — Glovo"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "changes": [
         "➖ ISOFT (KZ): убрали упоминание — Бронирование",
