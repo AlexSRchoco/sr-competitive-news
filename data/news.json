@@ -1,15 +1,6 @@
 {
-  "updated_at": "2026-08-11T05:13:36.962847+00:00",
+  "updated_at": "2026-08-12T05:40:20.162053+00:00",
   "lookback_days": 7,
-  "total": 1,
-  "by_competitor": {
-    "Wolt": [
-      {
-        "title": "Казахстанцам показали, сколько на самом деле забирают сервисы доставки Glovo, Wolt и Яндекс Еда - Finratings",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQm5rSTh3RE40c0V3eUlWaEE0eGhpUWlQel8xRGFRWkZ3ZzFSanMxbkhvVDVrS2tNWWVVODZpRDlON2F1b3UtbW9mWjg4eVVVV3h4VjBHbUJsT25KeWhiWkNtN2xVX2lnbFNzS2UyODhmV0JIdnlxTkVsYjBRN24xRUVFRDd3NmZVclFPRm1LOFFMV1VlQm1zR24xYl82WHBkZ2FFNGVmT1pseTNsdVVsdGV4VHVxT3RYcnFsU0tMQWNQeFl2dVl0Z0d30gHOAUFVX3lxTFBsalFIZnBxOGQwQ1A4X2xGTE5jWW9IaDFscUthZWF1LVZqNkdkRF9MRi1ORVhXVGVPQ3hfUHVPR2hkanoySldzWGtvTVhrSkpuZjBxYTY1end1Q1dMblhSSEl5WE9pcENhVjhTM2pZOEJ3b0QxRzdPcEp4NFZqeXdFNGJhMDloRlU3NGZxemxWUnZKVnBOOEo2TWQ0TEVuN1dRN0diWW10Z0FSUDFQalRxdDBxUUI0WTB0Z2kxbWl1RFJZZENubGFHRXZaZVpB?oc=5",
-        "source": "Finratings",
-        "published": "2026-08-04T07:30:00+00:00"
-      }
-    ]
-  }
+  "total": 0,
+  "by_competitor": {}
 }
