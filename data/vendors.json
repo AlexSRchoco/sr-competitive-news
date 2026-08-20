@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T04:42:56.558851+00:00",
+  "updated_at": "2026-08-20T04:42:41.368919+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-08-19T04:41:32.234963+00:00",
+      "last_checked": "2026-08-20T04:41:30.627642+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-08-19T04:41:37.392893+00:00",
+      "last_checked": "2026-08-20T04:41:35.023009+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:41:39.920248+00:00",
+      "last_checked": "2026-08-20T04:41:37.049492+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,7 +104,7 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:06.392161+00:00",
+      "last_checked": "2026-08-20T04:42:02.754483+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://pos-systems.kz/"
@@ -135,7 +135,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:13.885481+00:00",
+      "last_checked": "2026-08-20T04:42:06.520542+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -164,7 +164,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:20.247602+00:00",
+      "last_checked": "2026-08-20T04:42:10.812734+00:00",
       "fetched_urls": [
         "https://posterpos.kz/",
         "https://posterpos.kz/tarify-avtomatizacii/"
@@ -245,7 +245,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:21.406525+00:00",
+      "last_checked": "2026-08-20T04:42:12.175193+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -289,7 +289,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:25.129876+00:00",
+      "last_checked": "2026-08-20T04:42:14.868220+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -314,7 +314,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:25.201234+00:00",
+      "last_checked": "2026-08-20T04:42:14.883507+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -336,7 +336,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:29.331985+00:00",
+      "last_checked": "2026-08-20T04:42:18.510526+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -416,7 +416,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:30.936184+00:00",
+      "last_checked": "2026-08-20T04:42:19.918031+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -449,21 +449,15 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:33.355729+00:00",
-      "fetched_urls": [
-        "https://rekassa.kz/ru/sistema-loyalnosti"
-      ],
-      "snapshot_hash": "4cb91d9b9145d53d",
-      "text_excerpt": "Halyk POS - это инновационное решение для бизнеса от Halyk Bank Казахстана, предоставляющее инструменты для обработки платежей. Эта система точек продаж (POS) адаптируется под различные потребности и масштабы предприятий, предоставляя удобные опции приема платежей с использованием кредитных, дебетовых и бесконтактных карт. Она также включает инструменты аналитики и отчетности, помогающие предпринимателям эффективнее управлять своим бизнесом. Благодаря простоте интеграции и высокому уровню безопасности, Halyk POS становится оптимальным выбором для бизнеса любого размера. Одна из его главных при",
+      "last_checked": "2026-08-20T04:42:20.675166+00:00",
+      "fetched_urls": [],
+      "snapshot_hash": null,
+      "text_excerpt": null,
       "extracted": {
-        "tagline": "Halyk POS - это инновационное решение для бизнеса от Halyk Bank Казахстана, предоставляющее инструменты для обработки платежей. Эта система точек продаж (POS) адаптируется под различные потребности и ",
+        "tagline": null,
         "pricing_tiers": [],
         "features": [],
-        "integrations": [
-          "Halyk",
-          "Apple Pay",
-          "Google Pay"
-        ],
+        "integrations": [],
         "notable_clients": [],
         "recent_news_or_changes": null
       }
@@ -477,7 +471,7 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:45.541324+00:00",
+      "last_checked": "2026-08-20T04:42:32.704867+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
@@ -506,7 +500,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:47.171577+00:00",
+      "last_checked": "2026-08-20T04:42:34.079054+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -531,11 +525,11 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:48.974432+00:00",
+      "last_checked": "2026-08-20T04:42:35.557390+00:00",
       "fetched_urls": [
         "https://eda.yandex.kz/"
       ],
-      "snapshot_hash": "cf646693a343b46f",
+      "snapshot_hash": "1bdf4c860c9e7c0e",
       "text_excerpt": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ\nÐÐ°Ð¼ Ð¾ÑÐµÐ½Ñ Ð¶Ð°Ð»Ñ, Ð½Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ñ Ð²Ð°ÑÐµÐ³Ð¾ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ð° Ð¿Ð¾Ñ Ð¾Ð¶Ð¸ Ð½Ð° Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ðµ.\nÐÐ¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾Ð¹ÑÐ¸?\nÐ£ Ð²Ð°Ñ Ð¾ÑÐºÐ»ÑÑÐµÐ½Ð¾ Ð¸ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ JavaScript. ÐÐ¾ Ð½Ð°Ð¶Ð°ÑÐ¸Ñ Ð²Ñ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð° Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ.Â\nÐÐ°Ðº Ð²ÐºÐ»ÑÑÐ¸ÑÑ JavaScript?\nÐ¯ Ð½Ðµ ÑÐ¾Ð±Ð¾ÑÂ\nÐÐ°Ð¶Ð¼Ð¸ÑÐµ, ÑÑÐ¾Ð±Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð¸ÑÑ\nYandex SmartCaptcha\nÐÑÐ»Ð¸ Ñ Ð²Ð°Ñ Ð²Ð¾Ð·Ð½Ð¸ÐºÐ»Ð¸ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ, Ð¿Ð¾Ð¶Ð°Ð»ÑÐ¹ÑÑÐ°, Ð²Ð¾ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµÑÑÂ\nÑÐ¾ÑÐ¼Ð¾Ð¹ ",
       "extracted": {
         "tagline": "ÐÐ¾Ð´ÑÐ²ÐµÑÐ´Ð¸ÑÐµ, ÑÑÐ¾ Ð·Ð°Ð¿ÑÐ¾ÑÑ Ð¾ÑÐ¿ÑÐ°Ð²Ð»ÑÐ»Ð¸ Ð²Ñ, Ð° Ð½Ðµ ÑÐ¾Ð±Ð¾Ñ",
@@ -558,7 +552,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-08-19T04:42:50.638941+00:00",
+      "last_checked": "2026-08-20T04:42:36.557951+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -586,26 +580,17 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-08-19T04:42:55.409979+00:00",
+      "last_checked": "2026-08-20T04:42:39.885228+00:00",
       "fetched_urls": [
-        "https://isoft.kz/",
-        "https://isoft-shop.kz/iiko-restaurant"
+        "https://isoft.kz/"
       ],
-      "snapshot_hash": "e55faae2361d8d33",
+      "snapshot_hash": "5848306a47d5f3ce",
       "text_excerpt": "Ваша корзина\nВаша корзина пуста!\nДавай помогу тебе потратить деньги :)\nperson_addВойти / Зарегистрироваться\nКомпания ISOFT с 1998 года занимается разработкой, производством и дистрибуцией оборудования и программного обеспечения для автоматизации предприятий торговли,общественного питания и сферы услуг.\nЕСЛИ ВЫ ЕЩЕ НЕ ЯВЛЯЕТЕСЬ ПАРТНЕРОМ КОМПАНИИ ISOFT ТО СЕЙЧАС ЛУЧШЕЕ ВРЕМЯ, ЧТОБЫ НАЧАТЬ НАШУ ИСТОРИЮ УСПЕШНОГО СОТРУДНИЧЕСТВА!\nРазмер партнёрской скидки зависит от четко установленных и ясных показателей деятельности. Чем успешнее деятельность партнёра на рынке, тем выше размер скидки.\nВсем партн",
       "extracted": {
         "tagline": "Давай помогу тебе потратить деньги :)",
         "pricing_tiers": [],
-        "features": [
-          "Лояльность / CRM",
-          "Аналитика / Dashboard",
-          "Бронирование"
-        ],
-        "integrations": [
-          "iiko",
-          "Wolt",
-          "Glovo"
-        ],
+        "features": [],
+        "integrations": [],
         "notable_clients": [],
         "recent_news_or_changes": null
       }
@@ -620,7 +605,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-08-19T04:42:56.558767+00:00",
+      "last_checked": "2026-08-20T04:42:41.368821+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
