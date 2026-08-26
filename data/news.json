@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-25T04:43:27.642623+00:00",
+  "updated_at": "2026-08-26T04:44:23.155856+00:00",
   "lookback_days": 7,
-  "total": 0,
-  "by_competitor": {}
+  "total": 1,
+  "by_competitor": {
+    "MAXMA": [
+      {
+        "title": "Лучшие программы лояльности для ресторанов в 2026 году: сравнение платформ - Sostav.ru",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHWmxkNGNmbXQxRGlzRDhEalh2TXpESXllc0ZmZkk3WGlGTGhXWl85NWh4clFxZkVxNlhRN1pwdTBvbzhmNDdvRmJ1OG5ySjRmajBF?oc=5",
+        "source": "Sostav.ru",
+        "published": "2026-08-25T16:19:06+00:00"
+      }
+    ]
+  }
 }
