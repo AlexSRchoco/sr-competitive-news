@@ -1,8 +1,32 @@
 {
-  "updated_at": "2026-08-26T04:44:23.155856+00:00",
+  "updated_at": "2026-08-27T15:04:47.595947+00:00",
   "lookback_days": 7,
-  "total": 1,
+  "total": 4,
   "by_competitor": {
+    "Wolt": [
+      {
+        "title": "Как выбрать агрегатор доставки для кафе: Wolt, Glovo или Яндекс Еда - alataucitybank.kz",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFFbTNVWlBYdC1fN1ZFcnc4bEp5TzRDUm83WFhWQ0dtQWZRMV9ILVhTS3BsQ0lpeVlEa2hmT0RDSFNDbmxCMV92amg2dHFYb0VIVjE1WjNVd18tRHBtYXZ3Y1UxN3pLZUY1ekRqWHVlZENRSHZYOVFTZVJ5MDNfTFNKNWZmN1huWE04R1NDdGNWRXM?oc=5",
+        "source": "alataucitybank.kz",
+        "published": "2026-08-27T09:24:00+00:00"
+      }
+    ],
+    "Yandex Eats": [
+      {
+        "title": "Как выбрать агрегатор доставки для кафе: Wolt, Glovo или Яндекс Еда - alataucitybank.kz",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFFbTNVWlBYdC1fN1ZFcnc4bEp5TzRDUm83WFhWQ0dtQWZRMV9ILVhTS3BsQ0lpeVlEa2hmT0RDSFNDbmxCMV92amg2dHFYb0VIVjE1WjNVd18tRHBtYXZ3Y1UxN3pLZUY1ekRqWHVlZENRSHZYOVFTZVJ5MDNfTFNKNWZmN1huWE04R1NDdGNWRXM?oc=5",
+        "source": "alataucitybank.kz",
+        "published": "2026-08-27T09:24:00+00:00"
+      }
+    ],
+    "Glovo": [
+      {
+        "title": "Как выбрать агрегатор доставки для кафе: Wolt, Glovo или Яндекс Еда - alataucitybank.kz",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFFbTNVWlBYdC1fN1ZFcnc4bEp5TzRDUm83WFhWQ0dtQWZRMV9ILVhTS3BsQ0lpeVlEa2hmT0RDSFNDbmxCMV92amg2dHFYb0VIVjE1WjNVd18tRHBtYXZ3Y1UxN3pLZUY1ekRqWHVlZENRSHZYOVFTZVJ5MDNfTFNKNWZmN1huWE04R1NDdGNWRXM?oc=5",
+        "source": "alataucitybank.kz",
+        "published": "2026-08-27T09:24:00+00:00"
+      }
+    ],
     "MAXMA": [
       {
         "title": "Лучшие программы лояльности для ресторанов в 2026 году: сравнение платформ - Sostav.ru",
