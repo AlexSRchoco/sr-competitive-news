@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-01",
+      "changes": [
+        "🔌 re:Kassa: новая интеграция — Apple Pay",
+        "🔌 re:Kassa: новая интеграция — Halyk",
+        "🔌 re:Kassa: новая интеграция — Google Pay",
+        "✨ ISOFT (KZ): новая фича — Лояльность / CRM",
+        "✨ ISOFT (KZ): новая фича — Аналитика / Dashboard",
+        "✨ ISOFT (KZ): новая фича — Бронирование",
+        "🔌 ISOFT (KZ): новая интеграция — Glovo",
+        "🔌 ISOFT (KZ): новая интеграция — iiko",
+        "🔌 ISOFT (KZ): новая интеграция — Wolt"
+      ]
+    },
+    {
       "date": "2026-08-31",
       "changes": [
         "✨ Wolt KZ: новая фича — Аналитика / Dashboard",
@@ -763,14 +777,6 @@
         "🔄 Wolt KZ: контент изменился (детали не извлечены heuristic-парсером)",
         "🔄 Yandex Eats KZ: контент изменился (детали не извлечены heuristic-парсером)",
         "✨ Smart Restaurant by Choco: новая фича — AI / ML"
-      ]
-    },
-    {
-      "date": "2026-06-07",
-      "changes": [
-        "🔌 Kaspi Рестораны: новая интеграция — Paloma",
-        "🔄 Yandex Eats KZ: контент изменился (детали не извлечены heuristic-парсером)",
-        "➖ Smart Restaurant by Choco: убрали упоминание — AI / ML"
       ]
     }
   ]
