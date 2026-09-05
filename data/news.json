@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T08:42:19.311899+00:00",
+  "updated_at": "2026-09-05T08:13:33.181446+00:00",
   "lookback_days": 7,
-  "total": 1,
+  "total": 2,
   "by_competitor": {
     "r_keeper": [
       {
@@ -9,6 +9,14 @@
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5kZkVERmJVUWFsUVFkd3FDYW9Lazg5UUs4YnJLYzh6YmpObnNtd2dIYlJKMHZRQkUtWVVPV3BOc1c4UHhWYVozZmxDTEY?oc=5",
         "source": "Tazabek.KG",
         "published": "2026-09-01T09:30:13+00:00"
+      }
+    ],
+    "MAXMA": [
+      {
+        "title": "ТОП-6 программ лояльности для ресторана в 2026 году: лучшие решения для CRM и повторных визитов - Sostav.ru",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QdmU3TjFhUnBiRmVWUk1OVV9qbndXbFFkaHEzSmp5cGpYQk9aYTZYcjJ0NDdzYlpDQ3NKZlRxSjk0ay1Ra29nRjdNQ0hlbm1UanJn?oc=5",
+        "source": "Sostav.ru",
+        "published": "2026-09-02T18:39:25+00:00"
       }
     ]
   }
