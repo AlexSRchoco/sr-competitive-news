@@ -1,6 +1,13 @@
 {
   "days": [
     {
+      "date": "2026-09-16",
+      "changes": [
+        "✨ Poster POS: новая фича — Лояльность / CRM",
+        "📣 Poster POS: изменился заголовок страницы"
+      ]
+    },
+    {
       "date": "2026-09-15",
       "changes": [
         "➖ Poster POS: убрали упоминание — Лояльность / CRM",
@@ -722,18 +729,6 @@
       "date": "2026-06-18",
       "changes": [
         "🔌 Kaspi Рестораны: новая интеграция — Paloma"
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "changes": [
-        "✨ Choice QR: новая фича — Аналитика / Dashboard",
-        "✨ Choice QR: новая фича — AI / ML",
-        "✨ Choice QR: новая фича — Лояльность / CRM",
-        "✨ Choice QR: новая фича — QR-оплата",
-        "✨ Choice QR: новая фича — Бронирование",
-        "🔌 Choice QR: новая интеграция — Google Pay",
-        "🔌 Choice QR: новая интеграция — Apple Pay"
       ]
     }
   ]
