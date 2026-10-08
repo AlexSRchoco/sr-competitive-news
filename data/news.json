@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-07T10:56:26.854875+00:00",
+  "updated_at": "2026-10-08T11:13:46.547465+00:00",
   "lookback_days": 7,
-  "total": 0,
-  "by_competitor": {}
+  "total": 1,
+  "by_competitor": {
+    "Glovo": [
+      {
+        "title": "Fix Price будет сотрудничать с Glovo - Forbes.kz",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1U2JuLW5sNFgyVFVBQUI5ellmbjM5dm5XeDdSQUJLd0p1M1dyMXpiZ0NZVmhLMmFkamlNXzUxd3k5dU0xSUlLdmRtd3E2UGJ4bm9QMDJRRmNyaVJ5aWpYc182Zzk1ZGI0RjVVc3h2UElac2oxdEV3ZXJPWF9BQkE?oc=5",
+        "source": "Forbes.kz",
+        "published": "2026-10-07T12:28:10+00:00"
+      }
+    ]
+  }
 }
