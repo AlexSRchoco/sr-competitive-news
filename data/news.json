@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T11:13:46.547465+00:00",
+  "updated_at": "2026-10-09T11:12:48.721999+00:00",
   "lookback_days": 7,
-  "total": 1,
+  "total": 2,
   "by_competitor": {
     "Glovo": [
       {
@@ -9,6 +9,14 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1U2JuLW5sNFgyVFVBQUI5ellmbjM5dm5XeDdSQUJLd0p1M1dyMXpiZ0NZVmhLMmFkamlNXzUxd3k5dU0xSUlLdmRtd3E2UGJ4bm9QMDJRRmNyaVJ5aWpYc182Zzk1ZGI0RjVVc3h2UElac2oxdEV3ZXJPWF9BQkE?oc=5",
         "source": "Forbes.kz",
         "published": "2026-10-07T12:28:10+00:00"
+      }
+    ],
+    "MAXMA": [
+      {
+        "title": "ТОП-20 программ лояльности для бизнеса в 2026 году: рейтинг сервисов и платформ - Хабр",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IVFROTGFvWGw3TjhvZnBlWlltV3htZ0I4aGYtZXVlZjd0YVNsTktsazVjcmVKTGNsSW1xWHhhSzduMmtwNFQ4eWdjVlJkM0JueE54WjVIeW9IRTRMMkxpMEh0MEp0dVNfcE9j0gFYQVVfeXFMT0pTODNwM0Q3ZVVaY0NNbUhrNXdVR2ZlbEJrUEQxUUlaNXVTNDA5UEwybXNoQm9MSEJrbFNqMUtBeERzczdnM0hiUW1sdjkwYkNyR2xyeHVXSQ?oc=5",
+        "source": "Хабр",
+        "published": "2026-10-07T08:28:12+00:00"
       }
     ]
   }
