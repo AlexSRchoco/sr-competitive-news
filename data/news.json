@@ -1,22 +1,28 @@
 {
-  "updated_at": "2026-10-13T11:34:20.742605+00:00",
+  "updated_at": "2026-10-14T09:23:17.062936+00:00",
   "lookback_days": 7,
-  "total": 2,
+  "total": 3,
   "by_competitor": {
+    "Yandex Eats": [
+      {
+        "title": "В Казахстане и Кыргызстане были сбои в работе сервисов «Яндекса» - K-News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOanYyclkxX25VYjU5X1FvLWtaejE0cHBPem9rSnNxcmdkdzM2dUpvSmdoRGc0ZWVZUmlnVW04a0JhZjFqb0JfN19JZEYyaE1sVlJSbUdkLXBUbWwwV3BNUUJSN3Yzd2FrNEFYYXUzUjBNN0FUcllhczRCZEFDRmxzMlNhVXNtLXJBcUhQYXFTMmk1blkxSVZv?oc=5",
+        "source": "K-News",
+        "published": "2026-10-12T05:16:00+00:00"
+      },
+      {
+        "title": "Яндекс перестал работать в 8 странах - Inbusiness.kz",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50UEp0YjA4by1iLWpONFh5UUhxR2lqNFRhY004MWVlNU9YOHNEOHNNa05LcnpSdkdxTExnWHM1Sy1Oa3VXZnpGWElpaTBYM1JzeWdvNDBjc1NxaVo2RlVSaU41d3ZBQTZnTzJzeU8wMjI2a3ZW?oc=5",
+        "source": "Inbusiness.kz",
+        "published": "2026-10-12T06:38:00+00:00"
+      }
+    ],
     "Glovo": [
       {
         "title": "Казахстанские стартапы предложили Glovo новые сервисы для бизнеса и пользователей - Kursiv Media",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWkVjUktsN3pZRmZ3LW9SUmVWRVVYYVg1RjRJM0hTVXFVRXByV043QkZXQ0pGUE9GOEFmYUJkb3NRbmxKNlFfbnBvRFlndXlMUGxsRzVXZWxrQ00tbjJmcF9YbnZOMGwwdjROV19Lb2xIODFkOWFFUWRmbzBEaXJ1YTdoY3d1cHJLR1FTcE9TeFBfcjFOYjFaSVpraEFfTmpkcFZtTDI0a19aeXJZZFA2Qk5fak1GTmlteUE?oc=5",
         "source": "Kursiv Media",
         "published": "2026-10-13T05:00:43+00:00"
-      }
-    ],
-    "MAXMA": [
-      {
-        "title": "ТОП-20 программ лояльности для бизнеса в 2026 году: рейтинг сервисов и платформ - Хабр",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IVFROTGFvWGw3TjhvZnBlWlltV3htZ0I4aGYtZXVlZjd0YVNsTktsazVjcmVKTGNsSW1xWHhhSzduMmtwNFQ4eWdjVlJkM0JueE54WjVIeW9IRTRMMkxpMEh0MEp0dVNfcE9j0gFYQVVfeXFMT0pTODNwM0Q3ZVVaY0NNbUhrNXdVR2ZlbEJrUEQxUUlaNXVTNDA5UEwybXNoQm9MSEJrbFNqMUtBeERzczdnM0hiUW1sdjkwYkNyR2xyeHVXSQ?oc=5",
-        "source": "Хабр",
-        "published": "2026-10-07T08:28:12+00:00"
       }
     ]
   }
