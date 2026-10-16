@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-15T09:01:33.992920+00:00",
+  "updated_at": "2026-10-16T08:53:47.713042+00:00",
   "lookback_days": 7,
-  "total": 3,
+  "total": 2,
   "by_competitor": {
     "Yandex Eats": [
       {
@@ -9,12 +9,6 @@
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOanYyclkxX25VYjU5X1FvLWtaejE0cHBPem9rSnNxcmdkdzM2dUpvSmdoRGc0ZWVZUmlnVW04a0JhZjFqb0JfN19JZEYyaE1sVlJSbUdkLXBUbWwwV3BNUUJSN3Yzd2FrNEFYYXUzUjBNN0FUcllhczRCZEFDRmxzMlNhVXNtLXJBcUhQYXFTMmk1blkxSVZv?oc=5",
         "source": "K-News",
         "published": "2026-10-12T05:16:00+00:00"
-      },
-      {
-        "title": "Яндекс перестал работать в 8 странах - Inbusiness.kz",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50UEp0YjA4by1iLWpONFh5UUhxR2lqNFRhY004MWVlNU9YOHNEOHNNa05LcnpSdkdxTExnWHM1Sy1Oa3VXZnpGWElpaTBYM1JzeWdvNDBjc1NxaVo2RlVSaU41d3ZBQTZnTzJzeU8wMjI2a3ZW?oc=5",
-        "source": "Inbusiness.kz",
-        "published": "2026-10-12T06:38:00+00:00"
       }
     ],
     "Glovo": [
