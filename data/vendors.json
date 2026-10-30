@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T10:47:56.440947+00:00",
+  "updated_at": "2026-10-30T10:47:14.516845+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-10-29T10:46:35.911456+00:00",
+      "last_checked": "2026-10-30T10:46:04.713606+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-10-29T10:46:40.871569+00:00",
+      "last_checked": "2026-10-30T10:46:09.248389+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:46:43.675641+00:00",
+      "last_checked": "2026-10-30T10:46:11.375092+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,7 +104,7 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:12.554323+00:00",
+      "last_checked": "2026-10-30T10:46:37.919923+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://pos-systems.kz/"
@@ -135,7 +135,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:16.997250+00:00",
+      "last_checked": "2026-10-30T10:46:42.084365+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -164,7 +164,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:20.606792+00:00",
+      "last_checked": "2026-10-30T10:46:45.622236+00:00",
       "fetched_urls": [
         "https://posterpos.kz/",
         "https://posterpos.kz/tarify-avtomatizacii/"
@@ -238,7 +238,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:22.133051+00:00",
+      "last_checked": "2026-10-30T10:46:46.742863+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -282,7 +282,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:26.072668+00:00",
+      "last_checked": "2026-10-30T10:46:49.276364+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -307,7 +307,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:26.105108+00:00",
+      "last_checked": "2026-10-30T10:46:49.300038+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -329,7 +329,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:30.157358+00:00",
+      "last_checked": "2026-10-30T10:46:53.241792+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -409,7 +409,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:31.666018+00:00",
+      "last_checked": "2026-10-30T10:46:54.587425+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -442,7 +442,7 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:33.170978+00:00",
+      "last_checked": "2026-10-30T10:46:55.898947+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
@@ -488,7 +488,7 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:44.691808+00:00",
+      "last_checked": "2026-10-30T10:47:03.591038+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
@@ -517,7 +517,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:46.498333+00:00",
+      "last_checked": "2026-10-30T10:47:04.940853+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -542,7 +542,7 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:48.623916+00:00",
+      "last_checked": "2026-10-30T10:47:06.813186+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -565,7 +565,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-10-29T10:47:50.547651+00:00",
+      "last_checked": "2026-10-30T10:47:08.916259+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -593,7 +593,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-10-29T10:47:55.087007+00:00",
+      "last_checked": "2026-10-30T10:47:13.365985+00:00",
       "fetched_urls": [
         "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
@@ -627,7 +627,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-10-29T10:47:56.440855+00:00",
+      "last_checked": "2026-10-30T10:47:14.516764+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
