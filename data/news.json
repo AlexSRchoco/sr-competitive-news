@@ -1,15 +1,6 @@
 {
-  "updated_at": "2026-11-09T12:40:57.734713+00:00",
+  "updated_at": "2026-11-10T12:20:07.807655+00:00",
   "lookback_days": 7,
-  "total": 1,
-  "by_competitor": {
-    "Glovo": [
-      {
-        "title": "В Алматы прошел первый практический интенсив Glovo Academy для сферы гостеприимства - Enbekshi QazaQ",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1VPalVLajBQU1dLMlI2NklxZVhKdVd2bWtPWWoyLWp4enFrM1V0TEJqZVNQQTFYbHFyd1JNX3hTSmRmS0phS2Nhbk5rSEFMbEJzcU5ZUlFOcU0yWW4xQ2xmYmRQVl9sR2hIV0swZHpSaG85VlVmeE9iTUhYNzBzZm9RRXhRYksycFAycy1veDB4QUgzYnF4SmE0dnVCZW1UR3M3bFp1andtVnhJcFRUVDRNQkRnSTJFeThqa2lZUmxSNGFjZmw2ekh3NHZDVkFD?oc=5",
-        "source": "Enbekshi QazaQ",
-        "published": "2026-11-02T13:21:31+00:00"
-      }
-    ]
-  }
+  "total": 0,
+  "by_competitor": {}
 }
