@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T11:46:46.290325+00:00",
+  "updated_at": "2026-11-12T12:25:06.812619+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-11-11T11:45:22.486718+00:00",
+      "last_checked": "2026-11-12T12:23:30.885404+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-11-11T11:45:27.102505+00:00",
+      "last_checked": "2026-11-12T12:23:35.618224+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:45:29.387529+00:00",
+      "last_checked": "2026-11-12T12:23:37.839223+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,18 +104,16 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:01.139238+00:00",
+      "last_checked": "2026-11-12T12:24:24.257158+00:00",
       "fetched_urls": [
-        "https://iiko.ru/",
-        "https://pos-systems.kz/"
+        "https://iiko.ru/"
       ],
-      "snapshot_hash": "78663189da32d6ea",
+      "snapshot_hash": "122e51285b031d0c",
       "text_excerpt": "Легкое и удобное облачное решение для управления лояльностью гостей\n• Электронная карта гостя\n• Бонусно-ранговая система\n• База гостей с историей\n• Преднастроенные акции\n• Конструктор акций с подсказками\n• Сегментация и персонализация\n• Работает на любом планшете и даже на телефоне\n• Поддерживает постадийное производство и сборку\n• Каждый повар может настроить экран под себя\n• Можно подключить звуковые уведомления\n• Легко подключить и легко работать\n• Интерактивные рекомендации и допродажи\n• Программы лояльности и реклама\n• Меню с конструктором блюд\n• Общение с гостем на разных языках\n• Продаж",
       "extracted": {
         "tagline": "Легкое и удобное облачное решение для управления лояльностью гостей",
         "pricing_tiers": [],
         "features": [
-          "POS / Касса",
           "Лояльность / CRM"
         ],
         "integrations": [
@@ -135,7 +133,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:06.709110+00:00",
+      "last_checked": "2026-11-12T12:24:30.016642+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -164,7 +162,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:11.904647+00:00",
+      "last_checked": "2026-11-12T12:24:34.602071+00:00",
       "fetched_urls": [
         "https://posterpos.kz/",
         "https://posterpos.kz/tarify-avtomatizacii/"
@@ -238,7 +236,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:13.808616+00:00",
+      "last_checked": "2026-11-12T12:24:35.943435+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -282,7 +280,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:16.867831+00:00",
+      "last_checked": "2026-11-12T12:24:39.021050+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -307,7 +305,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:16.919126+00:00",
+      "last_checked": "2026-11-12T12:24:39.066278+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -329,7 +327,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:20.741760+00:00",
+      "last_checked": "2026-11-12T12:24:42.890394+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -409,7 +407,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:22.223443+00:00",
+      "last_checked": "2026-11-12T12:24:44.305000+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -442,7 +440,7 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:23.668080+00:00",
+      "last_checked": "2026-11-12T12:24:45.852515+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
@@ -488,12 +486,12 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:35.822508+00:00",
+      "last_checked": "2026-11-12T12:24:55.148571+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
-      "snapshot_hash": "988f789656df337e",
+      "snapshot_hash": "1fedd71beca08d28",
       "text_excerpt": "Клиентам\nПродукты Kaspi.kz\nKaspi Gold\nKaspi Gold для ребенка\nKaspi Red\nKaspi Депозит\nНакопительный Депозит\nКредит на Покупки\nРассрочка\nКредит для ИП\nКредит Наличными\nСервисы Kaspi.kz\nМагазин\nTravel\nПлатежи\nМой Банк\nПереводы\nАкции\nГосуслуги\nОбъявления\nKaspi Гид\nБизнесу\nKaspi Pay\nБизнес Кредит\nКредит для ИП\nПродавать в Интернет-магазине на Kaspi.kz\nПринимать платежи с Kaspi.kz\nKaspi Гид\nKaspi Гид\nКлиентам\nБизнесу\nҚаз\nРус\nИскать\nВсе продукты Kaspi Pay\nKaspi Рестораны\nТоп 10 вопросов\nВидео\nУсловия\nПодключение\nПрием оплаты\nЧаевые\nВозврат\nИстория\nОтзывы\nДокументы\nKaspi Pay\n/\nKaspi Гид для Партнеров\n",
       "extracted": {
         "tagline": "Kaspi Gold для ребенка",
@@ -517,7 +515,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:37.338859+00:00",
+      "last_checked": "2026-11-12T12:24:57.437028+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -542,7 +540,7 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:39.420971+00:00",
+      "last_checked": "2026-11-12T12:24:59.391634+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -565,7 +563,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-11-11T11:46:40.565736+00:00",
+      "last_checked": "2026-11-12T12:25:00.444043+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -593,7 +591,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-11-11T11:46:44.952896+00:00",
+      "last_checked": "2026-11-12T12:25:05.390959+00:00",
       "fetched_urls": [
         "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
@@ -627,7 +625,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-11-11T11:46:46.290242+00:00",
+      "last_checked": "2026-11-12T12:25:06.812532+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
