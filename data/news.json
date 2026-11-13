@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-11-12T12:23:26.658538+00:00",
+  "updated_at": "2026-11-13T11:59:23.713719+00:00",
   "lookback_days": 7,
-  "total": 0,
-  "by_competitor": {}
+  "total": 1,
+  "by_competitor": {
+    "Yandex Eats": [
+      {
+        "title": "Google DeepMind выпустила AlphaGenome 2 для анализа влияния вариантов ДНК на клетки - cisoclub",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNakxlMDVlVTNSOUNvNTFiUWlTbEFwTng5OUhCNjVnMXdXd20wVlRpeDhjUHlLNVZDWmlEMWM1RHhuc0V5S0NiaUxKS3Z4OHZqaU4tYWRZSXgycVV1MjZ6TFV4T0dZYmFwbkRPekNRNWFDYWh3ak5YVUxLM1h5RzlhaENJZHlkcDVRZFl2LXE2OEEzc2pVWllrVVFTREdZMU9KQkFQUkxkSFB4UQ?oc=5",
+        "source": "cisoclub",
+        "published": "2026-11-12T17:53:35+00:00"
+      }
+    ]
+  }
 }
