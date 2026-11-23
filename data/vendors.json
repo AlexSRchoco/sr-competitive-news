@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T12:24:28.205356+00:00",
+  "updated_at": "2026-11-23T14:15:38.620202+00:00",
   "vendor_count": 18,
   "mode": "heuristic-only",
   "vendors": [
@@ -13,7 +13,7 @@
       "social": {
         "instagram": "https://www.instagram.com/qrpay.kz/"
       },
-      "last_checked": "2026-11-22T12:23:08.468740+00:00",
+      "last_checked": "2026-11-23T14:14:13.123590+00:00",
       "fetched_urls": [
         "https://qrpay.kz/"
       ],
@@ -45,7 +45,7 @@
         "instagram": "https://www.instagram.com/starterapp.ru/",
         "telegram": "https://t.me/starter_live"
       },
-      "last_checked": "2026-11-22T12:23:12.980452+00:00",
+      "last_checked": "2026-11-23T14:14:18.211898+00:00",
       "fetched_urls": [
         "https://starterapp.kz/",
         "https://starterapp.kz/pricing"
@@ -70,7 +70,7 @@
         "https://choiceqr.com/us/pricing-choice/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:23:15.796892+00:00",
+      "last_checked": "2026-11-23T14:14:20.942494+00:00",
       "fetched_urls": [
         "https://choiceqr.com/us/"
       ],
@@ -104,7 +104,7 @@
         "https://iiko.splus.kz/prices/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:23:45.626062+00:00",
+      "last_checked": "2026-11-23T14:14:50.719295+00:00",
       "fetched_urls": [
         "https://iiko.ru/",
         "https://pos-systems.kz/"
@@ -136,7 +136,7 @@
         "https://www.rkeeperpro.kz/products"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:23:51.799160+00:00",
+      "last_checked": "2026-11-23T14:14:59.117416+00:00",
       "fetched_urls": [
         "https://r-keeper.kz/"
       ],
@@ -165,7 +165,7 @@
         "https://posterpos.kz/tarify-avtomatizacii/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:23:57.004686+00:00",
+      "last_checked": "2026-11-23T14:15:02.652741+00:00",
       "fetched_urls": [
         "https://posterpos.kz/",
         "https://posterpos.kz/tarify-avtomatizacii/"
@@ -239,7 +239,7 @@
         "https://paloma365.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:23:58.073597+00:00",
+      "last_checked": "2026-11-23T14:15:04.119049+00:00",
       "fetched_urls": [
         "https://paloma365.kz/"
       ],
@@ -283,7 +283,7 @@
         "https://quickresto.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:01.240010+00:00",
+      "last_checked": "2026-11-23T14:15:07.448922+00:00",
       "fetched_urls": [
         "https://quickresto.kz/"
       ],
@@ -308,7 +308,7 @@
         "https://www.jowi.club/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:01.281516+00:00",
+      "last_checked": "2026-11-23T14:15:07.492140+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -330,7 +330,7 @@
         "https://probonus.pro/tarif"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:05.110896+00:00",
+      "last_checked": "2026-11-23T14:15:11.470679+00:00",
       "fetched_urls": [
         "https://probonus.pro/",
         "https://probonus.pro/tarif"
@@ -410,7 +410,7 @@
         "https://maxma.com/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:06.667634+00:00",
+      "last_checked": "2026-11-23T14:15:12.980557+00:00",
       "fetched_urls": [
         "https://maxma.com/"
       ],
@@ -443,11 +443,11 @@
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:08.065664+00:00",
+      "last_checked": "2026-11-23T14:15:14.359620+00:00",
       "fetched_urls": [
         "https://rekassa.kz/ru/sistema-loyalnosti"
       ],
-      "snapshot_hash": "909f23834cc20520",
+      "snapshot_hash": "7fb579c8fa1acd11",
       "text_excerpt": "Превратите разовых покупателей в постоянных клиентов — в 1 клик!\nСистема лояльности и кэшбека от re:Kassa — без сложных CRM и дорогих интеграций. Просто. Эффективно. Уже в приложении re:Kassa\nОставить заявку\nПочему это работает?\n- Удержание клиентов в 5 раз дешевле, чем привлечение новых\n- 75% покупателей выбирают заведения с бонусами\n- Кэшбек и бонусы повышают средний чек до 40%\n- Нет CRM? Не нужно.\nВсё уже встроено в re:Kassa\nКому подойдёт?\nРозница:\nвозвращайте покупателей с кэшбеком\nКафе и рестораны:\nпривлекайте и удерживайте постоянников\nСалоны и медцентры:\nавтоматизируйте повторные визиты",
       "extracted": {
         "tagline": "Превратите разовых покупателей в постоянных клиентов — в 1 клик!",
@@ -456,19 +456,19 @@
             "price_text": "11 500₸ в месяц",
             "value_numeric": 11500,
             "currency": "KZT",
-            "context": "экономите — и сразу зарабатываете больше - Стоимость: всего 11 500₸ в месяц - Полугодовой тариф 29 000₸ в месяц - Годовой тариф 99 000₸"
+            "context": "экономите — и сразу зарабатываете больше - Стоимость: всего 11 500₸ в месяц - Полугодовой тариф 29 000₸ - Годовой тариф 99 000₸ Готовы"
           },
           {
-            "price_text": "29 000₸ в месяц",
+            "price_text": "29 000₸",
             "value_numeric": 29000,
             "currency": "KZT",
-            "context": "льше - Стоимость: всего 11 500₸ в месяц - Полугодовой тариф 29 000₸ в месяц - Годовой тариф 99 000₸ в месяц Готовы запускать? Система у"
+            "context": "льше - Стоимость: всего 11 500₸ в месяц - Полугодовой тариф 29 000₸ - Годовой тариф 99 000₸ Готовы запускать? Система уже в ваше"
           },
           {
-            "price_text": "99 000₸ в месяц",
+            "price_text": "99 000₸",
             "value_numeric": 99000,
             "currency": "KZT",
-            "context": "в месяц - Полугодовой тариф 29 000₸ в месяц - Годовой тариф 99 000₸ в месяц Готовы запускать? Система уже в вашем приложении!"
+            "context": "11 500₸ в месяц - Полугодовой тариф 29 000₸ - Годовой тариф 99 000₸ Готовы запускать? Система уже в вашем приложении!"
           }
         ],
         "features": [
@@ -489,7 +489,7 @@
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:16.931321+00:00",
+      "last_checked": "2026-11-23T14:15:25.063159+00:00",
       "fetched_urls": [
         "https://guide.kaspi.kz/partner/ru/restaurants",
         "https://guide.kaspi.kz/client/ru/qr/restaurants/q17435"
@@ -518,7 +518,7 @@
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:18.573364+00:00",
+      "last_checked": "2026-11-23T14:15:27.079943+00:00",
       "fetched_urls": [
         "https://explore.wolt.com/ru/kaz/merchant/business/restaurants"
       ],
@@ -543,7 +543,7 @@
         "https://eda.yandex.kz/"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:20.640775+00:00",
+      "last_checked": "2026-11-23T14:15:29.180785+00:00",
       "fetched_urls": [],
       "snapshot_hash": null,
       "text_excerpt": null,
@@ -566,7 +566,7 @@
       "social": {
         "instagram": "https://www.instagram.com/glovo_kz/"
       },
-      "last_checked": "2026-11-22T12:24:21.887069+00:00",
+      "last_checked": "2026-11-23T14:15:30.591245+00:00",
       "fetched_urls": [
         "https://glovoapp.com/ru/"
       ],
@@ -594,7 +594,7 @@
         "https://isoft-shop.kz/iiko-restaurant"
       ],
       "social": {},
-      "last_checked": "2026-11-22T12:24:26.944181+00:00",
+      "last_checked": "2026-11-23T14:15:37.397214+00:00",
       "fetched_urls": [
         "https://isoft.kz/",
         "https://isoft-shop.kz/iiko-restaurant"
@@ -628,7 +628,7 @@
       "social": {
         "instagram": "https://www.instagram.com/choco.qr/"
       },
-      "last_checked": "2026-11-22T12:24:28.205265+00:00",
+      "last_checked": "2026-11-23T14:15:38.620112+00:00",
       "fetched_urls": [
         "https://digitalbusiness.kz/tag/choco-smart-restaurant/"
       ],
